@@ -1,0 +1,94 @@
+/*Главная Инструкция*/
+
+.instruction {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+/*Заголовок*/
+.instruction__title {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: none;
+    color: $main-subtitle-color;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 40px;
+    height: 40px;
+    width: 225px;
+    text-align: left;
+}
+
+/*Список общий*/
+.instruction__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.instruction__item {
+    display: flex;
+    position: relative;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+/*Текст списков*/
+.instruction__description {
+    margin: 0;
+}
+
+/*Иконки*/
+.instruction__icon-leaf {
+    background-color: $main-icons-background-color;
+    float: left;
+    width: 30px;
+    height: 32px;
+    padding: 14px 15px 14px 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.instruction__icon-glass {
+    background-color: $main-icons-background-color;
+    float: left;
+    width: 30px;
+    height: 32px;
+    padding: 14px 15px 14px 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.instruction__icon-fork-knife {
+    background-color: $main-icons-background-color;
+    float: left;
+    width: 25px;
+    height: 30px;
+    padding: 15px 17px 15px 17px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.instruction__icon-alarm {
+    background-color: $main-icons-background-color;
+    float: left;
+    width: 32px;
+    height: 33px;
+    padding: 13px 14px 13px 14px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+

@@ -1,0 +1,47 @@
+/*Каталог подарок*/
+
+/*Фото кот в чехле*/
+.get-gift {
+  position: relative;
+  background-image: url("../images/photo/cat-case.jpg");
+  background-repeat: no-repeat;
+  height: 290px;
+  width: 280px;
+  z-index: 1;
+  margin-left: 20px;
+}
+
+/*Зеленый фон*/
+.get-gift::after {
+  position: absolute;
+  content: "";
+  background-color: rgba(104, 183, 56, 0.85);
+  height: 290px;
+  width: 280px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/*Иконка подарка*/
+.get-gift__icon {
+  margin-top: 58px;
+  margin-bottom: 47px;
+  padding: 0;
+}
+
+/*Текст*/
+.get-gift__text {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: none;
+  color: $catalog-color-text;
+  width: 161px;
+  margin-left: 58px;
+  margin-top: 0;
+  text-align: center;
+}

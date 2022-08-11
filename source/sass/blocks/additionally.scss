@@ -1,0 +1,64 @@
+/*Форма Дополнительно*/
+
+/*Заголовок*/
+.cat-additionally__title {
+  display: flex;
+  text-align: left;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $form-subtitle-font-size;
+  line-height: $form-subtitle-line-height;
+  text-transform: none;
+  color: $form-subitle-color;
+  width: 121px;
+  margin-left: 20px;
+  margin-bottom: 34px;
+}
+
+/*Продукты*/
+.cat-additionally__product {
+  display: flex;
+  text-align: left;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $form-text-font-size;
+  line-height: $form-text-line-height;
+  text-transform: uppercase;
+  color: $form-text-color;
+  text-align: left;
+  margin-left: 20px;
+}
+
+/*Кнопка отправить*/
+.send-form {
+  width: 280px;
+  background-color: $form-button-background-color;
+   border: none;
+  margin-top: 13px;
+  margin-bottom: 21px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $form-text-font-size;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $form-color-text;
+  height: 40px;
+}
+
+/*Обязательные поля*/
+.required-fields {
+  display: flex;
+  text-align: center;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: none;
+  color: $form-required-fields-color;
+  text-align: left;
+  margin-left: 82px;
+}

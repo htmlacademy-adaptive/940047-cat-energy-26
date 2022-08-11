@@ -1,0 +1,17 @@
+/*Форма Комментарии*/
+.cat-comments__title {
+  display: flex;
+  text-align: center;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $form-subtitle-font-size;
+  line-height: $form-subtitle-line-height;
+  text-transform: none;
+  color: $form-subitle-color;
+  width: 121px;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 37px;
+}
+

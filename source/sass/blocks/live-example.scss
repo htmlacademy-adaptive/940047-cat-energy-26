@@ -1,0 +1,160 @@
+/*Главная Живой пример*/
+
+/*Общий блок*/
+.live-example {
+    display: flex;
+    margin: 0;
+    background-color: $main-live-example-background-color;
+}
+
+.live-example__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+/*Заголовок*/
+.live-example__title-example {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: none;
+    color: $main-subtitle-color;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 40px;
+    height: 40px;
+    width: 225px;
+    text-align: left;
+}
+
+/*Текст*/
+.live-example__text-example {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+/*Результаты*/
+.live-example__result {
+  display: flex;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 280px;
+  justify-content: space-around;
+}
+
+/*КГ*/
+.live-example__kilogram {
+  display: block;
+  text-align: center;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color:$main-result-color;
+}
+
+/*Текст*/
+.live-example__text-weight {
+  display: block;
+  text-align: center;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: none;
+  color: $text-color;
+}
+
+/*Дни*/
+.live-example__text-days {
+  display: block;
+  text-align: center;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: $main-result-color;
+}
+
+/*Текст*/
+.live-example__text-time {
+  display: block;
+  text-align: center;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: none;
+  color: $text-color;
+}
+
+/*Затраты итого*/
+.live-example__spent {
+  display: block;
+  font-family: 'Oswald';
+  text-align: center;
+  color: $main-result-color;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+/*Изображения котов*/
+.live-example__comparison {
+  display: inline;
+}
+
+/*Кот до*/
+.live-example__photo-cat-before {
+  width: 338px;
+  height: 260px;
+}
+
+/*Кот после*/
+.live-example__photo-cat-after {
+  width: 272px;
+  height: 260px;
+}
+
+/*Слайдер*/
+.live-example__slider {
+  display: flex;
+  text-align: center;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-left: 55px;
+
+}
+
+.live-example__slider-range {
+  height: 14px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 40px;
+}

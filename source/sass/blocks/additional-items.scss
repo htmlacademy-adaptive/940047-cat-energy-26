@@ -1,0 +1,61 @@
+/* Каталог Дополнительные товары*/
+.additional-items {
+  display: block;
+}
+
+/*Заголовок*/
+.additional-items__title {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: none;
+  color: $catalog-title-color;
+  width: 226px;
+  margin: 25px 75px 36px 19px;
+  text-align: left;
+}
+
+/*Блок с товарами*/
+.additional-items__goods {
+display: block;
+margin: 20px 13px 20px 20px;
+}
+
+/*Список Заголовок товаров*/
+.additional-items__title-list {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $catalog-goods-font-size;
+  line-height: $catalog-goods-line-height;
+  text-transform: uppercase;
+  color: $catalog-items-color;
+  width: 226px;
+  text-align: left;
+  margin-bottom: 13px;
+}
+
+/*Описание*/
+.additional-items__description {
+  margin-bottom: 15px;
+  width: 282px;
+  justify-content: space-between;
+}
+
+/*Кнопка Заказать*/
+.additional-items__button-card {
+  background-color: $catalog-button-background-color;
+  border: none;
+  margin-top: 0;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $catalog-goods-font-size;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $catalog-color-button-text;
+  padding: 10px 109px 10px 109px;
+  margin-bottom: 19px;
+}
