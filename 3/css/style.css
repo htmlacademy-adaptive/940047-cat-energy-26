@@ -1,0 +1,1297 @@
+@charset "UTF-8";
+/*Body*/
+/*Страница Главная*/
+/*Страница Каталог*/
+/*Страница Форма*/
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/oswaldregular.woff2") format("woff2"), url("../fonts/oswaldregular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oswald Medium";
+  src: url("../fonts/oswaldmedium.woff2") format("woff2"), url("../fonts/oswaldmedium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/*Весь блок header*/
+.main-header {
+  background-color: #ffffff;
+  color: #ff0707;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 17px;
+}
+
+/*Логотипы*/
+.main-header__logo {
+  margin-left: 0;
+  margin-right: 56px;
+  padding: 0;
+  height: 37px;
+}
+.main-header__logo:hover {
+  background-color: yellow;
+}
+
+.main-header__logo-text {
+  margin-left: 0;
+  margin-top: 13px;
+  margin-right: 65px;
+  padding: 0;
+  height: 18px;
+}
+
+.main-header__menu {
+  width: 100%;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #444444;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  background-color: #ffffff;
+  width: 320px;
+}
+
+/*Главная*/
+/*Фото с котом*/
+.promo__description {
+  position: relative;
+  background-image: url("../images/photo/promo-background-cat.jpg");
+  background-repeat: no-repeat;
+  height: 302px;
+  width: 320px;
+  z-index: 1;
+}
+
+/*Зеленый фон*/
+.promo__description::after {
+  position: absolute;
+  content: "";
+  background-color: #68B738;
+  height: 302px;
+  width: 320px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/*Заголовок*/
+.promo__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  text-transform: none;
+  color: #ffffff;
+  margin-left: 36px;
+  margin-top: 0;
+  margin-right: 36px;
+  margin-bottom: 25px;
+  padding-top: 27px;
+  width: 250px;
+}
+
+/*Подзаголовок*/
+.promo__subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 61px;
+  margin-top: 0;
+  margin-right: 61px;
+  margin-bottom: 164px;
+  font-family: "Oswald", sans-serif;
+}
+
+/*Оранжевый корм*/
+.promo__image {
+  position: absolute;
+  height: 270px;
+  width: 280px;
+  right: 320;
+  left: 320;
+  top: 31%;
+  z-index: 1;
+}
+
+/*Кнопка Подобрать программу*/
+.promo__button-main {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  background-color: #68B738;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 7px 44px 7px 44px;
+  margin-top: 136px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 280px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+/*Главная Цель*/
+/*Цель*/
+.goal {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 280px;
+}
+
+/*Блок Похудение*/
+.weight-loss {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F2F2F2;
+  margin-bottom: 20px;
+}
+
+/*Иконка сидячей кошки*/
+.weight-loss__icon-cat-sit {
+  margin-left: 22px;
+  margin-top: 21px;
+  margin-right: 19px;
+  margin-bottom: 22px;
+  float: left;
+  height: 53px;
+  width: 50px;
+}
+
+/*Заголовок Похудение*/
+.weight-loss__title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 30px;
+  margin-right: 78px;
+  height: 37px;
+}
+
+/*Текст для Похудения*/
+.weight-loss__text {
+  display: flex;
+  position: relative;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  margin-top: 0;
+  margin-left: 20px;
+  margin-bottom: 23px;
+}
+
+/*Декоративная линия*/
+.weight-loss__decorative-line-main {
+  width: 240px;
+}
+
+/* Блок Каталог*/
+.weight-loss__catalog {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/*Каталог Slim*/
+.weight-loss__catalog-text {
+  display: flex;
+  text-align: left;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 18px;
+  margin-right: 15px;
+  color: #000000;
+  text-decoration: none;
+  height: 24px;
+}
+
+/*Декоративная стрелка*/
+.weight-loss__arrow {
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/*Блок Набор массы*/
+.weight-gaining {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F2F2F2;
+}
+
+/*Иконка идущей кошки*/
+.weight-gaining__icon-cat-move {
+  margin-left: 22px;
+  margin-top: 21px;
+  margin-right: 19px;
+  margin-bottom: 22px;
+  float: left;
+  height: 53px;
+  width: 50px;
+}
+
+/*Заголовок Набор массы*/
+.weight-gaining__title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 30px;
+  margin-right: 52px;
+  height: 50px;
+}
+
+/*Текст для Набора массы*/
+.weight-gaining__text {
+  display: flex;
+  position: relative;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  margin-top: 0;
+  margin-left: 20px;
+  margin-bottom: 23px;
+}
+
+/*Декоративная линия*/
+.weight-gaining__decorative-line-main {
+  width: 240px;
+}
+
+/* Блок Каталог*/
+.weight-gaining__catalog {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/*Каталог Pro*/
+.weight-gaining__catalog-text {
+  display: flex;
+  text-align: left;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 18px;
+  margin-right: 15px;
+  color: #000000;
+  text-decoration: none;
+  height: 24px;
+}
+
+/*Декоративная стрелка*/
+.weight-gaining__arrow {
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/*Главная Инструкция*/
+.instruction {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+/*Заголовок*/
+.instruction__title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: none;
+  color: #000000;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 40px;
+  height: 40px;
+  width: 225px;
+  text-align: left;
+}
+
+/*Список общий*/
+.instruction__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.instruction__item {
+  display: flex;
+  position: relative;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+/*Текст списков*/
+.instruction__description {
+  margin: 0;
+}
+
+/*Иконки*/
+.instruction__icon-leaf {
+  background-color: #68B738;
+  float: left;
+  width: 30px;
+  height: 32px;
+  padding: 14px 15px 14px 15px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.instruction__icon-glass {
+  background-color: #68B738;
+  float: left;
+  width: 30px;
+  height: 32px;
+  padding: 14px 15px 14px 15px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.instruction__icon-fork-knife {
+  background-color: #68B738;
+  float: left;
+  width: 25px;
+  height: 30px;
+  padding: 15px 17px 15px 17px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.instruction__icon-alarm {
+  background-color: #68B738;
+  float: left;
+  width: 32px;
+  height: 33px;
+  padding: 13px 14px 13px 14px;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+/*Главная Живой пример*/
+/*Общий блок*/
+.live-example {
+  display: flex;
+  margin: 0;
+  background-color: #EAEAEA;
+}
+
+.live-example__description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+/*Заголовок*/
+.live-example__title-example {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: none;
+  color: #000000;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 40px;
+  height: 40px;
+  width: 225px;
+  text-align: left;
+}
+
+/*Текст*/
+.live-example__text-example {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+/*Результаты*/
+.live-example__result {
+  display: flex;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 280px;
+  justify-content: space-around;
+}
+
+/*КГ*/
+.live-example__kilogram {
+  display: block;
+  text-align: center;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/*Текст*/
+.live-example__text-weight {
+  display: block;
+  text-align: center;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: none;
+  color: #444444;
+}
+
+/*Дни*/
+.live-example__text-days {
+  display: block;
+  text-align: center;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/*Текст*/
+.live-example__text-time {
+  display: block;
+  text-align: center;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: none;
+  color: #444444;
+}
+
+/*Затраты итого*/
+.live-example__spent {
+  display: block;
+  font-family: "Oswald";
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+/*Изображения котов*/
+.live-example__comparison {
+  display: inline;
+}
+
+/*Кот до*/
+.live-example__photo-cat-before {
+  width: 338px;
+  height: 260px;
+}
+
+/*Кот после*/
+.live-example__photo-cat-after {
+  width: 272px;
+  height: 260px;
+}
+
+/*Слайдер*/
+.live-example__slider {
+  display: flex;
+  text-align: center;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-left: 55px;
+}
+
+.live-example__slider-range {
+  height: 14px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.main-footer {
+  float: center;
+}
+
+/*Блок адрес заголовок и текст*/
+.contacts__address {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/*Адрес заголовок*/
+.contacts__title {
+  display: flex;
+  text-align: center;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
+  width: 139px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+/*Адрес текст*/
+.contacts__text {
+  display: flex;
+  text-align: center;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: none;
+  color: #444444;
+  width: 139px;
+  text-align: left;
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+/*Карта*/
+.contacts__location {
+  width: 320px;
+  height: 362px;
+}
+
+.main-footer__media {
+  background-color: #F2F2F2;
+}
+
+/*Лого*/
+.logo-footer {
+  padding-top: 39px;
+  margin-bottom: 32px;
+}
+
+.social__social-media {
+  display: flex;
+  text-align: center;
+}
+
+.social__list {
+  list-style-type: none;
+  display: flex;
+  margin-left: 94px;
+  margin-bottom: 43px;
+  padding: 0;
+}
+
+.social__item {
+  display: flex;
+  margin-right: 24px;
+}
+
+.copyright {
+  display: flex;
+  margin-left: 19px;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.copyright__html-academy {
+  display: flex;
+  justify-content: space-between;
+  width: 281px;
+  height: 34px;
+  margin: 0;
+  padding: 0;
+}
+
+.copyright__text {
+  font-family: "Arial";
+  text-decoration: none;
+  color: #444444;
+}
+
+/*Каталог*/
+/*Заголовок*/
+.product-catalog__title {
+  display: flex;
+  text-align: center;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: none;
+  color: #000000;
+  width: 259px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 27px;
+  margin-bottom: 41px;
+}
+
+/*Продуктовые карточки*/
+.product-card {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/*Информация*/
+.product-card__information {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  height: 190px;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+/*Фото*/
+.product-card__photo {
+  width: 68px;
+  height: 86px;
+  padding: 14px 36px 14px 36px;
+}
+
+/*Описание*/
+.product-card__specification {
+  display: block;
+  flex-wrap: wrap;
+  width: 142px;
+  text-align: left;
+}
+
+/*Заголовок*/
+.product-card__title {
+  display: flex;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #222222;
+  width: 76px;
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+/*Масса, вкус, цена*/
+.product-card__description {
+  width: 142px;
+}
+
+/*Текст*/
+.product-card__text {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: none;
+  color: #444444;
+}
+
+/*Кнопка Заказать*/
+.product-card__button-card {
+  width: 280px;
+  background-color: #68B738;
+  border: none;
+  margin-top: 13px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/*Каталог Показать еще 100500 товаров*/
+/*Общее*/
+.more-items {
+  margin: 25px 20px 25px 20px;
+}
+
+/*Заголовок*/
+.more-items__title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 204px;
+  margin: 23px 37px 8px 37px;
+}
+
+/*Текст*/
+.more-items__text {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: none;
+  color: #444444;
+  width: 221px;
+  margin-left: 28px;
+  margin-bottom: 21px;
+  margin-top: 0;
+}
+
+/*Кнопка Показать все*/
+.more-items__button-show-all {
+  background-color: #F2F2F2;
+  border: none;
+  margin-top: 0;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #444444;
+  padding: 10px 94px 10px 94px;
+  margin-bottom: 35px;
+}
+
+/* Каталог Дополнительные товары*/
+.additional-items {
+  display: block;
+}
+
+/*Заголовок*/
+.additional-items__title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: none;
+  color: #000000;
+  width: 226px;
+  margin: 25px 75px 36px 19px;
+  text-align: left;
+}
+
+/*Блок с товарами*/
+.additional-items__goods {
+  display: block;
+  margin: 20px 13px 20px 20px;
+}
+
+/*Список Заголовок товаров*/
+.additional-items__title-list {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #222222;
+  width: 226px;
+  text-align: left;
+  margin-bottom: 13px;
+}
+
+/*Описание*/
+.additional-items__description {
+  margin-bottom: 15px;
+  width: 282px;
+  justify-content: space-between;
+}
+
+/*Кнопка Заказать*/
+.additional-items__button-card {
+  background-color: #68B738;
+  border: none;
+  margin-top: 0;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 10px 109px 10px 109px;
+  margin-bottom: 19px;
+}
+
+/*Каталог подарок*/
+/*Фото кот в чехле*/
+.get-gift {
+  position: relative;
+  background-image: url("../images/photo/cat-case.jpg");
+  background-repeat: no-repeat;
+  height: 290px;
+  width: 280px;
+  z-index: 1;
+  margin-left: 20px;
+}
+
+/*Зеленый фон*/
+.get-gift::after {
+  position: absolute;
+  content: "";
+  background-color: rgba(104, 183, 56, 0.85);
+  height: 290px;
+  width: 280px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/*Иконка подарка*/
+.get-gift__icon {
+  margin-top: 58px;
+  margin-bottom: 47px;
+  padding: 0;
+}
+
+/*Текст*/
+.get-gift__text {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: none;
+  color: #ffffff;
+  width: 161px;
+  margin-left: 58px;
+  margin-top: 0;
+  text-align: center;
+}
+
+/*Форма заявки*/
+/*Заголовок Подбор программы*/
+.program-selection__title {
+  display: flex;
+  text-align: left;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: none;
+  color: #000000;
+  margin-left: 20px;
+  margin-top: 27px;
+  margin-bottom: 37px;
+}
+
+/*Подзаголовок Заполните анкету*/
+.program-selection__subtitle {
+  display: flex;
+  text-align: left;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 226px;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 39px;
+}
+
+/*Форма Имя, вес, возраст*/
+.cat-data__form {
+  text-align: left;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+  width: 280px;
+  margin-left: 20px;
+}
+
+/*Имя*/
+.cat-data__name {
+  margin-right: 13px;
+}
+
+/* Имя поле*/
+.cat-data__field-name {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 15px;
+  height: 46px;
+  width: 201px;
+  margin-bottom: 13px;
+}
+
+/*Вес*/
+.cat-data__weight {
+  margin-right: 13px;
+}
+
+/*Вес поле*/
+.cat-data__field-weight {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 15px;
+  height: 46px;
+  width: 180px;
+  margin-bottom: 13px;
+}
+
+/*Возраст*/
+.cat-data__age {
+  margin-right: 13px;
+}
+
+/*Возраст поле*/
+.cat-data__field-age {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 15px;
+  height: 46px;
+  margin-bottom: 13px;
+  width: 143px;
+}
+
+/* Форма - цель*/
+/* Похудение, набор массы, не знаю*/
+.cat-goal.cat-goal {
+  display: flex;
+  text-align: left;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #222222;
+  padding: 0;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 46px;
+  height: 116px;
+}
+
+/*Список общий ul*/
+.cat-goal__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Список общий li*/
+.cat-goal__item {
+  margin-bottom: 13px;
+  height: 31px;
+}
+
+/*Похудение*/
+.loss-weight {
+  padding-left: 45px;
+  background-image: url("../images/radiobutton.svg");
+  background-repeat: no-repeat;
+}
+
+/*Набор веса*/
+.gain-weight {
+  padding-left: 45px;
+  background-image: url("../images/radiobutton.svg");
+  background-repeat: no-repeat;
+}
+
+/*Нужна помощь*/
+.need-help {
+  padding-left: 45px;
+  background-image: url("../images/radiobutton.svg");
+  background-repeat: no-repeat;
+}
+
+/*Форма Контактные данные*/
+/*Контактные данные*/
+.cat-contacts {
+  display: flex;
+  margin: 26px 20px 23px 20px;
+}
+
+/*Заголовок*/
+.cat-contacts__title {
+  display: flex;
+  text-align: left;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: none;
+  color: #000000;
+  padding: 0;
+  margin-bottom: 35px;
+}
+
+/*Форма*/
+.cat-contacts__form {
+  display: flex;
+}
+
+/*E-mail*/
+.cat-contacts__email {
+  display: flex;
+  text-align: left;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+  padding: 0;
+  margin-right: 11px;
+  padding-top: 14px;
+}
+
+/*E-mail форма*/
+.cat-contacts__field-email {
+  width: 196px;
+  height: 45px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+  padding-left: 15px;
+}
+
+/*Телефон*/
+.cat-contacts__phone {
+  display: flex;
+  text-align: left;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+  padding: 0;
+  margin-right: 11px;
+  padding-top: 14px;
+}
+
+/*Телефон поле*/
+.cat-contacts__field-phone {
+  width: 185px;
+  height: 45px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+  padding-left: 15px;
+}
+
+/*Форма Комментарии*/
+.cat-comments__title {
+  display: flex;
+  text-align: center;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: none;
+  color: #000000;
+  width: 121px;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 37px;
+}
+
+/*Форма Дополнительно*/
+/*Заголовок*/
+.cat-additionally__title {
+  display: flex;
+  text-align: left;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: none;
+  color: #000000;
+  width: 121px;
+  margin-left: 20px;
+  margin-bottom: 34px;
+}
+
+/*Продукты*/
+.cat-additionally__product {
+  display: flex;
+  text-align: left;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: left;
+  margin-left: 20px;
+}
+
+/*Кнопка отправить*/
+.send-form {
+  width: 280px;
+  background-color: #68B738;
+  border: none;
+  margin-top: 13px;
+  margin-bottom: 21px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  height: 40px;
+}
+
+/*Обязательные поля*/
+.required-fields {
+  display: flex;
+  text-align: center;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: none;
+  color: #000000;
+  text-align: left;
+  margin-left: 82px;
+}
+
+html {
+  height: 100%;
+}
+
+.wrapper {
+  width: 320px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/*Скрывает текст*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*# sourceMappingURL=style.css.map */
