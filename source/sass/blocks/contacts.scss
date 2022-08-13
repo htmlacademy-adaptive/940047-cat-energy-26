@@ -9,7 +9,6 @@
 /*Адрес заголовок*/
 .contacts__title {
   display: flex;
-  text-align: center;
   font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -26,7 +25,6 @@
 /*Адрес текст*/
 .contacts__text {
   display: flex;
-  text-align: center;
   font-family: "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -44,5 +42,4 @@
 .contacts__location {
   width: 320px;
   height: 362px;
-
 }
