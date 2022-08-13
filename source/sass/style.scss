@@ -1,25 +1,36 @@
 @import "./global/variables.scss";
 @import "./global/fonts.scss";
+@import "./global/global.scss";
+@import "./global/reset-list.scss";
+@import "./global/visually-hidden.scss";
+@import "./global/wrapper.scss";
 
-@import "./blocks/main-header.scss";
-@import "./blocks/body.scss";
-@import "./blocks/promo.scss";
+/*Blocks*/
+@import "./blocks/additional-items.scss";
+@import "./blocks/cat-additionally.scss";
+@import "./blocks/cat-comments.scss";
+@import "./blocks/cat-contacts.scss";
+@import "./blocks/cat-data.scss";
+@import "./blocks/cat-goal.scss";
+@import "./blocks/contacts.scss";
+@import "./blocks/copyright.scss";
+@import "./blocks/gain-weight.scss";
+@import "./blocks/get-gift.scss";
 @import "./blocks/goal.scss";
 @import "./blocks/instruction.scss";
 @import "./blocks/live-example.scss";
-@import "./blocks/footer.scss";
-
-@import "./blocks/product-catalog.scss";
+@import "./blocks/logo-footer.scss";
+@import "./blocks/loss-weight.scss";
+@import "./blocks/main-footer.scss";
+@import "./blocks/main-header.scss";
 @import "./blocks/more-items.scss";
-@import "./blocks/additional-items.scss";
-@import "./blocks/get-gift";
-
-@import "./blocks/main-form.scss";
-@import "./blocks/cat-goal";
-@import "./blocks/cat-contacts";
-@import "./blocks/comments";
-@import "./blocks/additionally";
-
-@import "./global/html.scss";
-@import "./global/wrapper.scss";
-@import "./global/visually-hidden.scss";
+@import "./blocks/need-help.scss";
+@import "./blocks/product-card.scss";
+@import "./blocks/product-catalog.scss";
+@import "./blocks/program-selection.scss";
+@import "./blocks/promo.scss";
+@import "./blocks/required-fields.scss";
+@import "./blocks/send-form.scss";
+@import "./blocks/social.scss";
+@import "./blocks/weight-gaining.scss";
+@import "./blocks/weight-loss.scss";

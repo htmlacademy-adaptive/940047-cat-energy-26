@@ -15,7 +15,7 @@
 .get-gift::after {
   position: absolute;
   content: "";
-  background-color: rgba(104, 183, 56, 0.85);
+  background-color: $catalog-get-gift-background-color;
   height: 290px;
   width: 280px;
   bottom: 0;
@@ -33,7 +33,7 @@
 
 /*Текст*/
 .get-gift__text {
-  font-family: 'Arial';
+  font-family: 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

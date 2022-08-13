@@ -1,10 +1,10 @@
 /* Форма - цель*/
 
 /* Похудение, набор массы, не знаю*/
-.cat-goal.cat-goal {
+.cat-goal {
   display: flex;
   text-align: left;
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: $form-text-font-size;
@@ -18,37 +18,8 @@
   height: 116px;
 }
 
-/*Список общий ul*/
-.cat-goal__list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
 /* Список общий li*/
 .cat-goal__item {
   margin-bottom: 13px;
   height: 31px;
-}
-
-/*Похудение*/
-.loss-weight {
-  padding-left: 45px;
-  background-image: url("../images/radiobutton.svg");
-  background-repeat: no-repeat;
-}
-
-/*Набор веса*/
-.gain-weight {
-  padding-left: 45px;
-  background-image: url("../images/radiobutton.svg");
-  background-repeat: no-repeat;
-
-}
-
-/*Нужна помощь*/
-.need-help {
-  padding-left: 45px;
-  background-image: url("../images/radiobutton.svg");
-  background-repeat: no-repeat;
 }

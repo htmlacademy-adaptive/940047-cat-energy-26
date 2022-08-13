@@ -10,7 +10,7 @@
 .cat-contacts__title {
   display: flex;
   text-align: left;
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: $form-subtitle-font-size;
@@ -30,7 +30,7 @@
 .cat-contacts__email {
   display: flex;
   text-align: left;
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: $form-text-font-size;
@@ -46,7 +46,7 @@
 .cat-contacts__field-email {
   width: 196px;
   height: 45px;
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: $form-text-font-size;
@@ -60,7 +60,7 @@
 .cat-contacts__phone {
   display: flex;
   text-align: left;
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: $form-text-font-size;
@@ -76,7 +76,7 @@
 .cat-contacts__field-phone {
   width: 185px;
   height: 45px;
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: $form-text-font-size;

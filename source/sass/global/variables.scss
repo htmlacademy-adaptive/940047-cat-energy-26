@@ -4,7 +4,7 @@ $text-color: #444444;
 
 /*Страница Главная*/
 $main-button-background-color: #68B738;
-$main-background-color: #68B738;
+$main-background-color: rgba(104, 183, 56, 0.85);
 $main-icons-background-color: #68B738;
 $main-button-color: #ffffff;
 $main-goal-background-color: #F2F2F2;
@@ -12,7 +12,7 @@ $main-subtitle-color: #000000;
 $main-catalog-link-color: #000000;
 $main-live-example-background-color: #EAEAEA;
 $main-result-color: #000000;
-
+$main-promo-title-subtitle-color: #ffffff;
 
 /*Страница Каталог*/
 $catalog-title-color: #000000;
@@ -34,6 +34,7 @@ $catalog-items-color: #222222;
 $catalog-color-button-text: #ffffff;
 $catalog-color-text: #ffffff;
 
+$catalog-get-gift-background-color: rgba(104, 183, 56, 0.85);
 
 /*Страница Форма*/
 $form-title-color: #000000;
@@ -50,3 +51,10 @@ $form-subtitle-line-height: 26px;
 $form-button-background-color: #68B738;
 $form-goal-color: #222222;
 $form-color-text: #ffffff;
+
+/*Wrapper*/
+$wrapper-background-color: #ffffff;
+
+/*Fopter*/
+$footer-contacts__title-color:#111111;
+$footer-background-color: #F2F2F2;

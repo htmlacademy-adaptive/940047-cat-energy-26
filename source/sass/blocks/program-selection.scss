@@ -1,0 +1,34 @@
+/*Форма заявки*/
+
+/*Заголовок Подбор программы*/
+.program-selection__title {
+  display: flex;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: none;
+  color: $form-title-color;
+  margin-left: 20px;
+  margin-top: 27px;
+  margin-bottom: 37px;
+}
+
+/*Подзаголовок Заполните анкету*/
+.program-selection__subtitle {
+  display: flex;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: $form-text-line-height;
+  text-transform: uppercase;
+  color: $form-subitle-color;
+  width: 226px;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 39px;
+}

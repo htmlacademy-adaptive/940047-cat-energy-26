@@ -1,0 +1,16 @@
+/*Форма Дополнительно*/
+
+/*Обязательные поля*/
+.required-fields {
+  display: flex;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: none;
+  color: $form-required-fields-color;
+  text-align: left;
+  margin-left: 82px;
+}

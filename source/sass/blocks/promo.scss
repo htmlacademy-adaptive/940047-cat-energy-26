@@ -30,7 +30,7 @@
   font-weight: 400;
   line-height: 36px;
   text-transform: none;
-  color: #ffffff;
+  color: $main-promo-title-subtitle-color;
   margin-left: 36px;
   margin-top: 0;
   margin-right: 36px;
@@ -41,16 +41,16 @@
 
 /*Подзаголовок*/
 .promo__subtitle {
+  font-family: "Oswald", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: $main-promo-title-subtitle-color;
   margin-left: 61px;
   margin-top: 0;
   margin-right: 61px;
   margin-bottom: 164px;
-  font-family: "Oswald", sans-serif;
 }
 
 /*Оранжевый корм*/

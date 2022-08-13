@@ -1,7 +1,7 @@
 /*Весь блок header*/
 .main-header {
   background-color: $main-header-background-color;
-  color: rgb(255, 7, 7);
+  color: $text-color;
   display: flex;
   margin-left: 20px;
   margin-top: 10px;

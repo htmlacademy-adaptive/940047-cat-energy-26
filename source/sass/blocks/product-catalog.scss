@@ -4,7 +4,7 @@
 .product-catalog__title {
   display: flex;
   text-align: center;
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -16,82 +16,4 @@
   margin-left: 20px;
   margin-top: 27px;
   margin-bottom: 41px;
-}
-
-/*Продуктовые карточки*/
-.product-card {
-  display: block;
-  margin: 0;
-  padding: 0;
-}
-
-/*Информация*/
-.product-card__information {
-  display: flex;
-  flex-wrap: wrap;
-  width: 320px;
-  height: 190px;
-  margin-left: 20px;
-  margin-top: 8px;
-}
-
-/*Фото*/
-.product-card__photo {
-  width: 68px;
-  height: 86px;
-  padding: 14px 36px 14px 36px;
-}
-
-/*Описание*/
-.product-card__specification {
-  display: block;
-  flex-wrap: wrap;
-  width: 142px;
-  text-align: left;
-}
-
-/*Заголовок*/
-.product-card__title {
-  display: flex;
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  font-size: $catalog-subtitle-font-size;
-  line-height: $catalog-subtitle-line-height;
-  text-transform: uppercase;
-  color: $catalog-items-color;
-  width: 76px;
-  text-align: left;
-  margin-bottom: 18px;
-}
-
-/*Масса, вкус, цена*/
-.product-card__description {
-  width: 142px;
-}
-
-/*Текст*/
-.product-card__text {
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: 400;
-  font-size: $catalog-text-font-size;
-  line-height: $catalog-text-line-height;
-  text-transform: none;
-  color: $text-color;
-}
-
-/*Кнопка Заказать*/
-.product-card__button-card {
-  width: 280px;
-  background-color: $catalog-button-background-color;
-  border: none;
-  margin-top: 13px;
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  font-size: $catalog-subtitle-font-size;
-  line-height: $catalog-subtitle-line-height;
-  text-transform: uppercase;
-  color: $catalog-color-text;
 }

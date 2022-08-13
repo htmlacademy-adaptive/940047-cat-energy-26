@@ -1,0 +1,48 @@
+/*Footer*/
+
+/*Блок адрес заголовок и текст*/
+.contacts__address {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/*Адрес заголовок*/
+.contacts__title {
+  display: flex;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $footer-contacts__title-color;
+  width: 139px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+/*Адрес текст*/
+.contacts__text {
+  display: flex;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: none;
+  color: $text-color;
+  width: 139px;
+  text-align: left;
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+/*Карта*/
+.contacts__location {
+  width: 320px;
+  height: 362px;
+
+}
