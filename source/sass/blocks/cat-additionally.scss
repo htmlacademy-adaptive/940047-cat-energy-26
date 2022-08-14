@@ -1,0 +1,31 @@
+/*Форма Дополнительно*/
+
+/*Заголовок*/
+.cat-additionally__title {
+  display: flex;
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $form-subtitle-font-size;
+  line-height: $form-subtitle-line-height;
+  text-transform: none;
+  color: $form-subitle-color;
+  width: 121px;
+  margin-left: 20px;
+  margin-bottom: 34px;
+}
+
+/*Продукты*/
+.cat-additionally__product {
+  display: flex;
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $form-text-font-size;
+  line-height: $form-text-line-height;
+  text-transform: uppercase;
+  color: $form-text-color;
+  margin-left: 20px;
+}

@@ -1,0 +1,25 @@
+/* Форма - цель*/
+
+/* Похудение, набор массы, не знаю*/
+.cat-goal {
+  display: flex;
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $form-text-font-size;
+  line-height: $form-text-line-height;
+  text-transform: uppercase;
+  color: $form-goal-color;
+  padding: 0;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 46px;
+  height: 116px;
+}
+
+/* Список общий li*/
+.cat-goal__item {
+  margin-bottom: 13px;
+  height: 31px;
+}

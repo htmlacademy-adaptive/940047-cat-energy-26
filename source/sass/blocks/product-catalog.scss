@@ -1,0 +1,18 @@
+/*Каталог*/
+
+/*Заголовок*/
+.product-catalog__title {
+  display: flex;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: none;
+  color: $catalog-title-color;
+  width: 259px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 27px;
+  margin-bottom: 41px;
+}
