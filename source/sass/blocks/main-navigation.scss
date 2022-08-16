@@ -1,0 +1,43 @@
+/*Навигация*/
+
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*Блок меню*/
+@media (min-width: $tablet-width) {
+.main-navigation__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 440px;
+  margin: 0 auto;
+}
+
+/*Кнопка навигации только на мобайле*/
+.main-navigation__toggle {
+  display: none;
+}
+}
+
+@media (min-width: $tablet-width) {
+  .site-list {
+    width: 440px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav__wrapper {
+    width: 478px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list {
+    width: 478px;
+  }
+}
