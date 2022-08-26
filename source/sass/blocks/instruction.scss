@@ -6,6 +6,31 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 50px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 45px;
+    margin-left: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 auto;
+    margin-top: 71px;
+    margin-left: 110px;
+    min-width: 1224px;
+    margin-bottom: 69px;
+  }
+}
+
+.instruction__wrapper {
+  min-width: 279px;
+
+  @media (min-width: $tablet-width) {
+    min-width: 629px;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-width: 1224px;
+  }
 }
 
 /*Заголовок*/
@@ -23,6 +48,26 @@
   height: 40px;
   width: 225px;
   text-align: left;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+    margin-left: 0;
+    margin-bottom: 32px;
+    height: 60px;
+    width: 375px;
+    text-align: left;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 60px;
+    line-height: 60px;
+    margin-left: 0;
+    margin-bottom: 32px;
+    height: 60px;
+    width: 375px;
+    text-align: left;
+  }
 }
 
 /*Список общий*/
@@ -30,6 +75,19 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 629px;
+    height: 597px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    width: 1224px;
+    height: 372px;
+  }
 }
 
 .instruction__item {
@@ -44,50 +102,154 @@
   margin-top: 0;
   margin-left: 0;
   margin-bottom: 0;
+
+  @media (min-width: $tablet-width) {
+    width: 246px;
+    height: 280px;
+  }
 }
 
 /*Текст списков*/
 .instruction__description {
   margin: 0;
+  margin-left: 80px;
+  width: 199px;
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    margin-top: 182px;
+    text-align: left;
+    width: 245px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-top: 161px;
+  }
 }
 
 /*Иконки*/
-.instruction__icon-leaf {
-  background-color: $main-icons-background-color;
-  float: left;
-  width: 30px;
-  height: 32px;
-  padding: 14px 15px 14px 15px;
-  margin-right: 20px;
+/*Лист*/
+.instruction__item--nutrients {
+  background-image: url("../images/icon/icon_leaf_mobile.svg");
+  width: 260px;
+  height: 60px;
+  background-repeat: no-repeat;
   margin-bottom: 20px;
+
+
+  @media (min-width: $tablet-width) {
+    background-image:
+      url("../images/icon/icon_leaf_tablet.svg"),
+      url("../images/numbers/instruction_stage_1.svg");
+    background-repeat: no-repeat;
+    background-position: 0px 50px, 123px 50px;
+    width: 230px;
+    height: 280px;
+    margin-right: 153px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image:
+      url("../images/icon/icon_leaf_tablet.svg"),
+      url("../images/numbers/instruction_stage_1.svg");
+    background-repeat: no-repeat;
+    background-position: 0px 50px, 123px 50px;
+    width: 230px;
+    height: 280px;
+    margin-right: 94px;
+  }
 }
 
-.instruction__icon-glass {
-  background-color: $main-icons-background-color;
-  float: left;
-  width: 30px;
-  height: 32px;
-  padding: 14px 15px 14px 15px;
-  margin-right: 20px;
+/*Стакан*/
+.instruction__item--boiling-water {
+  background-image: url("../images/icon/icon_glass_mobile.svg");
+  width: 276px;
+  height: 60px;
+  background-repeat: no-repeat;
   margin-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    background-image:
+      url("../images/icon/icon_glass_tablet.svg"),
+      url("../images/numbers/instruction_stage_2.svg");
+    background-repeat: no-repeat;
+    background-position: 0px 50px, 111px 50px;
+    width: 230px;
+    height: 280px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image:
+      url("../images/icon/icon_glass_tablet.svg"),
+      url("../images/numbers/instruction_stage_2.svg");
+    background-repeat: no-repeat;
+    background-position: 0px 50px, 111px 50px;
+    width: 230px;
+    height: 280px;
+    margin-right: 94px;
+  }
 }
 
-.instruction__icon-fork-knife {
-  background-color: $main-icons-background-color;
-  float: left;
-  width: 25px;
-  height: 30px;
-  padding: 15px 17px 15px 17px;
-  margin-right: 20px;
+/*Вилка и нож*/
+.instruction__item--food {
+  background-image: url("../images/icon/icon_fork_knife_mobile.svg");
+  width: 276px;
+  height: 60px;
+  background-repeat: no-repeat;
   margin-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    background-image:
+      url("../images/icon/icon_fork_knife_tablet.svg"),
+      url("../images/numbers/instruction_stage_3.svg");
+    background-repeat: no-repeat;
+    background-position: 0px 50px, 111px 50px;
+    width: 230px;
+    height: 280px;
+    margin-right: 153px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image:
+      url("../images/icon/icon_fork_knife_tablet.svg"),
+      url("../images/numbers/instruction_stage_3.svg");
+    background-repeat: no-repeat;
+    background-position: 0px 50px, 111px 50px;
+    width: 230px;
+    height: 280px;
+    margin-right: 94px;
+  }
 }
 
-.instruction__icon-alarm {
-  background-color: $main-icons-background-color;
-  float: left;
-  width: 32px;
-  height: 33px;
-  padding: 13px 14px 13px 14px;
-  margin-right: 20px;
-  margin-bottom: 0;
+/*Будильник*/
+.instruction__item--changes {
+  background-image: url("../images/icon/icon_alarm_mobile.svg");
+  width: 277px;
+  height: 60px;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    background-image:
+      url("../images/icon/icon_alarm_tablet.svg"),
+      url("../images/numbers/instruction_stage_4.svg");
+    background-repeat: no-repeat;
+    background-position: 0px 50px, 111px 50px;
+    width: 230px;
+    height: 280px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image:
+      url("../images/icon/icon_alarm_tablet.svg"),
+      url("../images/numbers/instruction_stage_4.svg");
+    background-repeat: no-repeat;
+    background-position: 0px 50px, 111px 50px;
+    width: 230px;
+    height: 280px;
+    margin: 0 auto;
+  }
 }

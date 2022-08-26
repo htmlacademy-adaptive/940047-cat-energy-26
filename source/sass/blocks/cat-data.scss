@@ -12,11 +12,39 @@
   color: $text-color;
   width: 280px;
   margin-left: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    min-width: 630px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    height: 52px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    min-width: 630px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    height: 52px;
+  }
 }
 
 /*Имя*/
 .cat-data__name {
   margin-right: 13px;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 11px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 11px;
+  }
 }
 
 /* Имя поле*/
@@ -32,11 +60,31 @@
   height: 46px;
   width: 201px;
   margin-bottom: 13px;
+
+  @media (min-width: $tablet-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    min-width: 546px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    min-width: 506px;
+  }
 }
 
 /*Вес*/
 .cat-data__weight {
   margin-right: 13px;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 11px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 11px;
+  }
 }
 
 /*Вес поле*/
@@ -52,11 +100,31 @@
   height: 46px;
   width: 180px;
   margin-bottom: 13px;
+
+  @media (min-width: $tablet-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    min-width: 518px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    min-width: 479px;
+  }
 }
 
 /*Возраст*/
 .cat-data__age {
   margin-right: 13px;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 11px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 11px;
+  }
 }
 
 /*Возраст поле*/
@@ -72,4 +140,16 @@
   height: 46px;
   margin-bottom: 13px;
   width: 143px;
+
+  @media (min-width: $tablet-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    min-width: 469px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    min-width: 430px;
+  }
 }

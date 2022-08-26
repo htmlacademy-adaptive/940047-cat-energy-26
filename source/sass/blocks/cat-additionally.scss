@@ -14,6 +14,27 @@
   width: 121px;
   margin-left: 20px;
   margin-bottom: 34px;
+
+  @media (min-width: $tablet-width) {
+    font-size: $form-subtitle-font-size-tablet-desktop;
+    line-height: $form-subtitle-line-height-tablet-desktop;
+    margin-left: 70px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: $form-subtitle-font-size-tablet-desktop;
+    line-height: $form-subtitle-line-height-tablet-desktop;
+    margin-left: 110px;
+  }
+}
+
+.cat-additionally__list {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
 
 /*Продукты*/
@@ -28,4 +49,22 @@
   text-transform: uppercase;
   color: $form-text-color;
   margin-left: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    margin-left: 70px;
+    width: 221px;
+    text-align: left;
+    margin-bottom: 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    margin-left: 110px;
+    width: 221px;
+    text-align: left;
+    margin-bottom: 32px;
+  }
 }

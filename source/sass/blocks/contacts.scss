@@ -1,9 +1,34 @@
 /*Footer*/
+.contacts {
+  @media (min-width: $tablet-width) {
+    margin-top: 56px;
+  }
+}
 
 /*Блок адрес заголовок и текст*/
 .contacts__address {
   display: flex;
   flex-wrap: nowrap;
+
+  @media (min-width: $tablet-width) {
+    width: 628px;
+    justify-content: space-between;
+    margin-bottom: 56px;
+    margin-left: 70px;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    background-color: $footer-background-color-desktop;
+    width: 628px;
+    justify-content: space-between;
+    margin-bottom: 56px;
+    margin-left: 70px;
+    height: 198px;
+    margin: 0 auto;
+    margin-top: 95px;
+    margin-left: 110px;
+  }
 }
 
 /*Адрес заголовок*/
@@ -20,6 +45,19 @@
   text-align: left;
   margin-left: 20px;
   margin-top: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+    margin: 56px 87px 56px 80px;
+  }
 }
 
 /*Адрес текст*/
@@ -36,10 +74,46 @@
   text-align: left;
   margin-left: 0;
   margin-top: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    width: 160px;
+    text-align: right;
+    margin-left: 296px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    width: 160px;
+    text-align: right;
+    margin: 56px 80px 63px 0px;
+  }
 }
 
 /*Карта*/
-.contacts__location {
+.contacts__map {
   width: 320px;
   height: 362px;
+  background-image: url("../images/photo/contacts__map_mobile.jpg");
+  background-repeat: no-repeat;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    height: 400px;
+    background-image: url("../images/photo/contacts__map_tablet.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1440px;
+    height: 400px;
+    background-image: url("../images/photo/contacts__map_desktop.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
 }

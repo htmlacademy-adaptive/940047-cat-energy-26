@@ -15,4 +15,26 @@
   margin-left: 20px;
   margin-top: 27px;
   margin-bottom: 41px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 60px;
+    line-height: 60px;
+    width: 431px;
+    margin-left: 30px;
+    margin-bottom: 82px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 60px;
+    line-height: 60px;
+    width: 431px;
+    margin-left: 30px;
+    margin-bottom: 82px;
+  }
 }

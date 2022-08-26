@@ -1,6 +1,20 @@
 /* Каталог Дополнительные товары*/
 .additional-items {
   display: block;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 405px;
+    margin-left: 110px;
+    padding: 0;
+  }
 }
 
 /*Заголовок*/
@@ -15,12 +29,48 @@
   width: 226px;
   margin: 25px 75px 36px 19px;
   text-align: left;
+
+  @media (min-width: $tablet-width) {
+    font-size: 36px;
+    line-height: 36px;
+    width: 339px;
+    margin: 68px 363px 80px 67px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 36px;
+    line-height: 36px;
+    width: 339px;
+    margin: 0 auto;
+    margin-top: 76px;
+    margin-left: 0;
+    margin-bottom: 81px;
+  }
 }
 
 /*Блок с товарами*/
 .additional-items__goods {
   display: block;
   margin: 20px 13px 20px 20px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-right: 162px;
+    margin-bottom: 52px;
+    margin-left: 68px;
+    width: 899px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-right: 162px;
+    margin-left: 0;
+    width: 899px;
+  }
 }
 
 /*Список Заголовок товаров*/
@@ -35,6 +85,18 @@
   width: 226px;
   text-align: left;
   margin-bottom: 13px;
+
+  @media (min-width: $tablet-width) {
+    font-size: $catalog-goods-font-size-tablet-desktop;
+    line-height: $catalog-goods-line-height-tablet-desktop;
+    margin-right: 147px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: $catalog-goods-font-size-tablet-desktop;
+    line-height: $catalog-goods-line-height-tablet-desktop;
+    margin-right: 147px;
+  }
 }
 
 /*Описание*/
@@ -42,6 +104,19 @@
   margin-bottom: 15px;
   width: 282px;
   justify-content: space-between;
+  text-align: left;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 21px;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 21px;
+    margin-top: 20px;
+    font-size: 16px;
+  }
 }
 
 /*Кнопка Заказать*/
@@ -58,4 +133,16 @@
   color: $catalog-color-button-text;
   padding: 10px 109px 10px 109px;
   margin-bottom: 19px;
+
+  @media (min-width: $tablet-width) {
+    font-size: $catalog-goods-font-size;
+    width: 632px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: $catalog-goods-font-size;
+    width: 244px;
+    text-align: center;
+    padding: 0;
+  }
 }
