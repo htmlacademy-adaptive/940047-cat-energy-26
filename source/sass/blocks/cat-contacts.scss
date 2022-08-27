@@ -4,6 +4,22 @@
 .cat-contacts {
   display: flex;
   margin: 26px 20px 23px 20px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 187px 76px 69px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 818px 76px 110px;
+    flex-direction: row;
+    min-width: 1220px;
+  }
+}
+
+.cat-contacts__wrapper {
+  @media (min-width: $desktop-width) {
+    min-width: 1220px;
+  }
 }
 
 /*Заголовок*/
@@ -19,11 +35,42 @@
   color: $form-subitle-color;
   padding: 0;
   margin-bottom: 35px;
+  width: 187px;
+
+  @media (min-width: $tablet-width) {
+    font-size: $form-subtitle-font-size-tablet-desktop;
+    line-height: $form-subtitle-line-height-tablet-desktop;
+    margin-bottom: 76px;
+    width: 512px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: $form-subtitle-font-size-tablet-desktop;
+    line-height: $form-subtitle-line-height-tablet-desktop;
+    margin-bottom: 76px;
+  }
+}
+
+.cat-contacts__main {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 /*Форма*/
 .cat-contacts__form {
   display: flex;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: row;
+    width: 569px;
+  }
 }
 
 /*E-mail*/
@@ -40,6 +87,18 @@
   padding: 0;
   margin-right: 11px;
   padding-top: 14px;
+
+  @media (min-width: $tablet-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    margin-bottom: 42px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    margin-bottom: 42px;
+  }
 }
 
 /*E-mail форма*/
@@ -54,7 +113,20 @@
   text-transform: uppercase;
   color: $text-color;
   padding-left: 15px;
+
+  @media (min-width: $tablet-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    width: 551px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    width: 486px;
+  }
 }
+
 
 /*Телефон*/
 .cat-contacts__phone {
@@ -70,6 +142,19 @@
   padding: 0;
   margin-right: 11px;
   padding-top: 14px;
+
+  @media (min-width: $tablet-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    margin-bottom: 65px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    margin-bottom: 69px;
+    margin-left: 78px;
+  }
 }
 
 /*Телефон поле*/
@@ -84,4 +169,16 @@
   text-transform: uppercase;
   color: $text-color;
   padding-left: 15px;
+
+  @media (min-width: $tablet-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    width: 530px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    line-height: $form-text-line-height-tablet-desktop;
+    width: 472px;
+  }
 }

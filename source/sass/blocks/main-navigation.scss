@@ -1,0 +1,75 @@
+/*Навигация*/
+
+.main-navigation {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+
+  @media (min-width: $tablet-width) {
+    height: 34px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 34px;
+  }
+}
+
+/*Блок меню*/
+.main-navigation__list {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 46px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 440px;
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 18px;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 478px;
+    margin-top: 16px;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+  }
+}
+
+/*Кнопка навигации только на мобайле*/
+.main-navigation__toggle {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    width: 440px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 478px;
+  }
+}

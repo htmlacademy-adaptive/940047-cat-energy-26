@@ -12,4 +12,52 @@
   text-align: left;
   margin-left: 20px;
   margin-bottom: 37px;
+
+  @media (min-width: $tablet-width) {
+    font-size: $form-subtitle-font-size-tablet-desktop;
+    line-height: $form-subtitle-line-height-tablet-desktop;
+    margin-left: 69px;
+    margin-bottom: 76px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: $form-subtitle-font-size-tablet-desktop;
+    line-height: $form-subtitle-line-height-tablet-desktop;
+    margin-left: 110px;
+    margin-bottom: 76px;
+  }
+}
+
+.cat-comments__form {
+  @media (min-width: $tablet-width) {
+    width: 631px;
+  }
+}
+
+.cat-comments__text {
+  display: flex;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: none;
+  color: #444444;
+  width: 253px;
+  text-align: left;
+  margin-left: 35px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 89px;
+    width: 631px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 110px;
+    width: 1220px;
+  }
 }

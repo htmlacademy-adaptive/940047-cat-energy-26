@@ -1,5 +1,125 @@
 /*Главная Цель*/
 
+/*Блок Набор веса*/
+.weight-gaining {
+  display: inline-block;
+  background-color: $main-goal-background-color;
+  margin-bottom: 20px;
+  background-image: url("../images/icon/icon_cat_move_mobile.svg");
+  background-repeat: no-repeat;
+  background-position: 13px 24px;
+  width: 280px;
+
+  @media (min-width: $tablet-width) {
+    width: 708px;
+    height: 372px;
+    background-image: url("../images/icon/icon_cat_move_tablet.svg");
+    background-repeat: no-repeat;
+    background-position: 412px 91px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
+    height: 372px;
+    background-image: url("../images/icon/icon_cat_move_desktop.svg");
+    background-repeat: no-repeat;
+    background-position: 33px 47px;
+    margin-left: 76px;
+  }
+}
+
+/*Заголовок Набор массы*/
+.weight-gaining__title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: $main-subtitle-color;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-right: 78px;
+  margin-left: 91px;
+  height: 37px;
+  width: 164px;
+
+  @media (min-width: $tablet-width) {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: $main-subtitle-color;
+    margin-top: 77px;
+    margin-left: 53px;
+    height: 37px;
+    width: 206px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: $main-subtitle-color;
+    margin-top: 77px;
+    margin-left: 214px;
+    height: 37px;
+    width: 206px;
+  }
+}
+
+/*Текст для Набора веса*/
+.weight-gaining__text {
+  display: flex;
+  position: relative;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  margin-top: 22px;
+  margin-left: 20px;
+  margin-bottom: 23px;
+  height: 90px;
+  width: 232px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    position: relative;
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 52px;
+    margin-bottom: 48px;
+    height: 96px;
+    width: 340px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    position: relative;
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 52px;
+    margin-bottom: 48px;
+    height: 72px;
+    width: 457px;
+  }
+}
+
 /*Декоративная линия*/
 .weight-gaining__decorative-line-main {
   width: 240px;
@@ -9,6 +129,13 @@
 .weight-gaining__catalog {
   display: flex;
   flex-wrap: nowrap;
+
+  @media (min-width: $tablet-width) {
+    width: 161px;
+    margin-left: 52px;
+    padding: 0;
+    float: left;
+  }
 }
 
 /*Каталог Pro*/
@@ -27,6 +154,16 @@
   color: $main-catalog-link-color;
   text-decoration: none;
   height: 24px;
+
+  @media (min-width: $tablet-width) {
+    text-align: left;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    width: 104px;
+  }
 }
 
 /*Декоративная стрелка*/

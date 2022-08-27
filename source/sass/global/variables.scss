@@ -13,6 +13,8 @@ $main-catalog-link-color: #000000;
 $main-live-example-background-color: #eaeaea;
 $main-result-color: #000000;
 $main-promo-title-subtitle-color: #ffffff;
+$main-promo-title-subtitle-color-tablet-desktop: #000000;
+$main-promo-description-tablet-desktop: #ffffff;
 
 /*Страница Каталог*/
 $catalog-title-color: #000000;
@@ -28,7 +30,9 @@ $catalog-subtitle-line-height: 20px;
 $catalog-button-background-color: #68b738;
 
 $catalog-goods-font-size: 16px;
+$catalog-goods-font-size-tablet-desktop: 20px;
 $catalog-goods-line-height: 16px;
+$catalog-goods-line-height-tablet-desktop: 20px;
 
 $catalog-items-color: #222222;
 $catalog-color-button-text: #ffffff;
@@ -43,10 +47,14 @@ $form-text-color: #000000;
 $form-required-fields-color: #000000;
 
 $form-text-font-size: 16px;
+$form-text-font-size-tablet-desktop: 20px;
 $form-text-line-height: 18px;
+$form-text-line-height-tablet-desktop: 30px;
 
 $form-subtitle-font-size: 24px;
+$form-subtitle-font-size-tablet-desktop: 36px;
 $form-subtitle-line-height: 26px;
+$form-subtitle-line-height-tablet-desktop: 36px;
 
 $form-button-background-color: #68b738;
 $form-goal-color: #222222;
@@ -58,3 +66,8 @@ $wrapper-background-color: #ffffff;
 /*Fopter*/
 $footer-contacts__title-color:#111111;
 $footer-background-color: #f2f2f2;
+$footer-background-color-desktop: #ffffff;
+
+/*Viewporter*/
+$tablet-width: 768px;
+$desktop-width: 1440px;

@@ -1,4 +1,17 @@
 /*Главная*/
+.promo {
+  margin: 0 auto;
+  padding: 0;
+  height: 480px;
+
+  @media (min-width: $tablet-width) {
+    height: 810px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 499px;
+  }
+}
 
 /*Фото с котом*/
 .promo__description {
@@ -8,6 +21,16 @@
   height: 302px;
   width: 320px;
   z-index: 1;
+
+  @media (min-width: $tablet-width) {
+    background-image: none;
+    height: 181px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: none;
+    height: 181px;
+  }
 }
 
 /*Зеленый фон*/
@@ -21,6 +44,16 @@
   left: 0;
   right: 0;
   z-index: -1;
+
+  @media (min-width: $tablet-width) {
+    background-color: $main-promo-description-tablet-desktop;
+    height: 181px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-color: $main-promo-description-tablet-desktop;
+    height: 181px;
+  }
 }
 
 /*Заголовок*/
@@ -37,6 +70,36 @@
   margin-bottom: 25px;
   padding-top: 27px;
   width: 250px;
+
+  @media (min-width: $tablet-width) {
+    color: $main-promo-title-subtitle-color-tablet-desktop;
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-decoration: none;
+    width: 416px;
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 117px;
+    margin-bottom: 41px;
+    padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    color: $main-promo-title-subtitle-color-tablet-desktop;
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-decoration: none;
+    width: 416px;
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 190px;
+    margin-bottom: 40px;
+    padding: 0;
+  }
 }
 
 /*Подзаголовок*/
@@ -51,6 +114,38 @@
   margin-top: 0;
   margin-right: 61px;
   margin-bottom: 164px;
+
+  @media (min-width: $tablet-width) {
+    color: $main-promo-title-subtitle-color-tablet-desktop;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    width: 283px;
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 119px;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    color: $main-promo-title-subtitle-color-tablet-desktop;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    width: 283px;
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 190px;
+    margin-bottom: 52px;
+    padding: 0;
+  }
 }
 
 /*Оранжевый корм*/
@@ -60,8 +155,31 @@
   width: 280px;
   right: 320;
   left: 320;
-  top: 31%;
+  top: 7%;
   z-index: 1;
+  background-image: url("../images/photo/boxing_orange_chicken_mobile.png");
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    z-index: 1;
+    margin-left: 29px;
+    margin-top: -150px;
+    background-image: url("../images/photo/boxing_orange_chicken_tablet.png");
+    width: 709px;
+    height: 609px;
+    top: 12%;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    z-index: 1;
+    margin-left: 558px;
+    margin-top: -232px;
+    background-image: url("../images/photo/boxing_orange_chicken_desktop.png");
+    width: 552px;
+    height: 499px;
+    top: 9%;
+  }
 }
 
 /*Кнопка Подобрать программу*/
@@ -83,4 +201,42 @@
   height: 40px;
   border: none;
   cursor: pointer;
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+    z-index: 2;
+    width: 244px;
+    height: 54px;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    float: left;
+    margin-left: 146px;
+    margin-top: 49px;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: relative;
+    z-index: 2;
+    width: 244px;
+    height: 54px;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    float: left;
+    margin-left: 190px;
+    margin-top: 66px;
+  }
+}
+
+.promo__wrapper {
+  @media (min-width: $tablet-width) {
+    padding: 0;
+    margin: 0;
+    height: 181px;
+  }
 }

@@ -9,6 +9,20 @@
   display: flex;
   margin-left: 94px;
   margin-bottom: 43px;
+
+  @media (min-width: $tablet-width) {
+    width: 132px;
+    margin-left: 0 auto;
+    margin-top: 62px;
+    margin-right: 129px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 132px;
+    margin-left: 0 auto;
+    margin-top: 61px;
+    margin-right: 384px;
+  }
 }
 
 .social__item {

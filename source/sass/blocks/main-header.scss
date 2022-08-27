@@ -3,32 +3,98 @@
   background-color: $main-header-background-color;
   color: $text-color;
   display: flex;
+  flex-wrap: wrap;
   margin-left: 20px;
   margin-top: 10px;
   margin-right: 20px;
-  margin-bottom: 17px;
+  margin-bottom: 62px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 30px;
+    margin-top: 24px;
+    margin-right: 30px;
+    margin-bottom: 17px;
+    height: 95px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 110px;
+    margin-top: 53px;
+    margin-right: 110px;
+    margin-bottom: 32px;
+  }
 }
 
 /*Логотипы*/
 .main-header__logo {
+  background-image: url("../images/logo_mobile.svg");
+  background-repeat: no-repeat;
   margin-left: 0;
   margin-right: 56px;
   padding: 0;
-  height: 37px;
+  min-width: 34px;
+  height: 38px;
+
+  @media (min-width: $tablet-width) {
+    width: 60px;
+    background-image: url("../images/logo_tablet.svg");
+    background-repeat: no-repeat;
+    min-width: 60px;
+    height: 50px;
+    margin-right: 12px;
+    margin-bottom: 64px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 67px;
+    background-image: url("../images/logo_desktop.svg");
+    background-repeat: no-repeat;
+    min-width: 71px;
+    height: 60px;
+    margin-right: 14px;
+  }
 
   &:hover {
     background-color: $text-color;
   }
 }
 
+/*Текстовый логотип*/
 .main-header__logo-text {
   margin-left: 0;
   margin-top: 13px;
   margin-right: 65px;
   padding: 0;
   height: 18px;
+  width: 101px;
+
+  @media (min-width: $tablet-width) {
+    height: 18px;
+    width: 101px;
+    margin-top: 19px;
+    margin-right: 94px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 21px;
+    width: 118px;
+    margin-top: 22px;
+    margin-right: 539px;
+  }
 }
 
+/*Блок меню*/
 .main-header__menu {
-  width: 100%;
+  height: 16px;
+  width: 24px;
+
+  @media (min-width: $tablet-width) {
+    height: 36px;
+    width: 404px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 40px;
+    width: 478px;
+  }
 }

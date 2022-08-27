@@ -15,4 +15,24 @@
   text-transform: uppercase;
   color: $form-color-text;
   height: 40px;
+
+  @media (min-width: $tablet-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    width: 282px;
+    height: 52px;
+    padding: 7px 45px 7px 45px;
+    float: left;
+    margin-left: 71px;
+    margin-right: 61px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: $form-text-font-size-tablet-desktop;
+    width: 568px;
+    height: 52px;
+    float: left;
+    margin-left: 110px;
+    text-align: center;
+    margin-right: 61px;
+  }
 }

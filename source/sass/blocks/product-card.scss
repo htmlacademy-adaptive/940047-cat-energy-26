@@ -5,23 +5,234 @@
   display: block;
   margin: 0;
   padding: 0;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 }
 
 /*Информация*/
-.product-card__information {
+/*Оранжевый корм 500г*/
+.product-card__information-orange-pro-500g {
   display: flex;
   flex-wrap: wrap;
   width: 320px;
   height: 190px;
   margin-left: 20px;
   margin-top: 8px;
+  background-image: url("../images/product_card/product_card_orange_pro_500g_mobile.png");
+  background-repeat: no-repeat;
+  background-position: 36px 14px;
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../images/product_card/product_card_orange_pro_500g_tablet.png");
+    background-repeat: no-repeat;
+    background-position: 78px 0;
+    width: 324px;
+    height: 511px;
+    margin-right: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../images/product_card/product_card_orange_pro_500g_desktop.png");
+    background-repeat: no-repeat;
+    background-position: 78px 0;
+    width: 245px;
+    height: 431px;
+    margin-right: 80px;
+  }
 }
 
-/*Фото*/
-.product-card__photo {
-  width: 68px;
-  height: 86px;
-  padding: 14px 36px 14px 36px;
+/*Оранжевый корм 1000г*/
+.product-card__information-orange-pro-1000g {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  height: 190px;
+  margin-left: 20px;
+  margin-top: 8px;
+  background-image: url("../images/product_card/product_card_orange_pro_1000g_mobile.png");
+  background-repeat: no-repeat;
+  background-position: 36px 14px;
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../images/product_card/product_card_orange_pro_1000g_tablet.png");
+    background-repeat: no-repeat;
+    background-position: 36px 14px;
+    width: 324px;
+    height: 511px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../images/product_card/product_card_orange_pro_1000g_desktop.png");
+    background-repeat: no-repeat;
+    background-position: 78px 0;
+    width: 245px;
+    height: 431px;
+    margin-right: 80px;
+  }
+}
+
+/*Зеленый корм 500г*/
+.product-card__information-green-pro-500g {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  height: 190px;
+  margin-left: 20px;
+  margin-top: 8px;
+  background-image: url("../images/product_card/product_card_green_pro_500g_mobile.png");
+  background-repeat: no-repeat;
+  background-position: 36px 14px;
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../images/product_card/product_card_green_pro_500g_tablet.png");
+    background-repeat: no-repeat;
+    background-position: 36px 14px;
+    width: 324px;
+    height: 511px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../images/product_card/product_card_green_pro_500g_desktop.png");
+    background-repeat: no-repeat;
+    background-position: 78px 0;
+    width: 245px;
+    height: 431px;
+    margin-right: 80px;
+  }
+}
+
+/*Зеленый корм 1000г*/
+.product-card__information-green-pro-1000g {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  height: 190px;
+  margin-left: 20px;
+  margin-top: 8px;
+  background-image: url("../images/product_card/product_card_green_pro_1000g_mobile.png");
+  background-repeat: no-repeat;
+  background-position: 36px 14px;
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../images/product_card/product_card_green_pro_1000g_tablet.png");
+    background-repeat: no-repeat;
+    background-position: 36px 14px;
+    width: 324px;
+    height: 511px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../images/product_card/product_card_green_pro_1000g_desktop.png");
+    background-repeat: no-repeat;
+    background-position: 78px 0;
+    width: 245px;
+    height: 431px;
+    margin-right: 80px;
+  }
+}
+
+/*Синий корм 500г*/
+.product-card__information-blue-slim-500g {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  height: 190px;
+  margin-left: 20px;
+  margin-top: 8px;
+  background-image: url("../images/product_card/product_card_blue_slim_500g_mobile.png");
+  background-repeat: no-repeat;
+  background-position: 36px 14px;
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../images/product_card/product_card_blue_slim_500g_tablet.png");
+    background-repeat: no-repeat;
+    background-position: 36px 14px;
+    width: 324px;
+    height: 511px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../images/product_card/product_card_blue_slim_500g_desktop.png");
+    background-repeat: no-repeat;
+    background-position: 78px 0;
+    width: 245px;
+    height: 431px;
+    margin-right: 80px;
+    margin-top: 63px;
+  }
+}
+
+/*Синий корм 1000г*/
+.product-card__information-blue-slim-1000g {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  height: 190px;
+  margin-left: 20px;
+  margin-top: 8px;
+  background-image: url("../images/product_card/product_card_blue_slim_1000g_mobile.png");
+  background-repeat: no-repeat;
+  background-position: 36px 14px;
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../images/product_card/product_card_blue_slim_1000g_tablet.png");
+    background-repeat: no-repeat;
+    background-position: 36px 14px;
+    width: 324px;
+    height: 511px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../images/product_card/product_card_blue_slim_1000g_desktop.png");
+    background-repeat: no-repeat;
+    background-position: 78px 0;
+    width: 245px;
+    height: 431px;
+    margin-right: 80px;
+    margin-top: 63px;
+  }
+}
+
+/*Фиолетовый корм 500г*/
+.product-card__information-violet-slim-500g {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  height: 190px;
+  margin-left: 20px;
+  margin-top: 8px;
+  background-image: url("../images/product_card/product_card_violet_slim_500g_mobile.png");
+  background-repeat: no-repeat;
+  background-position: 36px 14px;
+
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../images/product_card/product_card_violet_slim_500g_tablet.png");
+    background-repeat: no-repeat;
+    background-position: 36px 14px;
+    width: 324px;
+    height: 511px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../images/product_card/product_card_violet_slim_500g_desktop.png");
+    background-repeat: no-repeat;
+    background-position: 78px 0;
+    width: 245px;
+    height: 431px;
+    margin-right: 80px;
+    margin-top: 63px;
+  }
 }
 
 /*Описание*/
@@ -30,6 +241,22 @@
   flex-wrap: wrap;
   width: 142px;
   text-align: left;
+  margin-left: 140px;
+
+  @media (min-width: $tablet-width) {
+    width: 251px;
+    height: 157px;
+    margin: 0 auto;
+    margin-top: 234px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 167px;
+    height: 83px;
+    margin: 0 auto;
+    margin-top: 234px;
+    margin-bottom: 33px;
+  }
 }
 
 /*Заголовок*/
@@ -45,11 +272,37 @@
   width: 76px;
   text-align: left;
   margin-bottom: 18px;
+
+  @media (min-width: $tablet-width) {
+    width: 127px;
+    text-align: center;
+    margin-left: 58px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 127px;
+    text-align: center;
+    margin-left: 58px;
+    font-size: 20px;
+    line-height: 21px;
+  }
 }
 
 /*Масса, вкус, цена*/
 .product-card__description {
   width: 142px;
+
+  @media (min-width: $tablet-width) {
+    width: 247px;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 248px;
+    justify-content: space-between;
+  }
 }
 
 /*Текст*/
@@ -61,6 +314,16 @@
   line-height: $catalog-text-line-height;
   text-transform: none;
   color: $text-color;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 16px;
+    line-height: 16px;
+  }
 }
 
 /*Кнопка Заказать*/
@@ -76,4 +339,18 @@
   line-height: $catalog-subtitle-line-height;
   text-transform: uppercase;
   color: $catalog-color-text;
+
+  @media (min-width: $tablet-width) {
+    height: 40px;
+    width: 248px;
+    margin-left: 39px;
+    margin-top: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 40px;
+    width: 168px;
+    margin-left: 39px;
+    margin-top: 0 auto;
+  }
 }

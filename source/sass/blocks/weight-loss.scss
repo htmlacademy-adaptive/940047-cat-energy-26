@@ -2,21 +2,29 @@
 
 /*Блок Похудение*/
 .weight-loss {
-  display: flex;
-  flex-wrap: wrap;
+  display: inline-block;
   background-color: $main-goal-background-color;
   margin-bottom: 20px;
-}
+  background-image: url("../images/icon/icon_cat_sit_mobile.svg");
+  background-repeat: no-repeat;
+  background-position: 22px 21px;
+  width: 280px;
 
-/*Иконка сидячей кошки*/
-.weight-loss__icon-cat-sit {
-  margin-left: 22px;
-  margin-top: 21px;
-  margin-right: 19px;
-  margin-bottom: 22px;
-  float: left;
-  height: 53px;
-  width: 50px;
+  @media (min-width: $tablet-width) {
+    width: 708px;
+    height: 372px;
+    background-image: url("../images/icon/icon_cat_sit_tablet.svg");
+    background-repeat: no-repeat;
+    background-position: 446px 81px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
+    height: 372px;
+    background-image: url("../images/icon/icon_cat_sit_desktop.svg");
+    background-repeat: no-repeat;
+    background-position: 52px 41px;
+  }
 }
 
 /*Заголовок Похудение*/
@@ -28,9 +36,37 @@
   line-height: 37px;
   text-transform: uppercase;
   color: $main-subtitle-color;
+  margin: 0 auto;
   margin-top: 30px;
   margin-right: 78px;
+  margin-left: 91px;
   height: 37px;
+  width: 164px;
+
+  @media (min-width: $tablet-width) {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: $main-subtitle-color;
+    margin-top: 77px;
+    margin-left: 53px;
+    height: 37px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: $main-subtitle-color;
+    margin-top: 77px;
+    margin-left: 214px;
+  }
 }
 
 /*Текст для Похудения*/
@@ -43,20 +79,77 @@
   font-size: 14px;
   line-height: 18px;
   text-align: left;
-  margin-top: 0;
+  margin-top: 22px;
   margin-left: 20px;
   margin-bottom: 23px;
+  height: 90px;
+  width: 232px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    position: relative;
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 52px;
+    margin-bottom: 48px;
+    height: 96px;
+    width: 340px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    position: relative;
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 52px;
+    margin-bottom: 23px;
+    margin-top: 73px;
+    height: 72px;
+    width: 467px;
+  }
 }
 
 /*Декоративная линия*/
 .weight-loss__decorative-line-main {
   width: 240px;
+
+  @media (min-width: $tablet-width) {
+    width: 0;
+    height: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 0;
+    height: 0;
+  }
 }
 
 /* Блок Каталог*/
 .weight-loss__catalog {
   display: flex;
   flex-wrap: nowrap;
+
+  @media (min-width: $tablet-width) {
+    width: 165px;
+    margin-left: 52px;
+    padding: 0;
+    float: left;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 168px;
+    margin-left: 52px;
+    padding: 0;
+    float: left;
+  }
 }
 
 /*Каталог Slim*/
@@ -75,57 +168,30 @@
   color: $main-catalog-link-color;
   text-decoration: none;
   height: 24px;
+
+  @media (min-width: $tablet-width) {
+    text-align: left;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    width: 108px;
+  }
+
+  @media (min-width: $desktop-width) {
+    text-align: left;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    width: 108px;
+  }
 }
 
 /*Декоративная стрелка*/
 .weight-loss__arrow {
   margin-top: 15px;
   cursor: pointer;
-}
-
-/*Блок Набор массы*/
-.weight-gaining {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: $main-goal-background-color;
-}
-
-/*Иконка идущей кошки*/
-.weight-gaining__icon-cat-move {
-  margin-left: 22px;
-  margin-top: 21px;
-  margin-right: 19px;
-  margin-bottom: 22px;
-  float: left;
-  height: 53px;
-  width: 50px;
-}
-
-/*Заголовок Набор массы*/
-.weight-gaining__title {
-  font-family: "Oswald", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 37px;
-  text-transform: uppercase;
-  color: $main-subtitle-color;
-  margin-top: 30px;
-  margin-right: 52px;
-  height: 50px;
-}
-
-/*Текст для Набора массы*/
-.weight-gaining__text {
-  display: flex;
-  position: relative;
-  font-family: "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: left;
-  margin-top: 0;
-  margin-left: 20px;
-  margin-bottom: 23px;
 }

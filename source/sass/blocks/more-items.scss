@@ -3,6 +3,16 @@
 /*Общее*/
 .more-items {
   margin: 25px 20px 25px 20px;
+
+  @media (min-width: $tablet-width) {
+    width: 324px;
+    height: 429px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 245px;
+    height: 431px;
+  }
 }
 
 /*Заголовок*/
@@ -16,6 +26,23 @@
   color: $catalog-more-items-color;
   width: 204px;
   margin: 23px 37px 8px 37px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 230px;
+    margin-left: 96px;
+    margin-bottom: 23px;
+    width: 134px;
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 250px;
+    margin-left: 96px;
+    width: 134px;
+    font-size: 20px;
+    line-height: 22px;
+  }
 }
 
 /*Текст*/
@@ -31,6 +58,22 @@
   margin-left: 28px;
   margin-bottom: 21px;
   margin-top: 0;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 79px;
+    margin-bottom: 87px;
+    width: 167px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 79px;
+    margin-bottom: 87px;
+    width: 167px;
+    font-size: 16px;
+    line-height: 18px;
+  }
 }
 
 /*Кнопка Показать все*/
@@ -47,4 +90,17 @@
   color: $text-color;
   padding: 10px 94px 10px 94px;
   margin-bottom: 35px;
+
+  @media (min-width: $tablet-width) {
+    width: 249px;
+    height: 40px;
+    padding: 5px 79px 5px 79px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 169px;
+    height: 40px;
+    padding: 5px 39px 5px 39px;
+    margin-left: 88px;
+  }
 }

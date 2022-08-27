@@ -6,4 +6,14 @@
 
 .main-footer__media {
   background-color: $footer-background-color;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: row;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: row;
+  }
 }
