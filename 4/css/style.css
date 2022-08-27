@@ -393,12 +393,12 @@ body {
 }
 @media (min-width: 768px) {
   .cat-contacts {
-    margin: 0px 187px 76px 69px;
+    margin: 0 187px 76px 69px;
   }
 }
 @media (min-width: 1440px) {
   .cat-contacts {
-    margin: 0px 818px 76px 110px;
+    margin: 0 818px 76px 110px;
     flex-direction: row;
     min-width: 1220px;
   }
@@ -601,9 +601,9 @@ body {
     font-size: 20px;
     line-height: 30px;
     min-width: 630px;
-    margin-left: 0px;
+    margin-left: 0 auto;
     margin-bottom: 20px;
-    margin-top: 0px;
+    margin-top: 0 auto;
     height: 52px;
   }
 }
@@ -612,9 +612,9 @@ body {
     font-size: 20px;
     line-height: 30px;
     min-width: 630px;
-    margin-left: 0px;
+    margin-left: 0 auto;
     margin-bottom: 20px;
-    margin-top: 0px;
+    margin-top: 0 auto;
     height: 52px;
   }
 }
@@ -783,7 +783,7 @@ body {
   .cat-goal {
     padding-top: 319px;
     min-width: 568px;
-    margin-left: 0px;
+    margin-left: 0 auto;
     height: 200px;
     font-size: 20px;
     line-height: 30px;
@@ -833,9 +833,7 @@ body {
     width: 628px;
     justify-content: space-between;
     margin-bottom: 56px;
-    margin-left: 70px;
     height: 198px;
-    margin: 0 auto;
     margin-top: 95px;
     margin-left: 110px;
   }
@@ -867,7 +865,6 @@ body {
   .contacts__title {
     font-size: 20px;
     line-height: 26px;
-    margin: 0;
     margin: 56px 87px 56px 80px;
   }
 }
@@ -901,10 +898,9 @@ body {
   .contacts__text {
     font-size: 16px;
     line-height: 20px;
-    margin: 0;
     width: 160px;
     text-align: right;
-    margin: 56px 80px 63px 0px;
+    margin: 56px 80px 63px 0;
   }
 }
 
@@ -952,14 +948,14 @@ body {
 }
 @media (min-width: 768px) {
   .copyright__html-academy {
-    margin-left: 0px;
+    margin-left: 0 auto;
     margin-top: 62px;
     width: 163px;
   }
 }
 @media (min-width: 1440px) {
   .copyright__html-academy {
-    margin-left: 0px;
+    margin-left: 0 auto;
     margin-top: 62px;
     width: 163px;
   }
@@ -1274,10 +1270,9 @@ body {
 @media (min-width: 768px) {
   .instruction__description {
     position: absolute;
-    margin-top: 182px;
     text-align: left;
     width: 245px;
-    font-family: "Arial";
+    font-family: "Arial", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1300,7 +1295,7 @@ body {
   .instruction__item--nutrients {
     background-image: url("../images/icon/icon_leaf_tablet.svg"), url("../images/numbers/instruction_stage_1.svg");
     background-repeat: no-repeat;
-    background-position: 0px 50px, 123px 50px;
+    background-position: 0 50px, 123px 50px;
     width: 230px;
     height: 280px;
     margin-right: 153px;
@@ -1310,7 +1305,7 @@ body {
   .instruction__item--nutrients {
     background-image: url("../images/icon/icon_leaf_tablet.svg"), url("../images/numbers/instruction_stage_1.svg");
     background-repeat: no-repeat;
-    background-position: 0px 50px, 123px 50px;
+    background-position: 0 50px, 123px 50px;
     width: 230px;
     height: 280px;
     margin-right: 94px;
@@ -1329,7 +1324,7 @@ body {
   .instruction__item--boiling-water {
     background-image: url("../images/icon/icon_glass_tablet.svg"), url("../images/numbers/instruction_stage_2.svg");
     background-repeat: no-repeat;
-    background-position: 0px 50px, 111px 50px;
+    background-position: 0 50px, 111px 50px;
     width: 230px;
     height: 280px;
   }
@@ -1338,7 +1333,7 @@ body {
   .instruction__item--boiling-water {
     background-image: url("../images/icon/icon_glass_tablet.svg"), url("../images/numbers/instruction_stage_2.svg");
     background-repeat: no-repeat;
-    background-position: 0px 50px, 111px 50px;
+    background-position: 0 50px, 111px 50px;
     width: 230px;
     height: 280px;
     margin-right: 94px;
@@ -1357,7 +1352,7 @@ body {
   .instruction__item--food {
     background-image: url("../images/icon/icon_fork_knife_tablet.svg"), url("../images/numbers/instruction_stage_3.svg");
     background-repeat: no-repeat;
-    background-position: 0px 50px, 111px 50px;
+    background-position: 0 50px, 111px 50px;
     width: 230px;
     height: 280px;
     margin-right: 153px;
@@ -1367,7 +1362,7 @@ body {
   .instruction__item--food {
     background-image: url("../images/icon/icon_fork_knife_tablet.svg"), url("../images/numbers/instruction_stage_3.svg");
     background-repeat: no-repeat;
-    background-position: 0px 50px, 111px 50px;
+    background-position: 0 50px, 111px 50px;
     width: 230px;
     height: 280px;
     margin-right: 94px;
@@ -1386,7 +1381,7 @@ body {
   .instruction__item--changes {
     background-image: url("../images/icon/icon_alarm_tablet.svg"), url("../images/numbers/instruction_stage_4.svg");
     background-repeat: no-repeat;
-    background-position: 0px 50px, 111px 50px;
+    background-position: 0 50px, 111px 50px;
     width: 230px;
     height: 280px;
   }
@@ -1395,7 +1390,7 @@ body {
   .instruction__item--changes {
     background-image: url("../images/icon/icon_alarm_tablet.svg"), url("../images/numbers/instruction_stage_4.svg");
     background-repeat: no-repeat;
-    background-position: 0px 50px, 111px 50px;
+    background-position: 0 50px, 111px 50px;
     width: 230px;
     height: 280px;
     margin: 0 auto;
@@ -1508,7 +1503,7 @@ body {
   line-height: 18px;
   text-align: left;
   margin: 0 auto;
-  margin-left: 0px;
+  margin-left: 0 auto;
   margin-bottom: 20px;
   margin-right: 20px;
   min-width: 208px;
@@ -1723,7 +1718,7 @@ body {
   .live-example__photo-cat-before-after {
     background-image: url("../images/photo/cat_fat_tablet_desktop.png"), url("../images/photo/cat_skinny_tablet_desktop.png");
     background-repeat: no-repeat;
-    background-position: 0px 0px, 154px 0px;
+    background-position: 0 0, 154px 0;
     width: 560px;
     height: 512px;
   }
@@ -1732,7 +1727,7 @@ body {
   .live-example__photo-cat-before-after {
     background-image: url("../images/photo/cat_fat_tablet_desktop.png"), url("../images/photo/cat_skinny_tablet_desktop.png");
     background-repeat: no-repeat;
-    background-position: 0px 0px, 154px 0px;
+    background-position: 0 0, 154px 0;
     width: 560px;
     height: 512px;
   }
@@ -1835,8 +1830,15 @@ body {
 .main-navigation__list {
   display: flex;
   flex-direction: column;
-  min-width: 181px;
+  min-width: 320px;
   text-decoration: none;
+  margin: 0 auto;
+  margin-top: 46px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
 }
 @media (min-width: 768px) {
   .main-navigation__list {
@@ -1891,6 +1893,7 @@ body {
   background-color: #ffffff;
   color: #444444;
   display: flex;
+  flex-wrap: wrap;
   margin-left: 20px;
   margin-top: 10px;
   margin-right: 20px;
@@ -1926,7 +1929,6 @@ body {
 }
 @media (min-width: 768px) {
   .main-header__logo {
-    height: 44px;
     width: 60px;
     background-image: url("../images/logo_tablet.svg");
     background-repeat: no-repeat;
@@ -1938,7 +1940,6 @@ body {
 }
 @media (min-width: 1440px) {
   .main-header__logo {
-    height: 57px;
     width: 67px;
     background-image: url("../images/logo_desktop.svg");
     background-repeat: no-repeat;
@@ -2156,7 +2157,7 @@ body {
   .product-card__information-orange-pro-500g {
     background-image: url("../images/product_card/product_card_orange_pro_500g_tablet.png");
     background-repeat: no-repeat;
-    background-position: 78px 0px;
+    background-position: 78px 0;
     width: 324px;
     height: 511px;
     margin-right: 60px;
@@ -2166,7 +2167,7 @@ body {
   .product-card__information-orange-pro-500g {
     background-image: url("../images/product_card/product_card_orange_pro_500g_desktop.png");
     background-repeat: no-repeat;
-    background-position: 78px 0px;
+    background-position: 78px 0;
     width: 245px;
     height: 431px;
     margin-right: 80px;
@@ -2198,7 +2199,7 @@ body {
   .product-card__information-orange-pro-1000g {
     background-image: url("../images/product_card/product_card_orange_pro_1000g_desktop.png");
     background-repeat: no-repeat;
-    background-position: 78px 0px;
+    background-position: 78px 0;
     width: 245px;
     height: 431px;
     margin-right: 80px;
@@ -2230,7 +2231,7 @@ body {
   .product-card__information-green-pro-500g {
     background-image: url("../images/product_card/product_card_green_pro_500g_desktop.png");
     background-repeat: no-repeat;
-    background-position: 78px 0px;
+    background-position: 78px 0;
     width: 245px;
     height: 431px;
     margin-right: 80px;
@@ -2262,7 +2263,7 @@ body {
   .product-card__information-green-pro-1000g {
     background-image: url("../images/product_card/product_card_green_pro_1000g_desktop.png");
     background-repeat: no-repeat;
-    background-position: 78px 0px;
+    background-position: 78px 0;
     width: 245px;
     height: 431px;
     margin-right: 80px;
@@ -2294,7 +2295,7 @@ body {
   .product-card__information-blue-slim-500g {
     background-image: url("../images/product_card/product_card_blue_slim_500g_desktop.png");
     background-repeat: no-repeat;
-    background-position: 78px 0px;
+    background-position: 78px 0;
     width: 245px;
     height: 431px;
     margin-right: 80px;
@@ -2327,7 +2328,7 @@ body {
   .product-card__information-blue-slim-1000g {
     background-image: url("../images/product_card/product_card_blue_slim_1000g_desktop.png");
     background-repeat: no-repeat;
-    background-position: 78px 0px;
+    background-position: 78px 0;
     width: 245px;
     height: 431px;
     margin-right: 80px;
@@ -2360,7 +2361,7 @@ body {
   .product-card__information-violet-slim-500g {
     background-image: url("../images/product_card/product_card_violet_slim_500g_desktop.png");
     background-repeat: no-repeat;
-    background-position: 78px 0px;
+    background-position: 78px 0;
     width: 245px;
     height: 431px;
     margin-right: 80px;
@@ -2495,7 +2496,6 @@ body {
     width: 168px;
     margin-left: 39px;
     margin-top: 0 auto;
-    margin-top: 53px;
   }
 }
 
@@ -2650,7 +2650,7 @@ body {
 }
 @media (min-width: 1440px) {
   .promo {
-    height: 594px;
+    height: 499px;
   }
 }
 
@@ -2960,6 +2960,22 @@ body {
     margin-left: 110px;
     text-align: center;
     margin-right: 61px;
+  }
+}
+
+/*Навигация li*/
+.site-list__item {
+  text-decoration: none;
+  margin-bottom: 46px;
+}
+@media (min-width: 768px) {
+  .site-list__item {
+    margin-bottom: 0 auto;
+  }
+}
+@media (min-width: 1440px) {
+  .site-list__item {
+    margin-bottom: 0 auto;
   }
 }
 
