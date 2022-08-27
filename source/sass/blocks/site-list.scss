@@ -1,0 +1,14 @@
+/*Навигация li*/
+
+.site-list__item {
+  text-decoration: none;
+  margin-bottom: 46px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 0 auto;
+  }
+}

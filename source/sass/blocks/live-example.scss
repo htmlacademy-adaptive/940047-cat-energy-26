@@ -97,7 +97,7 @@
   line-height: 18px;
   text-align: left;
   margin: 0 auto;
-  margin-left: 0px;
+  margin-left: 0 auto;
   margin-bottom: 20px;
   margin-right: 20px;
   min-width: 208px;
@@ -299,7 +299,7 @@
       url("../images/photo/cat_fat_tablet_desktop.png"),
       url("../images/photo/cat_skinny_tablet_desktop.png");
     background-repeat: no-repeat;
-    background-position: 0px 0px, 154px 0px;
+    background-position: 0 0, 154px 0;
     width: 560px;
     height: 512px;
   }
@@ -309,7 +309,7 @@
       url("../images/photo/cat_fat_tablet_desktop.png"),
       url("../images/photo/cat_skinny_tablet_desktop.png");
     background-repeat: no-repeat;
-    background-position: 0px 0px, 154px 0px;
+    background-position: 0 0, 154px 0;
     width: 560px;
     height: 512px;
   }

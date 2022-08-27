@@ -16,13 +16,13 @@
   padding: 0;
 
   @media (min-width: $tablet-width) {
-    margin-left: 0px;
+    margin-left: 0 auto;
     margin-top: 62px;
     width: 163px;
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 0px;
+    margin-left: 0 auto;
     margin-top: 62px;
     width: 163px;
   }

@@ -3,6 +3,7 @@
   background-color: $main-header-background-color;
   color: $text-color;
   display: flex;
+  flex-wrap: wrap;
   margin-left: 20px;
   margin-top: 10px;
   margin-right: 20px;
@@ -35,7 +36,6 @@
   height: 38px;
 
   @media (min-width: $tablet-width) {
-    height: 44px;
     width: 60px;
     background-image: url("../images/logo_tablet.svg");
     background-repeat: no-repeat;
@@ -46,7 +46,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    height: 57px;
     width: 67px;
     background-image: url("../images/logo_desktop.svg");
     background-repeat: no-repeat;

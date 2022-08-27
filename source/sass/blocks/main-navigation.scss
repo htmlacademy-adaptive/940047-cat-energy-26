@@ -20,8 +20,15 @@
 .main-navigation__list {
   display: flex;
   flex-direction: column;
-  min-width: 181px;
+  min-width: 320px;
   text-decoration: none;
+  margin: 0 auto;
+  margin-top: 46px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
 
   @media (min-width: $tablet-width) {
     display: flex;

@@ -6,11 +6,11 @@
   margin: 26px 20px 23px 20px;
 
   @media (min-width: $tablet-width) {
-    margin: 0px 187px 76px 69px;
+    margin: 0 187px 76px 69px;
   }
 
   @media (min-width: $desktop-width) {
-    margin: 0px 818px 76px 110px;
+    margin: 0 818px 76px 110px;
     flex-direction: row;
     min-width: 1220px;
   }

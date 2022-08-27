@@ -117,10 +117,9 @@
 
   @media (min-width: $tablet-width) {
     position: absolute;
-    margin-top: 182px;
     text-align: left;
     width: 245px;
-    font-family: 'Arial';
+    font-family: "Arial", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -145,7 +144,7 @@
       url("../images/icon/icon_leaf_tablet.svg"),
       url("../images/numbers/instruction_stage_1.svg");
     background-repeat: no-repeat;
-    background-position: 0px 50px, 123px 50px;
+    background-position: 0 50px, 123px 50px;
     width: 230px;
     height: 280px;
     margin-right: 153px;
@@ -156,7 +155,7 @@
       url("../images/icon/icon_leaf_tablet.svg"),
       url("../images/numbers/instruction_stage_1.svg");
     background-repeat: no-repeat;
-    background-position: 0px 50px, 123px 50px;
+    background-position: 0 50px, 123px 50px;
     width: 230px;
     height: 280px;
     margin-right: 94px;
@@ -176,7 +175,7 @@
       url("../images/icon/icon_glass_tablet.svg"),
       url("../images/numbers/instruction_stage_2.svg");
     background-repeat: no-repeat;
-    background-position: 0px 50px, 111px 50px;
+    background-position: 0 50px, 111px 50px;
     width: 230px;
     height: 280px;
   }
@@ -186,7 +185,7 @@
       url("../images/icon/icon_glass_tablet.svg"),
       url("../images/numbers/instruction_stage_2.svg");
     background-repeat: no-repeat;
-    background-position: 0px 50px, 111px 50px;
+    background-position: 0 50px, 111px 50px;
     width: 230px;
     height: 280px;
     margin-right: 94px;
@@ -206,7 +205,7 @@
       url("../images/icon/icon_fork_knife_tablet.svg"),
       url("../images/numbers/instruction_stage_3.svg");
     background-repeat: no-repeat;
-    background-position: 0px 50px, 111px 50px;
+    background-position: 0 50px, 111px 50px;
     width: 230px;
     height: 280px;
     margin-right: 153px;
@@ -217,7 +216,7 @@
       url("../images/icon/icon_fork_knife_tablet.svg"),
       url("../images/numbers/instruction_stage_3.svg");
     background-repeat: no-repeat;
-    background-position: 0px 50px, 111px 50px;
+    background-position: 0 50px, 111px 50px;
     width: 230px;
     height: 280px;
     margin-right: 94px;
@@ -237,7 +236,7 @@
       url("../images/icon/icon_alarm_tablet.svg"),
       url("../images/numbers/instruction_stage_4.svg");
     background-repeat: no-repeat;
-    background-position: 0px 50px, 111px 50px;
+    background-position: 0 50px, 111px 50px;
     width: 230px;
     height: 280px;
   }
@@ -247,7 +246,7 @@
       url("../images/icon/icon_alarm_tablet.svg"),
       url("../images/numbers/instruction_stage_4.svg");
     background-repeat: no-repeat;
-    background-position: 0px 50px, 111px 50px;
+    background-position: 0 50px, 111px 50px;
     width: 230px;
     height: 280px;
     margin: 0 auto;
