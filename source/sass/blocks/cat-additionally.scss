@@ -1,4 +1,26 @@
 /*Форма Дополнительно*/
+.cat-additionally {
+  @media (min-width: $tablet-width) {
+    margin-bottom: 20px;
+  }
+}
+
+.cat-additionally__form {
+  padding-left: 0;
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 0;
+  border: 1px solid #cdcdcd;
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-left: 20px;
+}
 
 /*Заголовок*/
 .cat-additionally__title {
@@ -18,13 +40,15 @@
   @media (min-width: $tablet-width) {
     font-size: $form-subtitle-font-size-tablet-desktop;
     line-height: $form-subtitle-line-height-tablet-desktop;
-    margin-left: 70px;
+    margin-left: 42px;
+    margin-top: 63px;
+    margin-bottom: 64px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: $form-subtitle-font-size-tablet-desktop;
     line-height: $form-subtitle-line-height-tablet-desktop;
-    margin-left: 110px;
+    margin-left: 0;
   }
 }
 
@@ -34,6 +58,26 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: 28px;
+    width: 636px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1196px;
+    margin-left: 0;
+  }
+}
+
+.cat-additionally__item {
+  @media (min-width: $tablet-width) {
+    height: 40px;
+    margin-bottom: 33px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 40px;
+    margin-bottom: 33px;
+    width: 221px;
   }
 }
 
@@ -48,7 +92,8 @@
   line-height: $form-text-line-height;
   text-transform: uppercase;
   color: $form-text-color;
-  margin-left: 20px;
+  margin-left: 65px;
+  margin-bottom: 25px;
 
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;
@@ -62,9 +107,14 @@
   @media (min-width: $desktop-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
-    margin-left: 110px;
+    margin-left: 59px;
     width: 221px;
     text-align: left;
     margin-bottom: 32px;
   }
+}
+
+.cat-additionally__checkbox {
+  position: relative;
+  display: block;
 }

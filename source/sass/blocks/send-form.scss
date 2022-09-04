@@ -6,7 +6,7 @@
   background-color: $form-button-background-color;
   border: none;
   margin-top: 13px;
-  margin-bottom: 21px;
+  margin-bottom: 8px;
   font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -15,6 +15,7 @@
   text-transform: uppercase;
   color: $form-color-text;
   height: 40px;
+  cursor: pointer;
 
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;
@@ -22,7 +23,7 @@
     height: 52px;
     padding: 7px 45px 7px 45px;
     float: left;
-    margin-left: 71px;
+    margin-left: 41px;
     margin-right: 61px;
   }
 
@@ -31,8 +32,8 @@
     width: 568px;
     height: 52px;
     float: left;
-    margin-left: 110px;
+    margin-left: 0;
     text-align: center;
-    margin-right: 61px;
+    margin-right: 81px;
   }
 }

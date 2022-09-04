@@ -2,16 +2,23 @@
 
 /*Общее*/
 .more-items {
-  margin: 25px 20px 25px 20px;
+  margin: 122px 20px 25px 20px;
+  border-bottom: 1px solid #ebebeb;
+  width: 320px;
 
   @media (min-width: $tablet-width) {
     width: 324px;
     height: 429px;
+    margin: 0;
+    margin-top: 66px;
+    border: 2px solid #f2f2f2;
   }
 
   @media (min-width: $desktop-width) {
     width: 245px;
     height: 431px;
+    margin-top: 130px;
+    border: 2px solid #f2f2f2;
   }
 }
 
@@ -25,23 +32,36 @@
   text-transform: uppercase;
   color: $catalog-more-items-color;
   width: 204px;
-  margin: 23px 37px 8px 37px;
+  padding: 62px 37px 0 37px;
+  background-image: url("../images/decoration/more-items.svg");
+  background-repeat: no-repeat;
+  background-position: 125px 9px;
 
   @media (min-width: $tablet-width) {
-    margin-top: 230px;
-    margin-left: 96px;
-    margin-bottom: 23px;
     width: 134px;
     font-size: 20px;
     line-height: 22px;
+    padding: 0;
+    margin: 0;
+    padding-top: 165px;
+    padding-left: 96px;
+    margin-bottom: 30px;
+    background-image: url("../images/decoration/more-items.svg");
+    background-repeat: no-repeat;
+    background-position: 134px 58px;
+    background-size: 55px 55px;
   }
 
   @media (min-width: $desktop-width) {
-    margin-top: 250px;
-    margin-left: 96px;
+    margin-top: 0;
+    margin-left: 0;
     width: 134px;
     font-size: 20px;
     line-height: 22px;
+    padding-left: 55px;
+    background-image: url("../images/decoration/more-items.svg");
+    background-repeat: no-repeat;
+    background-position: 90px 58px;
   }
 }
 
@@ -57,7 +77,7 @@
   width: 221px;
   margin-left: 28px;
   margin-bottom: 21px;
-  margin-top: 0;
+  margin-top: -8px;
 
   @media (min-width: $tablet-width) {
     margin-left: 79px;
@@ -68,7 +88,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 79px;
+    margin-left: 37px;
     margin-bottom: 87px;
     width: 167px;
     font-size: 16px;
@@ -90,17 +110,20 @@
   color: $text-color;
   padding: 10px 94px 10px 94px;
   margin-bottom: 35px;
+  cursor: pointer;
+  margin-right: 42px;
 
   @media (min-width: $tablet-width) {
     width: 249px;
     height: 40px;
     padding: 5px 79px 5px 79px;
+    margin-right: 5px;
   }
 
   @media (min-width: $desktop-width) {
     width: 169px;
     height: 40px;
     padding: 5px 39px 5px 39px;
-    margin-left: 88px;
+    margin-left: 5px;
   }
 }

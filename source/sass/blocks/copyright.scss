@@ -3,8 +3,14 @@
 .copyright {
   display: flex;
   margin-left: 19px;
+  margin-top: 22px;
   padding: 0;
   padding-bottom: 20px;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .copyright__html-academy {
@@ -23,7 +29,7 @@
 
   @media (min-width: $desktop-width) {
     margin-left: 0 auto;
-    margin-top: 62px;
+    margin-top: 38px;
     width: 163px;
   }
 }
@@ -43,6 +49,9 @@
 }
 
 .copyright__logo {
+  margin-bottom: 1px;
+  cursor: pointer;
+
   @media (min-width: $tablet-width) {
     margin: 0 auto;
   }

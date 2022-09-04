@@ -1,8 +1,46 @@
 /* Форма - цель*/
+/*Текст*/
+.loss-weight {
+  margin-left: 44px;
+}
 
 /*Похудение*/
-.loss-weight {
-  padding-left: 45px;
-  background-image: url("../images/radiobutton.svg");
+.loss-weight__form {
+  padding-left: 0;
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 1px solid #cdcdcd;
+  background-color: #ffffff;
+  background-position: center;
   background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.loss-weight__form::before {
+  background-image: url("../images/radio_button.svg");
+  background-repeat: no-repeat;
+}
+
+.loss-weight__form::after {
+  background-image: url("../images/radio_button.svg");
+  background-repeat: no-repeat;
+}
+
+.loss-weight__form:hover {
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  background-color: #68b738;
+  border: 1px solid #cdcdcd;
+}
+
+.loss-weight__form:active {
+  background-color: #68b738;
+  border: 1px solid #cdcdcd;
+  opacity: 0.3;
 }

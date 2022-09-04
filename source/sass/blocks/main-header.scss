@@ -4,10 +4,11 @@
   color: $text-color;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 20px;
   margin-top: 10px;
   margin-right: 20px;
-  margin-bottom: 62px;
+  margin-bottom: 18px;
+  min-height: 38px;
+  width: auto;
 
   @media (min-width: $tablet-width) {
     margin-left: 30px;
@@ -29,8 +30,8 @@
 .main-header__logo {
   background-image: url("../images/logo_mobile.svg");
   background-repeat: no-repeat;
-  margin-left: 0;
   margin-right: 56px;
+  margin-left: 20px;
   padding: 0;
   min-width: 34px;
   height: 38px;
@@ -43,6 +44,7 @@
     height: 50px;
     margin-right: 12px;
     margin-bottom: 64px;
+    margin-left: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -51,11 +53,15 @@
     background-repeat: no-repeat;
     min-width: 71px;
     height: 60px;
-    margin-right: 14px;
+    margin-right: 12px;
   }
 
   &:hover {
-    background-color: $text-color;
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
   }
 }
 
@@ -63,23 +69,27 @@
 .main-header__logo-text {
   margin-left: 0;
   margin-top: 13px;
-  margin-right: 65px;
+  margin-right: 77px;
   padding: 0;
   height: 18px;
   width: 101px;
+  background-image: url("../images/logo_text.svg");
+  background-repeat: no-repeat;
 
   @media (min-width: $tablet-width) {
     height: 18px;
     width: 101px;
     margin-top: 19px;
-    margin-right: 94px;
+    margin-right: 93px;
   }
 
   @media (min-width: $desktop-width) {
-    height: 21px;
-    width: 118px;
     margin-top: 22px;
-    margin-right: 539px;
+    margin-right: 537px;
+    background-image: url("../images/logo_text_desktop.svg");
+    background-repeat: no-repeat;
+    width: 119px;
+    height: 22px;
   }
 }
 

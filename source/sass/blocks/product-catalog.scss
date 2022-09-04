@@ -1,4 +1,18 @@
 /*Каталог*/
+.product-catalog {
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    width: 739px;
+    margin-right: 0;
+    margin-left: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 0;
+    margin-left: 107px;
+  }
+}
 
 /*Заголовок*/
 .product-catalog__title {
@@ -10,11 +24,13 @@
   line-height: 36px;
   text-transform: none;
   color: $catalog-title-color;
-  width: 259px;
+  width: 300px;
   text-align: left;
-  margin-left: 20px;
-  margin-top: 27px;
-  margin-bottom: 41px;
+  margin-top: 44px;
+  border-bottom: 1px solid #ebebeb;
+  height: 76px;
+  padding-left: 20px;
+  margin-bottom: 19px;
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -23,8 +39,11 @@
     font-size: 60px;
     line-height: 60px;
     width: 431px;
-    margin-left: 30px;
-    margin-bottom: 82px;
+    margin-bottom: 75px;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 0;
+    border: none;
   }
 
   @media (min-width: $desktop-width) {
@@ -34,7 +53,7 @@
     font-size: 60px;
     line-height: 60px;
     width: 431px;
-    margin-left: 30px;
     margin-bottom: 82px;
+    margin-top: 8px;
   }
 }

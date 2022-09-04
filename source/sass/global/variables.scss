@@ -2,6 +2,11 @@
 $main-header-background-color: #ffffff;
 $text-color: #444444;
 
+
+/*Меню*/
+$menu-button-color: #ffffff;
+$menu-line-color: #000000;
+
 /*Страница Главная*/
 $main-button-background-color: #68b738;
 $main-background-color: rgba(104, 183, 56, 0.85);
@@ -11,6 +16,7 @@ $main-goal-background-color: #f2f2f2;
 $main-subtitle-color: #000000;
 $main-catalog-link-color: #000000;
 $main-live-example-background-color: #eaeaea;
+$main-live-example-background-color-tablet: #eaeaea;
 $main-result-color: #000000;
 $main-promo-title-subtitle-color: #ffffff;
 $main-promo-title-subtitle-color-tablet-desktop: #000000;
@@ -71,3 +77,4 @@ $footer-background-color-desktop: #ffffff;
 /*Viewporter*/
 $tablet-width: 768px;
 $desktop-width: 1440px;
+$mobile-width-only: 767px;

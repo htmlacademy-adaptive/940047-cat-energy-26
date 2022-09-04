@@ -3,18 +3,27 @@
 .social__social-media {
   display: flex;
   text-align: center;
+  width: 320px;
+
+  @media (min-width: $desktop-width) {
+    width: 132px;
+    margin-right: 365px;
+  }
 }
 
 .social__list {
   display: flex;
-  margin-left: 94px;
-  margin-bottom: 43px;
+  padding-left: 94px;
+  border-bottom: 1px solid #d9d9d9;
+  height: 43px;
+  width: 320px;
 
   @media (min-width: $tablet-width) {
     width: 132px;
     margin-left: 0 auto;
     margin-top: 62px;
     margin-right: 129px;
+    border-bottom: none;
   }
 
   @media (min-width: $desktop-width) {
@@ -22,10 +31,16 @@
     margin-left: 0 auto;
     margin-top: 61px;
     margin-right: 384px;
+    padding-left: 0;
   }
 }
 
 .social__item {
   display: flex;
   margin-right: 24px;
+  cursor: pointer;
+
+  @media (min-width: $desktop-width) {
+    margin-right: 28px;
+  }
 }

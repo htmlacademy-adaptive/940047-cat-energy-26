@@ -1,8 +1,23 @@
 /* Форма - цель*/
 
-/*Нужна помощь*/
+/*Текст*/
 .need-help {
-  padding-left: 45px;
-  background-image: url("../images/radiobutton.svg");
+  margin-left: 44px;
+}
+
+/*Нужна помощь*/
+.need-help__form {
+  padding-left: 0;
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 1px solid #cdcdcd;
+  background-color: #ffffff;
+  background-position: center;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
