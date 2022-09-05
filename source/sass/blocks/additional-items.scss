@@ -65,7 +65,7 @@
 /*Блок с товарами*/
 .additional-items__goods {
   display: block;
-  border-top: 1px solid #ebebeb;
+  border-top: 1px solid $border-color-second;
   padding-top: 12px;
   margin-bottom: -10px;
   width: 282px;
@@ -98,14 +98,14 @@
 .additional-items__list {
   @media (min-width: $tablet-width) {
     width: 708px;
-    border: 1px solid #cdcdcd;
+    border: 1px solid $border-color-main;
   }
 
   @media (min-width: $desktop-width) {
     display: block;
     width: 894px;
     height: 288px;
-    border: 1px solid #cdcdcd;
+    border: 1px solid $border-color-main;
   }
 }
 

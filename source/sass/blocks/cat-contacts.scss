@@ -142,7 +142,7 @@
   background-image: url("../images/icon/icon_email.svg");
   background-repeat: no-repeat;
   background-position: 182px 17px;
-  border: 1px solid #cdcdcd;
+  border: 1px solid $border-color-main;
   float: right;
 
   @media (min-width: $tablet-width) {
@@ -206,7 +206,7 @@
   background-image: url("../images/icon/icon_phone.svg");
   background-repeat: no-repeat;
   background-position: 167px 11px;
-  border: 1px solid #cdcdcd;
+  border: 1px solid $border-color-main;
 
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;

@@ -26,7 +26,7 @@
     line-height: $form-text-line-height-tablet-desktop;
     width: 628px;
     height: 200px;
-    border: 2px solid #f2f2f2;
+    border: 2px solid $border-color-third;
     float: left;
   }
 
@@ -75,4 +75,79 @@
 .cat-goal__radio {
   position: relative;
   display: block;
+}
+
+/*Похудение*/
+.cat-goal__loss-weight {
+  padding-left: 0;
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 1px solid $border-color-main;
+  background-color: $form-background-color;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.cat-goal__loss-weight::before {
+  background-image: url("../images/radio_button.svg");
+  background-repeat: no-repeat;
+}
+
+.cat-goal__loss-weight::after {
+  background-image: url("../images/radio_button.svg");
+  background-repeat: no-repeat;
+}
+
+.cat-goal__loss-weight:hover {
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  background-color: $form-radio-button;
+  border: 1px solid $border-color-main;
+}
+
+.cat-goal__loss-weight:active {
+  background-color: $form-radio-button;
+  border: 1px solid $border-color-main;
+  opacity: 0.3;
+}
+
+/*Набор веса*/
+.cat-goal__gain-weight {
+  padding-left: 0;
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 1px solid $border-color-main;
+  background-color: $form-background-color;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/*Нужна помощь*/
+.cat-goal__need-help {
+  padding-left: 0;
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 1px solid $border-color-main;
+  background-color: $form-background-color;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }

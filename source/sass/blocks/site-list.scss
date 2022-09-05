@@ -12,11 +12,11 @@
   text-transform: uppercase;
   text-decoration: none;
   background-color: $menu-button-color;
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid $border-color-second;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 0;
-    margin-right: 35px;
+    margin-right: 12px;
     margin-left: 0;
     border: none;
     display: flex;
@@ -25,6 +25,8 @@
     min-width: 0;
     font-size: 18px;
     line-height: 24px;
+    text-align: left;
+    justify-content: space-between;
 
     &--active {
       position: relative;
@@ -36,7 +38,7 @@
         bottom: 0;
         left: 0;
         height: 3px;
-        background: #68b738;
+        background: $line-color-tablet;
       }
     }
   }

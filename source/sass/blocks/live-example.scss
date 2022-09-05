@@ -90,7 +90,7 @@
 
 .live-example__block-history {
   @media (min-width: $desktop-width) {
-    background-color: #f2f2f2;
+    background-color: $main-block-history;
     width: 1440px;
     height: 462px;
     margin: 0;
@@ -130,7 +130,7 @@
     min-width: 436px;
     width: 436px;
     text-align: left;
-    background-color: #f2f2f2;
+    background-color: $main-block-history;
     margin: 0;
     margin-left: 107px;
     margin-bottom: 69px;

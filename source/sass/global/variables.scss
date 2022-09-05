@@ -21,6 +21,7 @@ $main-result-color: #000000;
 $main-promo-title-subtitle-color: #ffffff;
 $main-promo-title-subtitle-color-tablet-desktop: #000000;
 $main-promo-description-tablet-desktop: #ffffff;
+$main-block-history: #f2f2f2;
 
 /*Страница Каталог*/
 $catalog-title-color: #000000;
@@ -43,6 +44,7 @@ $catalog-goods-line-height-tablet-desktop: 20px;
 $catalog-items-color: #222222;
 $catalog-color-button-text: #ffffff;
 $catalog-color-text: #ffffff;
+$catalog-background-color: #ffffff;
 
 $catalog-get-gift-background-color: rgba(104, 183, 56, 0.85);
 
@@ -63,8 +65,11 @@ $form-subtitle-line-height: 26px;
 $form-subtitle-line-height-tablet-desktop: 36px;
 
 $form-button-background-color: #68b738;
+$form-radio-button: #68b738;
+$form-background-color: #ffffff;
 $form-goal-color: #222222;
 $form-color-text: #ffffff;
+$form-color-text-comments: #444444;
 
 /*Wrapper*/
 $wrapper-background-color: #ffffff;
@@ -78,3 +83,14 @@ $footer-background-color-desktop: #ffffff;
 $tablet-width: 768px;
 $desktop-width: 1440px;
 $mobile-width-only: 767px;
+
+/*Рамка*/
+$border-color-main: #cdcdcd;
+$border-color-second: #ebebeb;
+$border-color-third: #f2f2f2;
+$border-color-fourth: #d9d9d9;
+
+/*Промо*/
+
+/*Навигация*/
+$line-color-tablet: #68b738;

@@ -14,8 +14,8 @@
   width: 20px;
   height: 20px;
   border-radius: 0;
-  border: 1px solid #cdcdcd;
-  background-color: #ffffff;
+  border: 1px solid $border-color-main;
+  background-color: $form-background-color;
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
