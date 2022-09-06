@@ -1,5 +1,12 @@
 /*Форма заявки*/
 
+.cat-data {
+  @media (min-width: $desktop-width) {
+    margin-left: 107px;
+    width: 1278 px;
+  }
+}
+
 /*Форма Имя, вес, возраст*/
 .cat-data__form {
   text-align: left;
@@ -11,7 +18,10 @@
   text-transform: uppercase;
   color: $text-color;
   width: 280px;
-  margin-left: 20px;
+  margin-left: 0;
+  height: 46px;
+  margin-top: 11px;
+  margin-bottom: 5px;
 
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;
@@ -26,11 +36,12 @@
   @media (min-width: $desktop-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
-    min-width: 630px;
+    width: 569px;
     margin-left: 0 auto;
     margin-bottom: 20px;
     margin-top: 0 auto;
     height: 52px;
+    text-align: center;
   }
 }
 
@@ -58,7 +69,7 @@
   text-align: left;
   padding-left: 15px;
   height: 46px;
-  width: 201px;
+  width: 200px;
   margin-bottom: 13px;
 
   @media (min-width: $tablet-width) {
@@ -97,8 +108,8 @@
   text-transform: uppercase;
   text-align: left;
   padding-left: 15px;
-  height: 46px;
-  width: 180px;
+  height: 43px;
+  width: 178px;
   margin-bottom: 13px;
 
   @media (min-width: $tablet-width) {
@@ -137,9 +148,9 @@
   text-transform: uppercase;
   text-align: left;
   padding-left: 15px;
-  height: 46px;
+  height: 43px;
   margin-bottom: 13px;
-  width: 143px;
+  width: 139px;
 
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;

@@ -1,7 +1,12 @@
 /*Footer*/
 .contacts {
   @media (min-width: $tablet-width) {
-    margin-top: 56px;
+    margin-top: 127px;
+    width: 628px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
   }
 }
 
@@ -9,23 +14,24 @@
 .contacts__address {
   display: flex;
   flex-wrap: nowrap;
+  padding-top: 2px;
 
   @media (min-width: $tablet-width) {
     width: 628px;
     justify-content: space-between;
     margin-bottom: 56px;
-    margin-left: 70px;
+    margin-left: 72px;
   }
 
   @media (min-width: $desktop-width) {
     position: absolute;
     background-color: $footer-background-color-desktop;
-    width: 628px;
     justify-content: space-between;
     margin-bottom: 56px;
     height: 198px;
     margin-top: 95px;
-    margin-left: 110px;
+    margin-left: 113px;
+    width: 566px;
   }
 }
 
@@ -41,19 +47,20 @@
   color: $footer-contacts__title-color;
   width: 139px;
   text-align: left;
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 19px;
+  margin-top: 26px;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 26px;
     margin: 0;
+    width: 157px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: 20px;
     line-height: 26px;
-    margin: 56px 87px 56px 80px;
+    margin: 62px 87px 56px 80px;
   }
 }
 
@@ -69,8 +76,8 @@
   color: $text-color;
   width: 139px;
   text-align: left;
-  margin-left: 0;
-  margin-top: 20px;
+  margin-left: 1px;
+  margin-top: 27px;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
@@ -85,8 +92,8 @@
     font-size: 16px;
     line-height: 20px;
     width: 160px;
-    text-align: right;
-    margin: 56px 80px 63px 0;
+    text-align: left;
+    margin: 56px 75px 63px 0;
   }
 }
 
@@ -96,6 +103,9 @@
   height: 362px;
   background-image: url("../images/photo/contacts__map_mobile.jpg");
   background-repeat: no-repeat;
+  display: block;
+  border: 0;
+  margin-top: 5px;
 
   @media (min-width: $tablet-width) {
     width: 768px;
@@ -103,6 +113,8 @@
     background-image: url("../images/photo/contacts__map_tablet.jpg");
     background-repeat: no-repeat;
     margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -111,5 +123,7 @@
     background-image: url("../images/photo/contacts__map_desktop.jpg");
     background-repeat: no-repeat;
     margin: 0 auto;
+    margin-left: 0;
+    margin-top: 82px;
   }
 }

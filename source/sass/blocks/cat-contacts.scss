@@ -3,14 +3,19 @@
 /*Контактные данные*/
 .cat-contacts {
   display: flex;
-  margin: 26px 20px 23px 20px;
+  margin: 26px 20px 15px 20px;
 
   @media (min-width: $tablet-width) {
-    margin: 0 187px 76px 69px;
+    margin: 0 187px 50px 40px;
+    float: left;
   }
 
   @media (min-width: $desktop-width) {
-    margin: 0 818px 76px 110px;
+    display: block;
+    margin-top: 0;
+    margin-right: 818px;
+    margin-bottom: 50px;
+    margin-left: -180px;
     flex-direction: row;
     min-width: 1220px;
   }
@@ -36,40 +41,58 @@
   padding: 0;
   margin-bottom: 35px;
   width: 187px;
+  margin-top: 0;
 
   @media (min-width: $tablet-width) {
     font-size: $form-subtitle-font-size-tablet-desktop;
     line-height: $form-subtitle-line-height-tablet-desktop;
-    margin-bottom: 76px;
+    margin-bottom: 71px;
     width: 512px;
+    margin-top: 0;
+    margin-left: 0;
   }
 
   @media (min-width: $desktop-width) {
     font-size: $form-subtitle-font-size-tablet-desktop;
     line-height: $form-subtitle-line-height-tablet-desktop;
-    margin-bottom: 76px;
+    margin-bottom: 65px;
+    margin-left: 177px;
+    margin-top: 0;
   }
 }
 
 .cat-contacts__main {
+  @media (min-width: $tablet-width) {
+    display: block;
+    flex-direction: row;
+    margin-left: 0;
+  }
+
   @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: row;
+    margin-left: 180px;
   }
 }
 
 /*Форма*/
 .cat-contacts__form {
   display: flex;
+  margin-top: 10px;
+  margin-bottom: 5px;
 
   @media (min-width: $tablet-width) {
     display: flex;
+    height: 52px;
+    margin-bottom: 20px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: row;
-    width: 569px;
+    width: 640px;
+    margin-left: 0;
+    margin-top: 0;
   }
 }
 
@@ -98,12 +121,15 @@
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
     margin-bottom: 42px;
+    margin-top: -10px;
+    margin-right: 22px;
+    width: 64px;
   }
 }
 
 /*E-mail форма*/
 .cat-contacts__field-email {
-  width: 196px;
+  width: 201px;
   height: 45px;
   font-family: "Oswald", sans-serif;
   font-style: normal;
@@ -113,17 +139,25 @@
   text-transform: uppercase;
   color: $text-color;
   padding-left: 15px;
+  background-image: url("../images/icon/icon_email.svg");
+  background-repeat: no-repeat;
+  background-position: 182px 17px;
+  border: 1px solid $border-color-main;
+  float: right;
 
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
     width: 551px;
+    background-position: 522px 17px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
     width: 486px;
+    margin-top: -10px;
+    background-position: 446px 17px;
   }
 }
 
@@ -153,7 +187,7 @@
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
     margin-bottom: 69px;
-    margin-left: 78px;
+    margin-left: 8px;
   }
 }
 
@@ -169,16 +203,22 @@
   text-transform: uppercase;
   color: $text-color;
   padding-left: 15px;
+  background-image: url("../images/icon/icon_phone.svg");
+  background-repeat: no-repeat;
+  background-position: 167px 11px;
+  border: 1px solid $border-color-main;
 
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
     width: 530px;
+    background-position: 500px 20px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
-    width: 472px;
+    width: 460px;
+    background-position: 442px 20px;
   }
 }

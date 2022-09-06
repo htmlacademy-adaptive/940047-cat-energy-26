@@ -10,6 +10,7 @@
 
   @media (min-width: $desktop-width) {
     height: 499px;
+    margin-top: 20px;
   }
 }
 
@@ -98,6 +99,7 @@
     margin: 0 auto;
     margin-left: 190px;
     margin-bottom: 40px;
+    margin-top: 10px;
     padding: 0;
   }
 }
@@ -155,30 +157,29 @@
   width: 280px;
   right: 320;
   left: 320;
-  top: 7%;
+  margin-top: -142px;
+  margin-left: 22px;
   z-index: 1;
   background-image: url("../images/photo/boxing_orange_chicken_mobile.png");
 
   @media (min-width: $tablet-width) {
     position: absolute;
     z-index: 1;
-    margin-left: 29px;
-    margin-top: -150px;
     background-image: url("../images/photo/boxing_orange_chicken_tablet.png");
     width: 709px;
     height: 609px;
-    top: 12%;
+    margin-top: 22px;
+    margin-left: 28px;
   }
 
   @media (min-width: $desktop-width) {
     position: absolute;
     z-index: 1;
     margin-left: 558px;
-    margin-top: -232px;
     background-image: url("../images/photo/boxing_orange_chicken_desktop.png");
     width: 552px;
     height: 499px;
-    top: 9%;
+    margin-top: -265px;
   }
 }
 
@@ -213,7 +214,7 @@
     font-weight: 400;
     line-height: 20px;
     float: left;
-    margin-left: 146px;
+    margin-left: 122px;
     margin-top: 49px;
   }
 
@@ -229,7 +230,16 @@
     line-height: 20px;
     float: left;
     margin-left: 190px;
-    margin-top: 66px;
+    margin-top: 50px;
+  }
+
+  &:hover {
+    background: #5eaa2f;
+  }
+
+  &:active {
+    opacity: 0.3;
+    background: #5eaa2f;
   }
 }
 

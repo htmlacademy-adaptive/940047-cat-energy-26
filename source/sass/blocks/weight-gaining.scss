@@ -7,7 +7,7 @@
   margin-bottom: 20px;
   background-image: url("../images/icon/icon_cat_move_mobile.svg");
   background-repeat: no-repeat;
-  background-position: 13px 24px;
+  background-position: 13px 20px;
   width: 280px;
 
   @media (min-width: $tablet-width) {
@@ -15,7 +15,7 @@
     height: 372px;
     background-image: url("../images/icon/icon_cat_move_tablet.svg");
     background-repeat: no-repeat;
-    background-position: 412px 91px;
+    background-position: 412px 83px;
   }
 
   @media (min-width: $desktop-width) {
@@ -25,6 +25,7 @@
     background-repeat: no-repeat;
     background-position: 33px 47px;
     margin-left: 76px;
+    top: 5%;
   }
 }
 
@@ -38,9 +39,9 @@
   text-transform: uppercase;
   color: $main-subtitle-color;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 25px;
   margin-right: 78px;
-  margin-left: 91px;
+  margin-left: 77px;
   height: 37px;
   width: 164px;
 
@@ -52,7 +53,7 @@
     line-height: 36px;
     text-transform: uppercase;
     color: $main-subtitle-color;
-    margin-top: 77px;
+    margin-top: 72px;
     margin-left: 53px;
     height: 37px;
     width: 206px;
@@ -66,10 +67,9 @@
     line-height: 36px;
     text-transform: uppercase;
     color: $main-subtitle-color;
+    margin: 0;
     margin-top: 77px;
     margin-left: 214px;
-    height: 37px;
-    width: 206px;
   }
 }
 
@@ -83,7 +83,7 @@
   font-size: 14px;
   line-height: 18px;
   text-align: left;
-  margin-top: 22px;
+  margin-top: 28px;
   margin-left: 20px;
   margin-bottom: 23px;
   height: 90px;
@@ -100,6 +100,7 @@
     text-align: left;
     margin-left: 52px;
     margin-bottom: 48px;
+    margin-top: 22px;
     height: 96px;
     width: 340px;
   }
@@ -114,9 +115,10 @@
     line-height: 24px;
     text-align: left;
     margin-left: 52px;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
     height: 72px;
     width: 457px;
+    margin-top: 70px;
   }
 }
 
@@ -136,6 +138,12 @@
     padding: 0;
     float: left;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 52px;
+    padding: 0;
+    float: left;
+  }
 }
 
 /*Каталог Pro*/
@@ -147,7 +155,7 @@
   font-size: 16px;
   line-height: 16px;
   text-transform: uppercase;
-  margin-top: 15px;
+  margin-top: 2px;
   margin-left: 20px;
   margin-bottom: 18px;
   margin-right: 15px;
@@ -163,11 +171,23 @@
     line-height: 30px;
     text-transform: uppercase;
     width: 104px;
+    margin-left: 1px;
   }
 }
 
 /*Декоративная стрелка*/
 .weight-gaining__arrow {
-  margin-top: 15px;
+  margin-top: 3px;
+  margin-left: 2px;
   cursor: pointer;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 11px;
+    margin-left: 8px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 11px;
+    margin-left: 13px;
+  }
 }

@@ -9,6 +9,8 @@
   width: 280px;
   z-index: 1;
   margin-left: 20px;
+  margin-top: 45px;
+  margin-bottom: 35px;
 
   @media (min-width: $tablet-width) {
     position: relative;
@@ -17,7 +19,9 @@
     height: 200px;
     width: 707px;
     z-index: 1;
-    margin-left: 31px;
+    margin-left: 30px;
+    margin-top: 73px;
+    margin-bottom: 28px;
   }
 
   @media (min-width: $desktop-width) {
@@ -27,8 +31,8 @@
     height: 289px;
     width: 246px;
     z-index: 1;
-    margin-left: 1085px;
-    margin-top: -240px;
+    margin-left: 1084px;
+    margin-top: -290px;
   }
 }
 
@@ -97,7 +101,7 @@
     height: 60px;
     text-align: left;
     padding-top: 71px;
-    padding-left: 265px;
+    padding-left: 300px;
   }
 
   @media (min-width: $desktop-width) {

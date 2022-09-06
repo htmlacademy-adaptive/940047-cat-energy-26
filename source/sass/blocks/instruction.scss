@@ -2,13 +2,13 @@
 
 .instruction {
   display: flex;
-  margin-top: 20px;
+  margin-top: 0;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 50px;
 
   @media (min-width: $tablet-width) {
-    margin-top: 45px;
+    margin-top: 32px;
     margin-left: 30px;
   }
 
@@ -17,7 +17,8 @@
     margin-top: 71px;
     margin-left: 110px;
     min-width: 1224px;
-    margin-bottom: 69px;
+    margin-bottom: 20px;
+    height: 372px;
   }
 }
 
@@ -42,18 +43,17 @@
   line-height: 40px;
   text-transform: none;
   color: $main-subtitle-color;
-  margin-top: 0;
   margin-right: 0;
   margin-bottom: 40px;
-  height: 40px;
   width: 225px;
   text-align: left;
+  margin-top: -4px;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
     margin-left: 0;
-    margin-bottom: 32px;
+    margin-bottom: 23px;
     height: 60px;
     width: 375px;
     text-align: left;
@@ -63,7 +63,7 @@
     font-size: 60px;
     line-height: 60px;
     margin-left: 0;
-    margin-bottom: 32px;
+    margin-bottom: 23px;
     height: 60px;
     width: 375px;
     text-align: left;
@@ -148,6 +148,7 @@
     width: 230px;
     height: 280px;
     margin-right: 153px;
+    margin-bottom: 35px;
   }
 
   @media (min-width: $desktop-width) {
@@ -175,8 +176,8 @@
       url("../images/icon/icon_glass_tablet.svg"),
       url("../images/numbers/instruction_stage_2.svg");
     background-repeat: no-repeat;
-    background-position: 0 50px, 111px 50px;
-    width: 230px;
+    background-position: 0 50px, 120px 50px;
+    width: 245px;
     height: 280px;
   }
 
@@ -185,7 +186,7 @@
       url("../images/icon/icon_glass_tablet.svg"),
       url("../images/numbers/instruction_stage_2.svg");
     background-repeat: no-repeat;
-    background-position: 0 50px, 111px 50px;
+    background-position: 0 50px, 119px 50px;
     width: 230px;
     height: 280px;
     margin-right: 94px;
@@ -205,10 +206,10 @@
       url("../images/icon/icon_fork_knife_tablet.svg"),
       url("../images/numbers/instruction_stage_3.svg");
     background-repeat: no-repeat;
-    background-position: 0 50px, 111px 50px;
-    width: 230px;
+    background-position: 0 50px, 122px 50px;
+    width: 245px;
     height: 280px;
-    margin-right: 153px;
+    margin-right: 143px;
   }
 
   @media (min-width: $desktop-width) {
@@ -216,7 +217,7 @@
       url("../images/icon/icon_fork_knife_tablet.svg"),
       url("../images/numbers/instruction_stage_3.svg");
     background-repeat: no-repeat;
-    background-position: 0 50px, 111px 50px;
+    background-position: 0 50px, 119px 50px;
     width: 230px;
     height: 280px;
     margin-right: 94px;
@@ -236,8 +237,8 @@
       url("../images/icon/icon_alarm_tablet.svg"),
       url("../images/numbers/instruction_stage_4.svg");
     background-repeat: no-repeat;
-    background-position: 0 50px, 111px 50px;
-    width: 230px;
+    background-position: 0 50px, 122px 50px;
+    width: 241px;
     height: 280px;
   }
 
@@ -246,7 +247,7 @@
       url("../images/icon/icon_alarm_tablet.svg"),
       url("../images/numbers/instruction_stage_4.svg");
     background-repeat: no-repeat;
-    background-position: 0 50px, 111px 50px;
+    background-position: -2px 50px, 111px 50px;
     width: 230px;
     height: 280px;
     margin: 0 auto;

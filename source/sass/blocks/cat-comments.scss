@@ -1,4 +1,12 @@
 /*Форма Комментарии*/
+
+.cat-comments {
+  @media (min-width: $tablet-width) {
+    width: 200px;
+  }
+}
+
+
 .cat-comments__title {
   display: flex;
   font-family: "Oswald", sans-serif;
@@ -12,18 +20,21 @@
   text-align: left;
   margin-left: 20px;
   margin-bottom: 37px;
+  margin-top: 0;
 
   @media (min-width: $tablet-width) {
     font-size: $form-subtitle-font-size-tablet-desktop;
     line-height: $form-subtitle-line-height-tablet-desktop;
-    margin-left: 69px;
-    margin-bottom: 76px;
+    margin-left: 40px;
+    margin-bottom: 74px;
+    margin-right: 0;
   }
 
   @media (min-width: $desktop-width) {
+    display: block;
     font-size: $form-subtitle-font-size-tablet-desktop;
     line-height: $form-subtitle-line-height-tablet-desktop;
-    margin-left: 110px;
+    margin-left: 0;
     margin-bottom: 76px;
   }
 }
@@ -31,6 +42,10 @@
 .cat-comments__form {
   @media (min-width: $tablet-width) {
     width: 631px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1196px;
   }
 }
 
@@ -41,23 +56,28 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  text-transform: none;
-  color: #444444;
+  color: $form-color-text-comments;
   width: 253px;
   text-align: left;
-  margin-left: 35px;
+  margin-left: 32px;
+  text-transform: uppercase;
+  padding-top: 5px;
+  resize: none;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 30px;
-    margin-left: 89px;
-    width: 631px;
+    margin-left: 38px;
+    padding-top: 10px;
+    padding-left: 19px;
+    width: 627px;
+    height: 162px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: 20px;
     line-height: 30px;
-    margin-left: 110px;
+    margin-left: 0;
     width: 1220px;
   }
 }

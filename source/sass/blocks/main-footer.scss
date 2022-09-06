@@ -2,6 +2,10 @@
 
 .main-footer {
   float: center;
+
+  @media (min-width: $tablet-width) {
+    width: 748px;
+  }
 }
 
 .main-footer__media {
@@ -10,10 +14,14 @@
   @media (min-width: $tablet-width) {
     display: flex;
     flex-direction: row;
+    margin-left: 0;
+    width: 768px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: row;
+    width: 1440px;
+    margin-left: 0;
   }
 }

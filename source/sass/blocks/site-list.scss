@@ -1,14 +1,79 @@
 /*Навигация li*/
 
 .site-list__item {
+  position: relative;
+  display: block;
+  min-width: 181px;
+  padding: 22px 69px;
+  padding-bottom: 24px;
+  font-size: 20px;
+  line-height: 20px;
+  color: $menu-line-color;
+  text-transform: uppercase;
   text-decoration: none;
-  margin-bottom: 46px;
+  background-color: $menu-button-color;
+  border-top: 1px solid $border-color-second;
 
   @media (min-width: $tablet-width) {
-    margin-bottom: 0 auto;
+    margin-bottom: 0;
+    margin-right: 12px;
+    margin-left: 0;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    min-width: 0;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    justify-content: space-between;
+
+    &--active {
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 3px;
+        background: $line-color-tablet;
+      }
+    }
   }
 
   @media (min-width: $desktop-width) {
     margin-bottom: 0 auto;
+    margin-right: 21px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0;
+    font-size: 20px;
+    line-height: 20px;
+
+    &--active {
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 3px;
+        background: #ff0101;
+      }
+    }
+  }
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
   }
 }
