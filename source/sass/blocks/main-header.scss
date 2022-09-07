@@ -28,31 +28,17 @@
 
 /*Логотипы*/
 .main-header__logo {
-  background-image: url("../images/logo_mobile.svg");
-  background-repeat: no-repeat;
   margin-right: 56px;
   margin-left: 20px;
   padding: 0;
-  min-width: 34px;
-  height: 38px;
 
   @media (min-width: $tablet-width) {
-    width: 60px;
-    background-image: url("../images/logo_tablet.svg");
-    background-repeat: no-repeat;
-    min-width: 60px;
-    height: 50px;
     margin-right: 12px;
     margin-bottom: 64px;
     margin-left: 0;
   }
 
   @media (min-width: $desktop-width) {
-    width: 67px;
-    background-image: url("../images/logo_desktop.svg");
-    background-repeat: no-repeat;
-    min-width: 71px;
-    height: 60px;
     margin-right: 12px;
   }
 
@@ -65,20 +51,30 @@
   }
 }
 
+/*Размеры для логотипа*/
+.main-header__logo img {
+  width: 34px;
+  height: 38px;
+
+  @media (min-width: $tablet-width) {
+    width: 62px;
+    height: 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 72px;
+    height: 59px;
+  }
+}
+
 /*Текстовый логотип*/
 .main-header__logo-text {
   margin-left: 0;
   margin-top: 13px;
   margin-right: 77px;
   padding: 0;
-  height: 18px;
-  width: 101px;
-  background-image: url("../images/logo_text.svg");
-  background-repeat: no-repeat;
 
   @media (min-width: $tablet-width) {
-    height: 18px;
-    width: 101px;
     margin-top: 19px;
     margin-right: 75px;
   }
@@ -86,8 +82,19 @@
   @media (min-width: $desktop-width) {
     margin-top: 22px;
     margin-right: 513px;
-    background-image: url("../images/logo_text_desktop.svg");
-    background-repeat: no-repeat;
+  }
+}
+
+.main-header__logo-text img {
+  height: 18px;
+  width: 101px;
+
+  @media (min-width: $tablet-width) {
+    height: 18px;
+    width: 101px;
+  }
+
+  @media (min-width: $desktop-width) {
     width: 119px;
     height: 22px;
   }

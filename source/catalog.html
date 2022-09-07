@@ -14,11 +14,21 @@
     <!--Header (лого, навигация)-->
     <header class="main-header">
       <a class="main-header__logo" href="index.html">
+        <picture>
+          <source media="(min-width: 1440px)" srcset="images/logo_desktop.svg">
+          <source media="(min-width: 768px)" srcset="images/logo_tablet.svg">
+          <img src="/images/logo_mobile.svg" width="34" height="38" alt="Кэт энерджи.">
+        </picture>
       </a>
       <a class="main-header__logo-text" href="index.html">
+        <picture>
+          <source media="(min-width: 1440px)" srcset="images/logo_text_desktop.svg">
+          <source media="(min-width: 768px)" srcset="images/logo_text.svg">
+          <img src="/images/logo_text.svg" width="101" height="18" alt="Cat energy.">
+        </picture>
       </a>
 
-      <nav class="main-navigation main-navigation--opened main-navigation--nojs">
+      <!--<nav class="main-navigation main-navigation--opened main-navigation--nojs">
         <button class="main-navigation__toggle" type="button"><span class="visually-hidden">Открыть
             меню</span></button>
         <div class="main-navigation__wrapper">
@@ -42,7 +52,7 @@
         </div>
       </nav>
     </header>
-    <script src="/js/script.js"></script>
+    <script src="/js/script.js"></script>-->
 
       <!--Основная часть-->
       <main class="main-catalog">
@@ -62,6 +72,12 @@
             <!--Оранжевые упаковки-->
             <div class="product-card__information">
               <div class="product-card__specification-orange-pro-500g">
+                <picture>
+                  <source media="(min-width: 1440px)" srcset="images/product_card/product_card_orange_pro_500g_desktop.png 1x, images/product_card/product_card_orange_pro_500g_desktop@2x.png 2x">
+                  <source media="(min-width: 768px)" srcset="images/product_card/product_card_orange_pro_500g_tablet.png 1x, images/product_card/product_card_orange_pro_500g_tablet@2x.png 2x">
+                  <img class="product-card__photo" src="images/product_card/product_card_orange_pro_500g_mobile.png" srcset="images/product_card/product_card_orange_pro_500g_mobile@2x.png 2x" width="68" height="86"
+                  alt="Cat energy pro 500 г.">
+                </picture>
                 <h3 class="product-card__title-first">Cat Energy PRO 500 г</h3>
                 <table class="product-card__description">
                   <tr class="product-card__table">

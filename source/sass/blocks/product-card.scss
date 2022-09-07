@@ -50,9 +50,6 @@
   height: 112px;
   margin-left: 20px;
   margin-bottom: 79px;
-  background-image: url("../images/product_card/product_card_orange_pro_500g_mobile.png");
-  background-repeat: no-repeat;
-  background-position: 38px 15px;
 
   @media (min-width: $tablet-width) {
     width: 324px;
@@ -62,21 +59,21 @@
     padding-left: 0;
     border: none;
     background-color: $catalog-background-color;
-    background-image: url("../images/product_card/product_card_orange_pro_500g_tablet.png");
-    background-repeat: no-repeat;
-    background-position: 78px 1px;
     margin-bottom: 59px;
   }
 
   @media (min-width: $desktop-width) {
-    background-image: url("../images/product_card/product_card_orange_pro_500g_desktop.png");
-    background-repeat: no-repeat;
-    background-position: 39px -10px;
     width: 245px;
     height: 511px;
     margin-right: 80px;
     margin-bottom: 0;
   }
+}
+
+/*Картинка продукта*/
+.product-card__photo {
+  position: absolute;
+  margin-left: 40px;
 }
 
 .product-card__specification-orange-pro-500g::before {

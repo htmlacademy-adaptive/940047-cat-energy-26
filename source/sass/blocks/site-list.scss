@@ -14,6 +14,13 @@
   background-color: $menu-button-color;
   border-top: 1px solid $border-color-second;
 
+  &--active {
+    position: relative;
+    padding-left: 54px;
+    padding-right: 54px;
+    width: 212px;
+  }
+
   @media (min-width: $tablet-width) {
     margin-bottom: 0;
     margin-right: 12px;
