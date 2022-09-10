@@ -71,9 +71,12 @@
 }
 
 /*Картинка продукта*/
-.product-card__photo {
+
+.product-card__photo-500g {
   position: absolute;
   margin-left: 40px;
+  width: 68px;
+  height: 86px;
 
   @media (min-width: $tablet-width) {
     width: 161px;
@@ -81,14 +84,31 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 172px;
-    height: 196px;
+    width: 161px;
+    height: 172px;
   }
 }
 
 .product-card__specification-orange-pro-500g::before {
   @media (min-width: $tablet-width) {
     height: 430px;
+  }
+}
+
+.product-card__photo-1000g {
+  position: absolute;
+  margin-left: 40px;
+  width: 84px;
+  height: 101px;
+
+  @media (min-width: $tablet-width) {
+    width: 168px;
+    height: 200px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 172px;
+    height: 196px;
   }
 }
 
