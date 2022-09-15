@@ -8,8 +8,12 @@
     "browser-sync": "2.27.7",
     "gulp": "4.0.2",
     "gulp-dart-sass": "^1.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-libsquoosh": "^1.1.2",
     "gulp-plumber": "1.2.1",
     "gulp-postcss": "9.0.1",
+    "gulp-svgstore": "^9.0.0",
+    "gulp-terser": "^2.0.1",
     "postcss": "8.3.11",
     "stylelint": "13.13.1",
     "stylelint-config-htmlacademy": "0.1.11"
@@ -39,5 +43,8 @@
   "engines": {
     "node": "^16"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "gulp-svgmin": "^4.1.0"
+  }
 }
