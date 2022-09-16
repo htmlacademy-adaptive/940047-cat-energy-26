@@ -61,17 +61,19 @@ export const createWebp = () => {
 
 //SVG
 export const svg = () => {
-  gulp.src(['source/images/*.svg', 'source/images/decoration.svg', 'source/images/favicons.svg', 'source/images/icon.svg', 'source/images/numbers.svg', '!source/images/sprite.svg'])
+  gulp.src(['source/images/**/*.svg', '!source/images/sprite/*.svg'])
   .pipe(svgo())
   .pipe(gulp.dest('build/images'));
 }
 
 export const sprite = () => {
-  return gulp.src('source/images/sprite.svg')
+  return gulp.src('source/images/sprite/*.svg')
   .pipe(svgo())
   .pipe(svgstore({
     inlineSvg: true
-  }));
+  }))
+  .pipe(rename('sprite.svg'))
+    .pipe(gulp.dest('build/images'));
 }
 
 
