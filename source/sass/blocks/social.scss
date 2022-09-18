@@ -44,3 +44,15 @@
     margin-right: 28px;
   }
 }
+
+.social__item--media {
+  fill: #666666;
+
+  &:hover {
+    fill: #68B738;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}

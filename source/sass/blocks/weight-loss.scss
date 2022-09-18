@@ -151,6 +151,10 @@
     padding: 0;
     float: left;
   }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 /*Каталог Slim*/

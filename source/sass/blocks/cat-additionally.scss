@@ -118,3 +118,9 @@
   position: relative;
   display: block;
 }
+
+/*добавление галочек*/
+.cat-additionally__form::before {
+  background-image: url("../images/check_button.svg");
+  background-repeat: no-repeat;
+}

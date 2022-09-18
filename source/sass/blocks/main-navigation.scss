@@ -110,6 +110,10 @@
   @media (max-width: $mobile-width-only) {
     .main-navigation--closed .site-list__item {
       display: none;
+
+      &--active {
+        display: block;
+      }
     }
   }
 }

@@ -94,6 +94,7 @@
   cursor: pointer;
 }
 
+/*добавление круга*/
 .cat-goal__loss-weight::before {
   background-image: url("../images/radio_button.svg");
   background-repeat: no-repeat;
@@ -104,7 +105,7 @@
   background-repeat: no-repeat;
 }
 
-.cat-goal__loss-weight:hover {
+/*.cat-goal__loss-weight:hover {
   width: 10px;
   height: 10px;
   text-align: center;
@@ -116,7 +117,7 @@
   background-color: $form-radio-button;
   border: 1px solid $border-color-main;
   opacity: 0.3;
-}
+}/*
 
 /*Набор веса*/
 .cat-goal__gain-weight {
@@ -135,6 +136,17 @@
   cursor: pointer;
 }
 
+/*добавление круга*/
+.cat-goal__gain-weight::before {
+  background-image: url("../images/radio_button.svg");
+  background-repeat: no-repeat;
+}
+
+.cat-goal__gain-weight::after {
+  background-image: url("../images/radio_button.svg");
+  background-repeat: no-repeat;
+}
+
 /*Нужна помощь*/
 .cat-goal__need-help {
   padding-left: 0;
@@ -150,4 +162,92 @@
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
+}
+
+/*добавление круга*/
+.cat-goal__need-help::before {
+  background-image: url("../images/radio_button.svg");
+  background-repeat: no-repeat;
+}
+
+.cat-goal__need-help::after {
+  background-image: url("../images/radio_button.svg");
+  background-repeat: no-repeat;
+}
+
+/*изменение состояния hover*/
+.cat-goal__loss-weight:hover {
+  background-color: #68B738;
+  background-image: url("../images/radio_button.svg");
+  align-items: center;
+  width: 10px;
+  height: 10px;
+}
+
+.cat-goal__gain-weight:hover {
+  background-color: #68B738;
+}
+
+.cat-goal__need-help:hover {
+  background-color: #68B738;
+}
+
+/*изменение состояния focus*/
+/*.control-input:focus + .cat-goal__loss-weight {
+  outline: 3px solid #83B3D3;
+}
+
+.control-input:focus + .cat-goal__gain-weight {
+  outline: 3px solid #83B3D3;
+}
+
+.control-input:focus + .cat-goal__need-help {
+  outline: 3px solid #83B3D3;/*
+}
+
+/*изменение состояния active*/
+.cat-goal__loss-weight:active {
+  background-color: #68B738;
+}
+
+.cat-goal__gain-weight:active {
+  background-color: #68B738;
+}
+
+.cat-goal__need-help:active {
+  background-color: #68B738;
+}
+
+/*клик и появление выбора (круг)*/
+.control-input[type="checkbox"]:checked + .cat-goal__loss-weight::before,
+.control-input[type="checkbox"]:checked + .cat-goal__loss-weight::after {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 11px;
+    height: 10px;
+    content: "";
+    align-items: center;
+}
+
+.control-input[type="checkbox"]:checked + .cat-goal__gain-weight::before,
+.control-input[type="checkbox"]:checked + .cat-goal__gain-weight::after {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 11px;
+    height: 10px;
+    content: "";
+    align-items: center;
+}
+
+.control-input[type="checkbox"]:checked + .cat-goal__need-help::before,
+.control-input[type="checkbox"]:checked + .cat-goal__need-help::after {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 11px;
+    height: 10px;
+    content: "";
+    align-items: center;
 }

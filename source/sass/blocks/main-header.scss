@@ -83,6 +83,14 @@
     margin-top: 22px;
     margin-right: 513px;
   }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
 
 /*Размеры для текстового логотипа*/

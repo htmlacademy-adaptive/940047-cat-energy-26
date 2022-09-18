@@ -46,6 +46,10 @@
   @media (min-width: $desktop-width) {
     margin-right: 22px;
   }
+
+   &:active {
+    opacity: 0.3;
+  }
 }
 
 .copyright__logo {
@@ -58,5 +62,18 @@
 
   @media (min-width: $desktop-width) {
     margin: 0 auto;
+  }
+}
+
+.copyright__logo-picture {
+  fill: #666666;
+
+  &:hover {
+    fill: #68B738;
+  }
+
+  &:active {
+    fill: #68B738;
+    opacity: 0.3;
   }
 }

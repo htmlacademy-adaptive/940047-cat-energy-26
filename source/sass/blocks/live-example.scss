@@ -392,42 +392,28 @@
 .live-example__slider {
   position: absolute;
   margin-left: 149px;
+  cursor: pointer;
+  fill: #666666;
+
+  &:hover {
+    fill: #68B738;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 /*Кот до*/
-/*.live-example__photo-cat-before-after {
-  background-image:
-    url("../images/photo/cat_fat_mobile.png"),
-    url("../images/photo/cat_skinny_mobile.png");
-  background-repeat: no-repeat;
-  background-position: 0 0, 49px 0;
+.live-example__photo-cat-before {
   width: 280px;
-  height: 265px;
 
   @media (min-width: $tablet-width) {
-    background-image:
-      url("../images/photo/cat_fat_tablet_desktop.png"),
-      url("../images/photo/cat_skinny_tablet_desktop.png");
-    background-repeat: no-repeat;
-    background-position: 0 0, 154px 0;
-    width: 560px;
-    height: 512px;
-  }
-
-  @media (min-width: $desktop-width) {
-    background-image:
-      url("../images/photo/cat_fat_tablet_desktop.png"),
-      url("../images/photo/cat_skinny_tablet_desktop.png");
-    background-repeat: no-repeat;
-    background-position: 0 0, 154px 0;
-    width: 560px;
-    height: 512px;
+    width: 580px;
   }
 }
 
-.live-example__slider-range {
-  height: 14px;
-  margin: 0;
-  text-align: center;
-  margin-bottom: 40px;
-}*/
+/*Кот после*/
+.live-example__photo-cat-after {
+  width: 280px;
+}
