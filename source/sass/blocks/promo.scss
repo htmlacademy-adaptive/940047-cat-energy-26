@@ -19,6 +19,7 @@
   position: relative;
   background-image: url("../images/photo/promo-background-cat.jpg");
   background-repeat: no-repeat;
+  background-color: inherit;
   height: 302px;
   width: 320px;
   z-index: 1;
@@ -247,5 +248,13 @@
     padding: 0;
     margin: 0;
     height: 181px;
+  }
+}
+
+.promo::before {
+  @media (min-width: $desktop-width) {
+    background-image: url("../images/photo/promo-background-cat.jpg");
+    background-size: cover;
+    z-index: 1;
   }
 }

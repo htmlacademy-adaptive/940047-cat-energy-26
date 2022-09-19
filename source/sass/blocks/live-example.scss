@@ -386,7 +386,12 @@
 
 .live-example__photo-cat-after {
   position: absolute;
-  margin-left: 30px;
+  margin-left: 25px;
+  margin-top: -255px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 180px;
+  }
 }
 
 .live-example__slider {
@@ -394,6 +399,10 @@
   margin-left: 149px;
   cursor: pointer;
   fill: #666666;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 300px;
+  }
 
   &:hover {
     fill: #68B738;

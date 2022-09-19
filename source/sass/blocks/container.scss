@@ -1,10 +1,12 @@
-.container {
+/*.container_general {
 
   @media (min-width: $desktop-width) {
     background-image: url("../images/photo/promo-background-cat.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
     width: 720px;
     height: 694px;
+    margin-left: 50px;
   }
-}
+}*/

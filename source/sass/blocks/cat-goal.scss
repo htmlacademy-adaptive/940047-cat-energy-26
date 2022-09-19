@@ -62,6 +62,7 @@
   position: relative;
   display: block;
 
+
   @media (min-width: $tablet-width) {
     margin-bottom: 23px;
     margin-left: 12px;
@@ -72,30 +73,13 @@
   }
 }
 
-.cat-goal__radio {
+/*.cat-goal__radio {
   position: relative;
   display: block;
-}
-
-/*Похудение*/
-.cat-goal__loss-weight {
-  padding-left: 0;
-  display: block;
-  position: absolute;
-  top: 2px;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  border-radius: 50px;
-  border: 1px solid $border-color-main;
-  background-color: $form-background-color;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
+}*/
 
 /*добавление круга*/
-.cat-goal__loss-weight::before {
+/*.cat-goal__loss-weight::before {
   background-image: url("../images/radio_button.svg");
   background-repeat: no-repeat;
 }
@@ -103,7 +87,7 @@
 .cat-goal__loss-weight::after {
   background-image: url("../images/radio_button.svg");
   background-repeat: no-repeat;
-}
+}*/
 
 /*.cat-goal__loss-weight:hover {
   width: 10px;
@@ -119,25 +103,8 @@
   opacity: 0.3;
 }/*
 
-/*Набор веса*/
-.cat-goal__gain-weight {
-  padding-left: 0;
-  display: block;
-  position: absolute;
-  top: 2px;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  border-radius: 50px;
-  border: 1px solid $border-color-main;
-  background-color: $form-background-color;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
-
 /*добавление круга*/
-.cat-goal__gain-weight::before {
+/*.cat-goal__gain-weight::before {
   background-image: url("../images/radio_button.svg");
   background-repeat: no-repeat;
 }
@@ -145,27 +112,11 @@
 .cat-goal__gain-weight::after {
   background-image: url("../images/radio_button.svg");
   background-repeat: no-repeat;
-}
+}*/
 
-/*Нужна помощь*/
-.cat-goal__need-help {
-  padding-left: 0;
-  display: block;
-  position: absolute;
-  top: 2px;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  border-radius: 50px;
-  border: 1px solid $border-color-main;
-  background-color: $form-background-color;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
 
 /*добавление круга*/
-.cat-goal__need-help::before {
+/*.cat-goal__need-help::before {
   background-image: url("../images/radio_button.svg");
   background-repeat: no-repeat;
 }
@@ -173,10 +124,10 @@
 .cat-goal__need-help::after {
   background-image: url("../images/radio_button.svg");
   background-repeat: no-repeat;
-}
+}*/
 
 /*изменение состояния hover*/
-.cat-goal__loss-weight:hover {
+/*.cat-goal__loss-weight:hover {
   background-color: #68B738;
   background-image: url("../images/radio_button.svg");
   align-items: center;
@@ -190,7 +141,7 @@
 
 .cat-goal__need-help:hover {
   background-color: #68B738;
-}
+}*/
 
 /*изменение состояния focus*/
 /*.control-input:focus + .cat-goal__loss-weight {
@@ -206,7 +157,7 @@
 }
 
 /*изменение состояния active*/
-.cat-goal__loss-weight:active {
+/*.cat-goal__loss-weight:active {
   background-color: #68B738;
 }
 
@@ -219,7 +170,7 @@
 }
 
 /*клик и появление выбора (круг)*/
-.control-input[type="checkbox"]:checked + .cat-goal__loss-weight::before,
+/*.control-input[type="checkbox"]:checked + .cat-goal__loss-weight::before,
 .control-input[type="checkbox"]:checked + .cat-goal__loss-weight::after {
     position: absolute;
     top: 5px;
@@ -250,4 +201,36 @@
     height: 10px;
     content: "";
     align-items: center;
+}*/
+
+/*Радиокнопки*/
+/*Кнопка*/
+.cat-goal__goal {
+  padding-left: 0;
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  border: 1px solid $border-color-main;
+  background-color: $form-background-color;
+}
+
+/*Скругление углов*/
+.control-input[type="radio"] + .cat-goal__goal {
+  border-radius: 50%;
+}
+
+/*Состояние для выбранно радиокнопки - точка внутри*/
+.control-input[type="radio"]:checked + .cat-goal__goal::before {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: #68B738;
+  border-radius: 50%;
+  content: "";
 }

@@ -11,8 +11,8 @@
   position: absolute;
   top: 2px;
   left: 0;
-  width: 20px;
-  height: 20px;
+  width: 29px;
+  height: 29px;
   border-radius: 0;
   border: 1px solid $border-color-main;
   background-color: $form-background-color;
@@ -21,6 +21,17 @@
   cursor: pointer;
   margin-left: 20px;
 }
+
+/*Добавление галочек*/
+/*.cat-additionally__form::before {
+  background-image: url("../images/check_button.svg");
+  background-color: transparent;
+}
+
+.cat-additionally__form::after {
+  background-image: url("../images/check_button.svg");
+  background-color: transparent;
+}*/
 
 /*Заголовок*/
 .cat-additionally__title {
@@ -114,13 +125,46 @@
   }
 }
 
+/*Форма - галочки*/
 .cat-additionally__checkbox {
   position: relative;
   display: block;
 }
 
-/*добавление галочек*/
-.cat-additionally__form::before {
-  background-image: url("../images/check_button.svg");
-  background-repeat: no-repeat;
+/*.cat-additionally__form {
+
+}*/
+
+.cat-additionally__checkbox:hover .cat-additionally__form{
+  border-color: #BABABA;
+}
+
+.cat-additionally_input:disabled + .cat-additionally__form {
+  border-color: #BABABA;
+}
+
+.cat-additionally_input[type="checkbox"]:checked + .cat-additionally__form::before,
+.cat-additionally_input[type="checkbox"]:checked + .cat-additionally__form::after {
+  position: absolute;
+  top: 12px;
+  left: 4px;
+  width: 14px;
+  height: 2px;
+  background-color: #68B738;
+  content: "";
+}
+
+/*Галочка*/
+.cat-additionally_input[type="checkbox"]:checked + .cat-additionally__form::before {
+  transform: rotate(45deg);
+  top: 17px;
+  left: 5px;
+  width: 11px;
+}
+
+.cat-additionally_input[type="checkbox"]:checked + .cat-additionally__form::after {
+  transform: rotate(-50deg);
+  top: 14px;
+  left: 11px;
+  width: 16px;
 }

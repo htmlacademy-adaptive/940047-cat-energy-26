@@ -61,23 +61,23 @@
               <li class="cat-goal__item">
                 <label class="cat-goal__radio" for="loss-weight">
                   <input class="loss-weight visually-hidden control-input" type="radio" id="loss-weight"
-                    name="loss-weight" checked="checked">
-                  <span class="cat-goal__loss-weight"></span>
+                    name="cat-goal_name" value="cat-goal_loss-weight" checked="checked">
+                  <span class="cat-goal__goal"></span>
                   <span class="loss-weight">Похудение</span>
                 </label>
               </li>
               <li class="cat-goal__item">
                 <label class="cat-goal__radio" for="gain-weight">
                   <input class="gain-weight visually-hidden control-input" type="radio" id="gain-weight"
-                    name="gain-weight">
-                  <span class="cat-goal__gain-weight"></span>
+                    name="cat-goal_name" value="cat-goal_gain-weight">
+                  <span class="cat-goal__goal"></span>
                   <span class="gain-weight">Набор массы</span>
                 </label>
               </li>
               <li class="cat-goal__item">
                 <label class="cat-goal__radio" for="need-help">
-                  <input class="need-help visually-hidden control-input" type="radio" id="need-help" name="need-help">
-                  <span class="cat-goal__need-help"></span>
+                  <input class="need-help visually-hidden control-input" type="radio" id="need-help" name="cat-goal_name" value="cat-goal_need-help">
+                  <span class="cat-goal__goal"></span>
                   <span class="need-help">Не знаю (нужен ваш совет)</span>
                 </label>
               </li>
@@ -100,29 +100,42 @@
             <div class="cat-comments__wrapper">
               <h3 class="cat-comments__title">Комментарии</h3><label class="cat-comments__form"
                 for="cat-comments"><textarea class="cat-comments__text" name="cat-comments__textarea" id="cat-comments"
-                  rows="8">Расскажите обо всех повадках кота</textarea></label>
+                  rows="8" placeholder="Расскажите обо всех повадках кота"></textarea></label>
             </div>
           </div>
           <div class="cat-additionally">
             <div class="cat-additionally__wrapper">
               <h3 class="cat-additionally__title">Дополнительно</h3>
               <ul class="cat-additionally__list reset-list">
-                <li class="cat-additionally__item"><label class="cat-additionally__checkbox" for="additive"><input
-                      class="visually-hidden additive" type="checkbox" id="additive" name="additive" checked="checked">
-                    <span class="cat-additionally__form"></span> <span
-                      class="cat-additionally__product">Саморазрыхлитель</span></label></li>
-                <li class="cat-additionally__item"><label class="cat-additionally__checkbox" for="water"><input
-                      class="visually-hidden water" type="checkbox" id="water" name="water"> <span
-                      class="cat-additionally__form"></span> <span class="cat-additionally__product">Питьевая
-                      вода</span></label></li>
-                <li class="cat-additionally__item"><label class="cat-additionally__checkbox" for="milk"><input
-                      class="visually-hidden milk" type="checkbox" id="milk" name="milk"> <span
-                      class="cat-additionally__form"></span> <span
-                      class="cat-additionally__product">Молоко</span></label></li>
-                <li class="cat-additionally__item"><label class="cat-additionally__checkbox" for="vitamins"><input
-                      class="visually-hidden vitamins" type="checkbox" id="vitamins" name="vitamins"> <span
-                      class="cat-additionally__form"></span> <span
-                      class="cat-additionally__product">Витамины</span></label></li>
+                <li class="cat-additionally__item">
+                  <label class="cat-additionally__checkbox" for="baking-powder">
+                    <input class="visually-hidden cat-additionally_input baking-powder" type="checkbox" id="baking-powder" name="baking-powder" value="baking-powder"
+                      checked="checked">
+                    <span class="cat-additionally__form"></span>
+                    <span class="cat-additionally__product">Саморазрыхлитель</span>
+                  </label>
+                </li>
+                <li class="cat-additionally__item">
+                  <label class="cat-additionally__checkbox" for="water">
+                    <input class="visually-hidden cat-additionally_input water" type="checkbox" id="water" name="water" value="water">
+                    <span class="cat-additionally__form"></span>
+                    <span class="cat-additionally__product">Питьевая вода</span>
+                  </label>
+                </li>
+                <li class="cat-additionally__item">
+                  <label class="cat-additionally__checkbox" for="milk">
+                    <input class="visually-hidden cat-additionally_input milk" type="checkbox" id="milk" name="milk" value="milk">
+                    <span class="cat-additionally__form"></span>
+                    <span class="cat-additionally__product">Молоко</span>
+                  </label>
+                </li>
+                <li class="cat-additionally__item">
+                  <label class="cat-additionally__checkbox" for="vitamins">
+                    <input class="visually-hidden cat-additionally_input vitamins" type="checkbox" id="vitamins" name="vitamins" value="vitamins">
+                    <span class="cat-additionally__form"></span>
+                    <span class="cat-additionally__product">Витамины</span>
+                  </label>
+                </li>
               </ul><button class="send-form" type="submit"><span>Отправить заявку</span></button>
             </div>
           </div>

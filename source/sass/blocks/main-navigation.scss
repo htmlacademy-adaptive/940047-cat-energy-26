@@ -74,7 +74,6 @@
 
 /*Кнопка меню*/
 .main-navigation__toggle {
-  display: block;
   width: 24px;
   height: 16px;
   background-color: $menu-button-color;
@@ -97,6 +96,10 @@
 }
 
 /*Кнопка в закрытом состоянии*/
+.main-navigation--closed {
+    display: none;
+}
+
 .main-navigation--closed .main-navigation__toggle::before {
   content: "";
   left: -2px;
@@ -118,7 +121,12 @@
   }
 }
 
+
 /*Кнопка в раскрытом состоянии*/
+.main-navigation--opened {
+  display:block;
+}
+
 .main-navigation--opened .main-navigation__toggle {
   margin-top: 14px;
   margin-left: 0;
