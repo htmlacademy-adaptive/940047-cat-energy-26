@@ -26,7 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 1220px;
-    margin-bottom: 61px;
+    margin-bottom: 0;
   }
 }
 
@@ -200,6 +200,7 @@
 
   @media (min-width: $tablet-width) {
     margin-left: 30px;
+    width: 155px;
   }
 
   @media (min-width: $tablet-width) {
@@ -259,6 +260,7 @@
     background-image: url("../images/decoration/live-example_decoration-line_tablet.svg");
     background-repeat: no-repeat;
     width: 164px;
+    margin-left: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -288,7 +290,8 @@
   @media (min-width: $tablet-width) {
     font-size: 30px;
     line-height: 37px;
-    width: 157px;
+    width: 162px;
+    margin-left: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -425,4 +428,5 @@
 /*Кот после*/
 .live-example__photo-cat-after {
   width: 280px;
+  margin-top: 0;
 }

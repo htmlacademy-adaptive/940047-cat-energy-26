@@ -1,5 +1,4 @@
 /*Навигация li*/
-
 .site-list__item {
   position: relative;
   display: block;
@@ -13,12 +12,14 @@
   text-decoration: none;
   background-color: $menu-button-color;
   border-top: 1px solid $border-color-second;
+  font-weight: bold;
+
 
   &--active {
     position: relative;
     padding-left: 54px;
     padding-right: 54px;
-    width: 212px;
+    width: auto;
   }
 
   @media (min-width: $tablet-width) {
@@ -34,6 +35,7 @@
     line-height: 24px;
     text-align: left;
     justify-content: space-between;
+    font-weight: normal;
 
     &--active {
       position: relative;
@@ -60,6 +62,7 @@
     padding: 0;
     font-size: 20px;
     line-height: 20px;
+    font-weight: normal;
 
     &--active {
       position: relative;
@@ -71,16 +74,22 @@
         bottom: 0;
         left: 0;
         height: 3px;
-        background: #ff0101;
+        background: #5eaa2f;
       }
     }
   }
+}
 
-  /*&:hover {
+.site-list__link {
+  &:hover {
     opacity: 0.6;
+    color: $menu-line-color;
   }
 
   &:active {
     opacity: 0.3;
-  }*/
+    color: $menu-line-color;
+  }
 }
+
+

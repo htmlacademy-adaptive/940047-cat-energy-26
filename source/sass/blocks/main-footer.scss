@@ -2,9 +2,15 @@
 
 .main-footer {
   float: center;
+  margin-top: 0;
 
   @media (min-width: $tablet-width) {
     width: 748px;
+    margin-top: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: -80px;
   }
 }
 

@@ -96,8 +96,11 @@
 }
 
 /*Кнопка в закрытом состоянии*/
-.main-navigation--closed {
+
+.main-navigation--closed .main-navigation__wrapper {
+  @media (max-width: $mobile-width-only) {
     display: none;
+  }
 }
 
 .main-navigation--closed .main-navigation__toggle::before {
@@ -124,7 +127,7 @@
 
 /*Кнопка в раскрытом состоянии*/
 .main-navigation--opened {
-  display:block;
+  display: block;
 }
 
 .main-navigation--opened .main-navigation__toggle {
