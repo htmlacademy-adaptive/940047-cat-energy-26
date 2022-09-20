@@ -11,6 +11,15 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 42px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 122px;
+    margin-top: 26px;
+  }
 }
 
 .copyright__html-academy {
@@ -23,7 +32,7 @@
 
   @media (min-width: $tablet-width) {
     margin-left: 0 auto;
-    margin-top: 62px;
+    margin-top: 41px;
     width: 163px;
   }
 
@@ -46,6 +55,10 @@
   @media (min-width: $desktop-width) {
     margin-right: 22px;
   }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .copyright__logo {
@@ -58,5 +71,18 @@
 
   @media (min-width: $desktop-width) {
     margin: 0 auto;
+  }
+}
+
+.copyright__logo-picture {
+  fill: #666666;
+
+  &:hover {
+    fill: #68b738;
+  }
+
+  &:active {
+    fill: #68b738;
+    opacity: 0.3;
   }
 }

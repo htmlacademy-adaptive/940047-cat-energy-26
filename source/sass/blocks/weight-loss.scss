@@ -139,17 +139,21 @@
   flex-wrap: nowrap;
 
   @media (min-width: $tablet-width) {
-    width: 165px;
+    width: 178px;
     margin-left: 52px;
     padding: 0;
     float: left;
   }
 
   @media (min-width: $desktop-width) {
-    width: 168px;
+    width: 178px;
     margin-left: 52px;
     padding: 0;
     float: left;
+  }
+
+  &:active {
+    opacity: 0.3;
   }
 }
 

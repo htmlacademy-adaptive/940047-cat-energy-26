@@ -20,10 +20,11 @@
 
   @media (min-width: $tablet-width) {
     width: 132px;
-    margin-left: 0 auto;
+    margin-left: 105px;
     margin-top: 62px;
     margin-right: 129px;
     border-bottom: none;
+    padding-left: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -42,5 +43,17 @@
 
   @media (min-width: $desktop-width) {
     margin-right: 28px;
+  }
+}
+
+.social__media {
+  fill: #666666;
+
+  &:hover {
+    fill: #68b738;
+  }
+
+  &:active {
+    opacity: 0.3;
   }
 }

@@ -6,7 +6,7 @@
   margin: 26px 20px 15px 20px;
 
   @media (min-width: $tablet-width) {
-    margin: 0 187px 50px 40px;
+    margin: 0 187px 50px 67px;
     float: left;
   }
 
@@ -14,7 +14,7 @@
     display: block;
     margin-top: 0;
     margin-right: 818px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-left: -180px;
     flex-direction: row;
     min-width: 1220px;
@@ -55,7 +55,7 @@
   @media (min-width: $desktop-width) {
     font-size: $form-subtitle-font-size-tablet-desktop;
     line-height: $form-subtitle-line-height-tablet-desktop;
-    margin-bottom: 65px;
+    margin-bottom: 80px;
     margin-left: 177px;
     margin-top: 0;
   }

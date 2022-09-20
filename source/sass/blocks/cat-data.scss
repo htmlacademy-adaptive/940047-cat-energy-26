@@ -38,10 +38,10 @@
     line-height: $form-text-line-height-tablet-desktop;
     width: 569px;
     margin-left: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
     margin-top: 0 auto;
     height: 52px;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -81,7 +81,7 @@
   @media (min-width: $desktop-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
-    min-width: 506px;
+    width: 506px;
   }
 }
 
@@ -94,7 +94,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-right: 11px;
+    margin-right: 8px;
   }
 }
 
@@ -121,7 +121,7 @@
   @media (min-width: $desktop-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
-    min-width: 479px;
+    width: 490px;
   }
 }
 
@@ -134,7 +134,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-right: 11px;
+    margin-right: 7px;
   }
 }
 
@@ -161,6 +161,7 @@
   @media (min-width: $desktop-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
-    min-width: 430px;
+    width: 430px;
+    height: 46px;
   }
 }

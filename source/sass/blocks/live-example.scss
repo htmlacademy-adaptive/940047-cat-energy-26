@@ -26,7 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 1220px;
-    margin-bottom: 61px;
+    margin-bottom: 0;
   }
 }
 
@@ -200,6 +200,7 @@
 
   @media (min-width: $tablet-width) {
     margin-left: 30px;
+    width: 155px;
   }
 
   @media (min-width: $tablet-width) {
@@ -259,6 +260,7 @@
     background-image: url("../images/decoration/live-example_decoration-line_tablet.svg");
     background-repeat: no-repeat;
     width: 164px;
+    margin-left: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -288,7 +290,8 @@
   @media (min-width: $tablet-width) {
     font-size: 30px;
     line-height: 37px;
-    width: 157px;
+    width: 162px;
+    margin-left: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -386,48 +389,38 @@
 
 .live-example__photo-cat-after {
   position: absolute;
-  margin-left: 30px;
+  margin-left: 25px;
+  margin-top: -255px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 180px;
+  }
 }
 
 .live-example__slider {
   position: absolute;
   margin-left: 149px;
+  cursor: pointer;
+  fill: #666666;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 300px;
+  }
+
+  &:hover {
+    fill: #68b738;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 /*Кот до*/
-/*.live-example__photo-cat-before-after {
-  background-image:
-    url("../images/photo/cat_fat_mobile.png"),
-    url("../images/photo/cat_skinny_mobile.png");
-  background-repeat: no-repeat;
-  background-position: 0 0, 49px 0;
+.live-example__photo-cat-before {
   width: 280px;
-  height: 265px;
 
   @media (min-width: $tablet-width) {
-    background-image:
-      url("../images/photo/cat_fat_tablet_desktop.png"),
-      url("../images/photo/cat_skinny_tablet_desktop.png");
-    background-repeat: no-repeat;
-    background-position: 0 0, 154px 0;
-    width: 560px;
-    height: 512px;
-  }
-
-  @media (min-width: $desktop-width) {
-    background-image:
-      url("../images/photo/cat_fat_tablet_desktop.png"),
-      url("../images/photo/cat_skinny_tablet_desktop.png");
-    background-repeat: no-repeat;
-    background-position: 0 0, 154px 0;
-    width: 560px;
-    height: 512px;
+    width: 580px;
   }
 }
-
-.live-example__slider-range {
-  height: 14px;
-  margin: 0;
-  text-align: center;
-  margin-bottom: 40px;
-}*/

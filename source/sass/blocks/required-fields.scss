@@ -12,6 +12,7 @@
   color: $form-required-fields-color;
   text-align: left;
   margin-left: 82px;
+  margin-bottom: 33px;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
@@ -20,11 +21,12 @@
     margin-left: 0;
     margin-right: 0;
     width: 180px;
+    margin-bottom: 92px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: 16px;
     line-height: 16px;
-    margin-top: 38px;
+    margin-top: 43px;
   }
 }

@@ -14,8 +14,9 @@
     width: 896px;
     height: 405px;
     padding: 0;
-    margin-top: 73px;
+    margin-top: 70px;
     margin-right: 110px;
+    margin-left: 110px;
   }
 }
 
@@ -55,9 +56,6 @@
     margin-right: 0;
     margin-bottom: 73px;
     margin-top: 0;
-    background-image: url("../images/decoration/decorative-line.svg");
-    background-repeat: no-repeat;
-    background-position: -20px 11px;
     padding: 0;
   }
 }
@@ -66,7 +64,7 @@
 .additional-items__goods {
   display: block;
   border-top: 1px solid $border-color-second;
-  padding-top: 12px;
+  padding-top: 11px;
   margin-bottom: -10px;
   width: 282px;
   margin-left: 20px;
@@ -105,7 +103,7 @@
     display: block;
     width: 894px;
     height: 288px;
-    border: 1px solid $border-color-main;
+    border: none;
   }
 }
 
@@ -211,5 +209,13 @@
     height: 40px;
     margin-bottom: 0;
     margin-top: 9px;
+  }
+
+  &:hover {
+    background: #5eaa2f;
+  }
+
+  &:active {
+    background: #5eaa2f;
   }
 }

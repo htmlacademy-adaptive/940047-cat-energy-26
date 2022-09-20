@@ -12,22 +12,23 @@
   text-transform: uppercase;
   color: $form-goal-color;
   padding: 0;
-  margin-left: 20px;
-  margin-bottom: 35px;
-  margin-top: 56px;
+  margin-left: 22px;
+  margin-bottom: 42px;
+  margin-top: 52px;
   height: 116px;
 
   @media (min-width: $tablet-width) {
-    margin-top: 46px;
+    margin-top: 43px;
     margin-bottom: 68px;
     min-width: 628px;
-    margin-left: 20px;
+    margin-left: 71px;
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
     width: 628px;
     height: 200px;
     border: 2px solid $border-color-third;
     float: left;
+    padding-top: 14px;
   }
 
   @media (min-width: $desktop-width) {
@@ -62,9 +63,10 @@
   position: relative;
   display: block;
 
+
   @media (min-width: $tablet-width) {
     margin-bottom: 23px;
-    margin-left: 12px;
+    margin-left: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -72,82 +74,49 @@
   }
 }
 
-.cat-goal__radio {
-  position: relative;
-  display: block;
-}
-
-/*Похудение*/
-.cat-goal__loss-weight {
+/*Радиокнопки*/
+/*Кнопка*/
+.cat-goal__goal {
   padding-left: 0;
   display: block;
   position: absolute;
   top: 2px;
   left: 0;
-  width: 20px;
-  height: 20px;
-  border-radius: 50px;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
   border: 1px solid $border-color-main;
   background-color: $form-background-color;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
+
+  @media (min-width: $tablet-width) {
+    width: 30px;
+    height: 30px;
+  }
 }
 
-.cat-goal__loss-weight::before {
-  background-image: url("../images/radio_button.svg");
-  background-repeat: no-repeat;
+/*Скругление углов*/
+.control-input[type="radio"] + .cat-goal__goal {
+  border-radius: 50%;
 }
 
-.cat-goal__loss-weight::after {
-  background-image: url("../images/radio_button.svg");
-  background-repeat: no-repeat;
-}
-
-.cat-goal__loss-weight:hover {
-  width: 10px;
-  height: 10px;
-  text-align: center;
-  background-color: $form-radio-button;
-  border: 1px solid $border-color-main;
-}
-
-.cat-goal__loss-weight:active {
-  background-color: $form-radio-button;
-  border: 1px solid $border-color-main;
-  opacity: 0.3;
-}
-
-/*Набор веса*/
-.cat-goal__gain-weight {
-  padding-left: 0;
-  display: block;
+/*Состояние для выбранно радиокнопки - точка внутри*/
+.control-input[type="radio"]:checked + .cat-goal__goal::before {
   position: absolute;
-  top: 2px;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  border-radius: 50px;
-  border: 1px solid $border-color-main;
-  background-color: $form-background-color;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
+  top: 5px;
+  left: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: #68b738;
+  border-radius: 50%;
+  content: "";
 
-/*Нужна помощь*/
-.cat-goal__need-help {
-  padding-left: 0;
-  display: block;
-  position: absolute;
-  top: 2px;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  border-radius: 50px;
-  border: 1px solid $border-color-main;
-  background-color: $form-background-color;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
+  @media (min-width: $tablet-width) {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 20px;
+    height: 20px;
+  }
 }

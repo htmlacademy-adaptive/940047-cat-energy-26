@@ -16,14 +16,23 @@
     margin-right: 52px;
     padding: 0;
     border-bottom: none;
+    width: 128px;
   }
 
   @media (min-width: $desktop-width) {
     margin-left: 110px;
     margin-bottom: 58px;
     margin-top: 63px;
-    margin-right: 220px;
+    margin-right: 309px;
     padding: 0;
     text-align: left;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
   }
 }

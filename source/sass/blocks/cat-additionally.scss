@@ -11,8 +11,8 @@
   position: absolute;
   top: 2px;
   left: 0;
-  width: 20px;
-  height: 20px;
+  width: 29px;
+  height: 29px;
   border-radius: 0;
   border: 1px solid $border-color-main;
   background-color: $form-background-color;
@@ -20,6 +20,18 @@
   background-repeat: no-repeat;
   cursor: pointer;
   margin-left: 20px;
+
+  @media (min-width: $tablet-width) {
+    width: 35px;
+    height: 35px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 9px;
+    margin-top: -10px;
+    width: 35px;
+    height: 35px;
+  }
 }
 
 /*Заголовок*/
@@ -40,9 +52,9 @@
   @media (min-width: $tablet-width) {
     font-size: $form-subtitle-font-size-tablet-desktop;
     line-height: $form-subtitle-line-height-tablet-desktop;
-    margin-left: 42px;
+    margin-left: 68px;
     margin-top: 63px;
-    margin-bottom: 64px;
+    margin-bottom: 59px;
   }
 
   @media (min-width: $desktop-width) {
@@ -58,7 +70,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 28px;
+    margin-left: 54px;
     width: 636px;
   }
 
@@ -107,14 +119,49 @@
   @media (min-width: $desktop-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
-    margin-left: 59px;
+    margin-left: 63px;
     width: 221px;
     text-align: left;
     margin-bottom: 32px;
   }
 }
 
+/*Форма - галочки*/
 .cat-additionally__checkbox {
   position: relative;
   display: block;
+}
+
+.cat-additionally__checkbox:hover .cat-additionally__form {
+  border-color: #bababa;
+}
+
+.input:disabled + .cat-additionally__form {
+  border-color: #bababa;
+}
+
+.input[type="checkbox"]:checked + .cat-additionally__form::before,
+.input[type="checkbox"]:checked + .cat-additionally__form::after {
+  position: absolute;
+  top: 12px;
+  left: 4px;
+  width: 14px;
+  height: 2px;
+  background-color: #68b738;
+  content: "";
+}
+
+/*Галочка*/
+.input[type="checkbox"]:checked + .cat-additionally__form::before {
+  transform: rotate(45deg);
+  top: 17px;
+  left: 5px;
+  width: 11px;
+}
+
+.input[type="checkbox"]:checked + .cat-additionally__form::after {
+  transform: rotate(-50deg);
+  top: 14px;
+  left: 11px;
+  width: 16px;
 }

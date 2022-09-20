@@ -125,6 +125,10 @@
 /*Декоративная линия*/
 .weight-gaining__decorative-line-main {
   width: 240px;
+
+  @media (min-width: $tablet-width) {
+    width: 0;
+  }
 }
 
 /* Блок Каталог*/
@@ -143,6 +147,10 @@
     margin-left: 52px;
     padding: 0;
     float: left;
+  }
+
+  &:active {
+    opacity: 0.3;
   }
 }
 
