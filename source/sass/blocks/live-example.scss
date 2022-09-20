@@ -390,7 +390,7 @@
 .live-example__photo-cat-after {
   position: absolute;
   margin-left: 25px;
-  margin-top: -255px;
+  margin-top: 0;
 
   @media (min-width: $tablet-width) {
     margin-left: 180px;
