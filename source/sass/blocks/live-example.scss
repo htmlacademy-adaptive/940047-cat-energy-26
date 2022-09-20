@@ -408,7 +408,7 @@
   }
 
   &:hover {
-    fill: #68B738;
+    fill: #68b738;
   }
 
   &:active {
@@ -423,10 +423,4 @@
   @media (min-width: $tablet-width) {
     width: 580px;
   }
-}
-
-/*Кот после*/
-.live-example__photo-cat-after {
-  width: 280px;
-  margin-top: 0;
 }

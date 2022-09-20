@@ -32,7 +32,6 @@
     width: 35px;
     height: 35px;
   }
-
 }
 
 /*Заголовок*/
@@ -134,33 +133,33 @@
 }
 
 .cat-additionally__checkbox:hover .cat-additionally__form {
-  border-color: #BABABA;
+  border-color: #bababa;
 }
 
-.input:disabled+.cat-additionally__form {
-  border-color: #BABABA;
+.input:disabled + .cat-additionally__form {
+  border-color: #bababa;
 }
 
-.input[type="checkbox"]:checked+.cat-additionally__form::before,
-.input[type="checkbox"]:checked+.cat-additionally__form::after {
+.input[type="checkbox"]:checked + .cat-additionally__form::before,
+.input[type="checkbox"]:checked + .cat-additionally__form::after {
   position: absolute;
   top: 12px;
   left: 4px;
   width: 14px;
   height: 2px;
-  background-color: #68B738;
+  background-color: #68b738;
   content: "";
 }
 
 /*Галочка*/
-.input[type="checkbox"]:checked+.cat-additionally__form::before {
+.input[type="checkbox"]:checked + .cat-additionally__form::before {
   transform: rotate(45deg);
   top: 17px;
   left: 5px;
   width: 11px;
 }
 
-.input[type="checkbox"]:checked+.cat-additionally__form::after {
+.input[type="checkbox"]:checked + .cat-additionally__form::after {
   transform: rotate(-50deg);
   top: 14px;
   left: 11px;

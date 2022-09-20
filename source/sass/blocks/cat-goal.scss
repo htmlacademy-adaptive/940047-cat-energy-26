@@ -95,18 +95,18 @@
 }
 
 /*Скругление углов*/
-.control-input[type="radio"]+.cat-goal__goal {
+.control-input[type="radio"] + .cat-goal__goal {
   border-radius: 50%;
 }
 
 /*Состояние для выбранно радиокнопки - точка внутри*/
-.control-input[type="radio"]:checked+.cat-goal__goal::before {
+.control-input[type="radio"]:checked + .cat-goal__goal::before {
   position: absolute;
   top: 5px;
   left: 5px;
   width: 15px;
   height: 15px;
-  background-color: #68B738;
+  background-color: #68b738;
   border-radius: 50%;
   content: "";
 
