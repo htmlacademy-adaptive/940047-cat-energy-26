@@ -38,17 +38,19 @@
   margin-bottom: 20px;
 
   @media (min-width: $tablet-width) {
-    width: 708px;
-    height: 415px;
+    width: 768px;
+    height: 624px;
     margin: 0 auto;
     margin-bottom: 75px;
+    background-color: #fff;
   }
 
   @media (min-width: $desktop-width) {
-    width: 436px;
-    height: 302px;
+    width: 1440px;
+    height: 254px;
     margin: 0;
     margin-bottom: 69px;
+    background-color: #fff;
   }
 }
 
@@ -83,7 +85,7 @@
     line-height: 60px;
     height: 60px;
     width: 325px;
-    margin-bottom: 146px;
+    margin-bottom: 76px;
     margin-left: 107px;
   }
 }
@@ -94,6 +96,7 @@
     width: 1440px;
     height: 462px;
     margin: 0;
+    padding-top: 71px;
   }
 }
 
@@ -120,7 +123,7 @@
     margin-bottom: 54px;
     margin-right: 30px;
     margin-left: 29px;
-    width: 708px;
+    width: 702px;
     text-align: left;
   }
 
@@ -145,7 +148,7 @@
   margin-bottom: 20px;
 
   @media (min-width: $tablet-width) {
-    width: 366px;
+    width: 405px;
     margin: 0 auto;
     margin-left: 0;
     margin-right: 0;
@@ -365,6 +368,7 @@
     text-align: left;
     margin-left: 107px;
     margin-bottom: 75px;
+    justify-content: space-around;
   }
 }
 
@@ -379,21 +383,12 @@
   @media (min-width: $tablet-width) {
     margin-top: 20px;
     margin-left: 0;
+    height: 345px;
   }
 
   @media (min-width: $desktop-width) {
     margin-left: 850px;
     margin-bottom: 0;
-  }
-}
-
-.live-example__photo-cat-after {
-  position: absolute;
-  margin-left: 25px;
-  margin-top: 0;
-
-  @media (min-width: $tablet-width) {
-    margin-left: 180px;
   }
 }
 
@@ -408,7 +403,7 @@
   }
 
   &:hover {
-    fill: #68b738;
+    fill: rgba(91, 233, 35, 0.733);
   }
 
   &:active {
@@ -421,6 +416,46 @@
   width: 280px;
 
   @media (min-width: $tablet-width) {
-    width: 580px;
+    width: 560px;
+    height: auto;
+    margin-left: 79px;
+    margin-top: -230px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: -80px;
+    margin-top: -290px;
   }
 }
+
+.live-example__photo-cat-before-img {
+  @media (min-width: $tablet-width) {
+    width: 580px;
+    height: auto;
+  }
+}
+
+/*Кот после*/
+.live-example__photo-cat-after {
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 0;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 92px;
+    margin-top: -230px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: -80px;
+    margin-top: -300px;
+  }
+}
+
+.live-example__photo-cat-after-img {
+  @media (min-width: $tablet-width) {
+    width: 560px;
+    height: auto;
+  }
+}
+

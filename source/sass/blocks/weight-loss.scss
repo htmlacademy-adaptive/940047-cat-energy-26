@@ -183,6 +183,7 @@
     text-transform: uppercase;
     width: 108px;
     margin-right: 25px;
+    margin-left: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -193,6 +194,7 @@
     line-height: 30px;
     text-transform: uppercase;
     width: 108px;
+    margin-left: 3px;
   }
 }
 
