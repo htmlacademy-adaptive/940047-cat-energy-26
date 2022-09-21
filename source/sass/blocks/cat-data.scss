@@ -21,16 +21,17 @@
   margin-left: 0;
   height: 46px;
   margin-top: 11px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
     min-width: 630px;
     margin-left: 0 auto;
-    margin-bottom: 20px;
-    margin-top: 0 auto;
+    margin-bottom: 23px;
+    margin-top: 13px;
     height: 52px;
+    width: 637px;
   }
 
   @media (min-width: $desktop-width) {
@@ -50,7 +51,7 @@
   margin-right: 13px;
 
   @media (min-width: $tablet-width) {
-    margin-right: 11px;
+    margin-right: 13px;
   }
 
   @media (min-width: $desktop-width) {
@@ -68,20 +69,31 @@
   text-transform: uppercase;
   text-align: left;
   padding-left: 15px;
-  height: 46px;
-  width: 200px;
+  height: 43px;
+  width: 204px;
   margin-bottom: 13px;
+  cursor: pointer;
+  border: 1px solid #cdcdcd;
 
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
     min-width: 546px;
+    height: 49px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
     width: 506px;
+  }
+
+  &:hover {
+    border-color: #cdcdcd;
+  }
+
+  &:active {
+    border-color: #444444;
   }
 }
 
@@ -90,7 +102,7 @@
   margin-right: 13px;
 
   @media (min-width: $tablet-width) {
-    margin-right: 11px;
+    margin-right: 17px;
   }
 
   @media (min-width: $desktop-width) {
@@ -108,20 +120,32 @@
   text-transform: uppercase;
   text-align: left;
   padding-left: 15px;
-  height: 43px;
-  width: 178px;
+  height: 40px;
+  width: 182px;
   margin-bottom: 13px;
+  cursor: pointer;
+  border: 1px solid #cdcdcd;
 
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
     min-width: 518px;
+    padding-left: 18px;
+    height: 45px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
     width: 490px;
+  }
+
+  &:hover {
+    border-color: #cdcdcd;
+  }
+
+  &:active {
+    border-color: #444444;
   }
 }
 
@@ -130,7 +154,8 @@
   margin-right: 13px;
 
   @media (min-width: $tablet-width) {
-    margin-right: 11px;
+    margin-right: 15px;
+    height: 43px;
   }
 
   @media (min-width: $desktop-width) {
@@ -148,14 +173,17 @@
   text-transform: uppercase;
   text-align: left;
   padding-left: 15px;
-  height: 43px;
+  height: 38px;
   margin-bottom: 13px;
-  width: 139px;
+  width: 149px;
+  cursor: pointer;
+  border: 1px solid #cdcdcd;
 
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
-    min-width: 469px;
+    width: 476px;
+    padding-left: 18px;
   }
 
   @media (min-width: $desktop-width) {
@@ -163,5 +191,13 @@
     line-height: $form-text-line-height-tablet-desktop;
     width: 430px;
     height: 46px;
+  }
+
+  &:hover {
+    border-color: #cdcdcd;
+  }
+
+  &:active {
+    border-color: #444444;
   }
 }

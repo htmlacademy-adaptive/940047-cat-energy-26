@@ -1,7 +1,6 @@
 /*Footer*/
 
 .main-footer {
-  float: center;
   margin-top: 0;
 
   @media (min-width: $tablet-width) {
@@ -10,7 +9,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-top: -100px;
+    margin-top: -98px;
   }
 }
 

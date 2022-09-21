@@ -1,7 +1,7 @@
 /*Footer*/
 
 .copyright {
-  display: flex;
+  display: inline;
   margin-left: 19px;
   margin-top: 22px;
   padding: 0;
@@ -14,6 +14,7 @@
 
   @media (min-width: $tablet-width) {
     margin-left: 42px;
+    margin-top: 32px;
   }
 
   @media (min-width: $desktop-width) {
@@ -23,7 +24,7 @@
 }
 
 .copyright__html-academy {
-  display: flex;
+  display: inline;
   justify-content: space-between;
   width: 281px;
   height: 34px;
@@ -32,7 +33,7 @@
 
   @media (min-width: $tablet-width) {
     margin-left: 0 auto;
-    margin-top: 41px;
+    margin-top: 0;
     width: 163px;
   }
 
@@ -41,22 +42,13 @@
     margin-top: 38px;
     width: 163px;
   }
-}
 
-.copyright__text {
-  font-family: "Arial", sans-serif;
-  text-decoration: none;
-  color: $text-color;
-
-  @media (min-width: $tablet-width) {
-    margin-right: 22px;
-  }
-
-  @media (min-width: $desktop-width) {
-    margin-right: 22px;
+  &:hover {
+    color: #444444;
   }
 
   &:active {
+    color: #444444;
     opacity: 0.3;
   }
 }
@@ -76,6 +68,12 @@
 
 .copyright__logo-picture {
   fill: #666666;
+  margin-left: 136px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
 
   &:hover {
     fill: #68b738;

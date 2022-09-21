@@ -8,7 +8,9 @@
   margin-right: 20px;
   margin-bottom: 18px;
   min-height: 38px;
-  width: auto;
+  width: 320px;
+  border-bottom: 1px solid $border-color-second;
+  height: 50px;
 
   @media (min-width: $tablet-width) {
     margin-left: 30px;
@@ -16,6 +18,7 @@
     margin-right: 30px;
     margin-bottom: 17px;
     height: 95px;
+    border-bottom: none;
   }
 
   @media (min-width: $desktop-width) {
@@ -23,6 +26,8 @@
     margin-top: 53px;
     margin-right: 110px;
     margin-bottom: 38px;
+    border-bottom: none;
+    width: 1440px;
   }
 }
 
@@ -76,7 +81,7 @@
 
   @media (min-width: $tablet-width) {
     margin-top: 19px;
-    margin-right: 92px;
+    margin-right: 96px;
   }
 
   @media (min-width: $desktop-width) {

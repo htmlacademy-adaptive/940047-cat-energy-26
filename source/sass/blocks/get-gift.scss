@@ -12,6 +12,10 @@
   margin-top: 45px;
   margin-bottom: 35px;
 
+  @media (min-resolution: 2dppx) {
+    background-image: url("../images/photo/cat_case2x.jpg");
+  }
+
   @media (min-width: $tablet-width) {
     position: relative;
     background-image: url("../images/photo/cat_case_tablet.jpg");
@@ -22,6 +26,10 @@
     margin-left: 30px;
     margin-top: 73px;
     margin-bottom: 82px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../images/photo/cat_case_tablet2x.jpg");
+    }
   }
 
   @media (min-width: $desktop-width) {
@@ -34,6 +42,7 @@
     margin-left: 1084px;
     margin-top: -290px;
   }
+
 }
 
 /*Зеленый фон*/
@@ -69,14 +78,12 @@
 
   @media (min-width: $tablet-width) {
     margin-top: 57px;
-    float: left;
-    margin-left: 77px;
+    margin-left: -500px;
   }
 
   @media (min-width: $desktop-width) {
     margin-top: 55px;
-    float: left;
-    margin-left: 83px;
+    margin-left: 0;
   }
 }
 
@@ -100,8 +107,9 @@
     width: 161px;
     height: 60px;
     text-align: left;
-    padding-top: 71px;
+    padding-top: 0;
     padding-left: 300px;
+    margin-top: -120px;
   }
 
   @media (min-width: $desktop-width) {

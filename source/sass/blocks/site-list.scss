@@ -62,6 +62,7 @@
     font-size: 20px;
     line-height: 20px;
     font-weight: normal;
+    background-color: inherit;
 
     &--active {
       position: relative;
@@ -73,7 +74,7 @@
         bottom: 0;
         left: 0;
         height: 3px;
-        background: #5eaa2f;
+        background: #fff;
       }
     }
   }

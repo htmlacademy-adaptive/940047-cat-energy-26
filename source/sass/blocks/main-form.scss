@@ -1,0 +1,9 @@
+.main-form {
+  @media (min-width: $tablet-width) {
+    margin-top: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
+  }
+}

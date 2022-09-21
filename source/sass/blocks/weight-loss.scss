@@ -111,7 +111,7 @@
     line-height: 24px;
     text-align: left;
     margin-left: 52px;
-    margin-bottom: 23px;
+    margin-bottom: 5px;
     margin-top: 73px;
     height: 72px;
     width: 467px;
@@ -142,14 +142,12 @@
     width: 178px;
     margin-left: 52px;
     padding: 0;
-    float: left;
   }
 
   @media (min-width: $desktop-width) {
     width: 178px;
     margin-left: 52px;
     padding: 0;
-    float: left;
   }
 
   &:active {

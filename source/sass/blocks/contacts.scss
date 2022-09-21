@@ -135,3 +135,29 @@
     margin-top: 186px;
   }
 }
+
+.contacts_pin {
+  background-image: url("../images/photo/map_pin_mobile.png");
+  width: 56px;
+  height: 52px;
+  background-repeat: no-repeat;
+  margin-left: 135px;
+  margin-top: 140px;
+  position: absolute;
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../images/photo/map_pin_tablet_desktop.png");
+    width: 113px;
+    height: 106px;
+    margin-left: 332px;
+    margin-top: 147px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../images/photo/map_pin_tablet_desktop.png");
+    width: 113px;
+    height: 106px;
+    margin-left: 906px;
+    margin-top: 131px;
+  }
+}

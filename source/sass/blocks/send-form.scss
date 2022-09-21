@@ -22,19 +22,19 @@
     width: 282px;
     height: 52px;
     padding: 7px 45px 7px 45px;
-    float: left;
     margin-left: 72px;
     margin-right: 61px;
+    margin-top: 39px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: $form-text-font-size-tablet-desktop;
     width: 568px;
     height: 52px;
-    float: left;
     margin-left: 0;
     text-align: center;
     margin-right: 81px;
     margin-top: 26px;
+    margin-left: -700px;
   }
 }

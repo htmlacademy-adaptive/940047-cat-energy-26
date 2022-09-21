@@ -4,10 +4,11 @@
 .cat-contacts {
   display: flex;
   margin: 26px 20px 15px 20px;
+  width: 300px;
 
   @media (min-width: $tablet-width) {
     margin: 0 187px 50px 67px;
-    float: left;
+    display: block;
   }
 
   @media (min-width: $desktop-width) {
@@ -22,6 +23,12 @@
 }
 
 .cat-contacts__wrapper {
+  background-image: url("../images/decoration/decorative-line.svg");
+  background-repeat: no-repeat;
+  background-position: 215px 15px;
+  background-size: 99px 2px;
+  width: 300px;
+
   @media (min-width: $desktop-width) {
     min-width: 1220px;
   }
@@ -40,14 +47,14 @@
   color: $form-subitle-color;
   padding: 0;
   margin-bottom: 35px;
-  width: 187px;
+  width: 200px;
   margin-top: 0;
 
   @media (min-width: $tablet-width) {
     font-size: $form-subtitle-font-size-tablet-desktop;
     line-height: $form-subtitle-line-height-tablet-desktop;
     margin-bottom: 71px;
-    width: 512px;
+    width: 527px;
     margin-top: 0;
     margin-left: 0;
   }
@@ -66,6 +73,7 @@
     display: block;
     flex-direction: row;
     margin-left: 0;
+    width: 655px;
   }
 
   @media (min-width: $desktop-width) {
@@ -85,6 +93,7 @@
     display: flex;
     height: 52px;
     margin-bottom: 20px;
+    margin-left: 5px;
   }
 
   @media (min-width: $desktop-width) {
@@ -141,9 +150,9 @@
   padding-left: 15px;
   background-image: url("../images/icon/icon_email.svg");
   background-repeat: no-repeat;
-  background-position: 182px 17px;
+  background-position: 185px 16px;
   border: 1px solid $border-color-main;
-  float: right;
+  cursor: pointer;
 
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;
@@ -158,6 +167,14 @@
     width: 486px;
     margin-top: -10px;
     background-position: 446px 17px;
+  }
+
+  &:hover {
+    border-color: #cdcdcd;
+  }
+
+  &:active {
+    border-color: #444444;
   }
 }
 
@@ -205,8 +222,9 @@
   padding-left: 15px;
   background-image: url("../images/icon/icon_phone.svg");
   background-repeat: no-repeat;
-  background-position: 167px 11px;
+  background-position: 169px 11px;
   border: 1px solid $border-color-main;
+  cursor: pointer;
 
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;
@@ -220,5 +238,13 @@
     line-height: $form-text-line-height-tablet-desktop;
     width: 460px;
     background-position: 442px 20px;
+  }
+
+  &:hover {
+    border-color: #cdcdcd;
+  }
+
+  &:active {
+    border-color: #444444;
   }
 }

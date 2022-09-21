@@ -1,5 +1,11 @@
 /*Форма Дополнительно*/
 .cat-additionally {
+  width: 320px;
+  background-image: url(../images/decoration/decorative-line.svg);
+  background-repeat: no-repeat;
+  background-position: 215px 15px;
+  background-size: 158px 2px;
+
   @media (min-width: $tablet-width) {
     margin-bottom: 20px;
   }
