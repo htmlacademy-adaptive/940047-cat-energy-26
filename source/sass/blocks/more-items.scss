@@ -32,10 +32,10 @@
   text-transform: uppercase;
   color: $catalog-more-items-color;
   width: 204px;
-  padding: 49px 37px 0 37px;
+  padding: 53px 37px 0 37px;
   background-image: url("../images/decoration/more-items.svg");
   background-repeat: no-repeat;
-  background-position: 125px 9px;
+  background-position: 125px 0;
 
   @media (min-width: $tablet-width) {
     width: 134px;

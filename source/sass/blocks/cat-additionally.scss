@@ -3,11 +3,24 @@
   width: 320px;
   background-image: url(../images/decoration/decorative-line.svg);
   background-repeat: no-repeat;
-  background-position: 215px 15px;
+  background-position: 184px 15px;
   background-size: 158px 2px;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 20px;
+    width: 768px;
+    background-image: url(../images/decoration/decorative-line_long.svg);
+    background-position: -1px 20px;
+    background-size: 1171px 3px;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1444px;
+    background-image: url(../images/decoration/decorative-line_long.svg);
+    background-position: -1px 20px;
+    background-size: 1439px 3px;
+    margin-left: -106px;
   }
 }
 
@@ -34,7 +47,7 @@
 
   @media (min-width: $desktop-width) {
     margin-left: 9px;
-    margin-top: -10px;
+    margin-top: 0;
     width: 35px;
     height: 35px;
   }
@@ -61,12 +74,16 @@
     margin-left: 68px;
     margin-top: 63px;
     margin-bottom: 59px;
+    width: 250px;
+    margin-left: 30px;
+    padding-left: 37px;
+    background-color: #fff;
   }
 
   @media (min-width: $desktop-width) {
     font-size: $form-subtitle-font-size-tablet-desktop;
     line-height: $form-subtitle-line-height-tablet-desktop;
-    margin-left: 0;
+    margin-left: 72px;
   }
 }
 
@@ -82,7 +99,8 @@
 
   @media (min-width: $desktop-width) {
     width: 1196px;
-    margin-left: 0;
+    margin-left: 99px;
+    margin-right: 0;
   }
 }
 
@@ -142,12 +160,12 @@
   border-color: #bababa;
 }
 
-.input:disabled + .cat-additionally__form {
+.input:disabled+.cat-additionally__form {
   border-color: #bababa;
 }
 
-.input[type="checkbox"]:checked + .cat-additionally__form::before,
-.input[type="checkbox"]:checked + .cat-additionally__form::after {
+.input[type="checkbox"]:checked+.cat-additionally__form::before,
+.input[type="checkbox"]:checked+.cat-additionally__form::after {
   position: absolute;
   top: 12px;
   left: 4px;
@@ -158,16 +176,23 @@
 }
 
 /*Галочка*/
-.input[type="checkbox"]:checked + .cat-additionally__form::before {
+.input[type="checkbox"]:checked+.cat-additionally__form::before {
   transform: rotate(45deg);
   top: 17px;
   left: 5px;
   width: 11px;
 }
 
-.input[type="checkbox"]:checked + .cat-additionally__form::after {
+.input[type="checkbox"]:checked+.cat-additionally__form::after {
   transform: rotate(-50deg);
   top: 14px;
   left: 11px;
   width: 16px;
+}
+
+.cat-additionally_button {
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+  }
 }

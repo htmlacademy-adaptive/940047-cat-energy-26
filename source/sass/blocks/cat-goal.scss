@@ -12,9 +12,9 @@
   text-transform: uppercase;
   color: $form-goal-color;
   padding: 0;
-  margin-left: 22px;
+  margin-left: 32px;
   margin-bottom: 27px;
-  margin-top: 16px;
+  margin-top: 0;
   height: 158px;
   border-top: 1px solid $border-color-second;
   border-bottom: 1px solid $border-color-second;
@@ -50,10 +50,11 @@
   @media (min-width: $tablet-width) {
     padding-top: 0;
     padding-left: 30px;
+    margin-top: 10px;
   }
 
   @media (min-width: $desktop-width) {
-    padding-top: 27px;
+    padding-top: 24px;
     padding-left: 30px;
     width: 568px;
   }
@@ -90,6 +91,7 @@
   border: 1px solid $border-color-main;
   background-color: $form-background-color;
   margin-top: -6px;
+  margin-left: -13px;
 
   @media (min-width: $tablet-width) {
     width: 30px;

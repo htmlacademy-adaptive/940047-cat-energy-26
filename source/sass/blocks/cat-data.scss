@@ -78,14 +78,14 @@
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
-    min-width: 546px;
     height: 49px;
+    width: 547px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
-    width: 506px;
+    width: 485px;
   }
 
   &:hover {
@@ -129,7 +129,7 @@
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
-    min-width: 518px;
+    width: 510px;
     padding-left: 18px;
     height: 45px;
   }
@@ -137,7 +137,7 @@
   @media (min-width: $desktop-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
-    width: 490px;
+    width: 459px;
   }
 
   &:hover {
@@ -182,14 +182,15 @@
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
-    width: 476px;
+    width: 473px;
+    height: 44px;
     padding-left: 18px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
-    width: 430px;
+    width: 421px;
     height: 46px;
   }
 
@@ -200,4 +201,21 @@
   &:active {
     border-color: #444444;
   }
+}
+
+/*Состояние при ошибке*/
+.cat-data__field-error {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $form-text-font-size;
+  line-height: $form-text-line-height;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 15px;
+  height: 43px;
+  width: 204px;
+  margin-bottom: 13px;
+  cursor: pointer;
+  border-color: #ff8282;
 }

@@ -6,7 +6,7 @@
   flex-wrap: wrap;
   margin-top: 10px;
   margin-right: 20px;
-  margin-bottom: 18px;
+  margin-bottom: 5px;
   min-height: 38px;
   width: 320px;
   border-bottom: 1px solid $border-color-second;
@@ -76,17 +76,17 @@
 .main-header__logo-text {
   margin-left: 0;
   margin-top: 13px;
-  margin-right: 77px;
+  margin-right: 78px;
   padding: 0;
 
   @media (min-width: $tablet-width) {
     margin-top: 19px;
-    margin-right: 96px;
+    margin-right: 91px;
   }
 
   @media (min-width: $desktop-width) {
     margin-top: 22px;
-    margin-right: 540px;
+    margin-right: 537px;
   }
 
   &:hover {

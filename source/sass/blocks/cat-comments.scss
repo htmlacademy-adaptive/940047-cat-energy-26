@@ -3,11 +3,20 @@
 .cat-comments {
   background-image: url("../images/decoration/decorative-line.svg");
   background-repeat: no-repeat;
-  background-position: 215px 15px;
+  background-position: 162px 15px;
   background-size: 158px 2px;
 
   @media (min-width: $tablet-width) {
-    width: 200px;
+    width: 767px;
+    background-position: 2px 22px;
+    background-size: 1503px 3px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1444px;
+    margin-left: -106px;
+    background-position: 2px 22px;
+    background-size: 1503px 4px;
   }
 }
 
@@ -30,16 +39,19 @@
   @media (min-width: $tablet-width) {
     font-size: $form-subtitle-font-size-tablet-desktop;
     line-height: $form-subtitle-line-height-tablet-desktop;
-    margin-left: 67px;
+    margin-left: 33px;
     margin-bottom: 74px;
     margin-right: 0;
+    background: #fff;
+    padding-left: 34px;
+    width: 222px;
   }
 
   @media (min-width: $desktop-width) {
     display: block;
     font-size: $form-subtitle-font-size-tablet-desktop;
     line-height: $form-subtitle-line-height-tablet-desktop;
-    margin-left: 0;
+    margin-left: 71px;
     margin-bottom: 76px;
   }
 }
@@ -69,6 +81,8 @@
   padding-top: 5px;
   resize: none;
   padding-left: 12px;
+  border: 1px solid $border-color-main;
+  cursor: pointer;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
@@ -83,7 +97,16 @@
   @media (min-width: $desktop-width) {
     font-size: 20px;
     line-height: 30px;
-    margin-left: 0;
-    width: 1220px;
+    margin-left: 86px;
+    width: 1203px;
+    padding-left: 36px;
+  }
+
+  &:hover {
+    border-color: #cdcdcd;
+  }
+
+  &:active {
+    border-color: #444444;
   }
 }
