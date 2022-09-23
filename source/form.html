@@ -24,7 +24,7 @@
       </a><a class="main-header__logo-text" href="index.html">
         <picture>
           <source media="(min-width: 1440px)" srcset="images/logo_text_desktop.svg">
-          <source media="(min-width: 768px)" srcset="images/logo_text.svg"><img src="/images/logo_text.svg" width="101"
+          <source media="(min-width: 768px)" srcset="images/logo_text.svg"><img src="./images/logo_text.svg" width="101"
             height="18" alt="Cat energy.">
         </picture>
       </a>
@@ -32,9 +32,9 @@
           type="button"><span class="visually-hidden">Открыть меню</span></button>
         <div class="main-navigation__wrapper">
           <ul class="main-navigation__list site-list reset-list">
-            <li class="site-list__item"><a class="site-list__link" href="index.html">Главная</a></li>
-            <li class="site-list__item"><a class="site-list__link" href="catalog.html">Каталог продукции</a></li>
-            <li class="site-list__item site-list__item--active"><a class="site-list__link" href="form.html">Подбор
+            <li class="site-list__item"><a class="site-list__link site-list-option" href="index.html">Главная</a></li>
+            <li class="site-list__item"><a class="site-list__link site-list-option" href="catalog.html">Каталог продукции</a></li>
+            <li class="site-list__item site-list__option--active"><a class="site-list__link site-list-option" href="form.html">Подбор
                 программы</a></li>
           </ul>
         </div>
@@ -163,7 +163,11 @@
               <p class="contacts__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
             </div>
             <div class="contacts__map">
-              <div class="contacts_pin"></div>
+              <iframe class="contacts__map-inframe" name="Карта местоположения офиса"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003035!2d30.320858716011124!3d59.93871916905429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1660319396633!5m2!1sru!2sru"
+        width="320" height="361" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <div class="contacts-pin"></div>
             </div>
           </div>
         </section>
@@ -171,7 +175,7 @@
           <!--Текстовый логотип-->
           <section class="logo-footer">
             <div class="logo-footer__wrapper">
-              <div class="logo-footer__logo-text"><img class="logo-footer__text" src="/images/logo_text.svg" width="128"
+              <div class="logo-footer__logo-text"><img class="logo-footer__text" src="./images/logo_text.svg" width="128"
                   height="24" alt="Cat energy." role="img" aria-label="Cat energy."></div>
             </div>
           </section>
@@ -216,7 +220,7 @@
             <div class="copyright__wrapper">
               <div class="copyright__html-academy">
                 <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-                  <span class="copyright__html-academy">HTML Academy</span>
+                  <span class="copyright__html-academy-text">HTML Academy</span>
                   <svg class="copyright__logo-picture" width="27" height="34" viewBox="0 0 27 34" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path

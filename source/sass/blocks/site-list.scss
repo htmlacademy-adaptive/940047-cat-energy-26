@@ -90,4 +90,47 @@
     opacity: 0.3;
     color: $menu-line-color;
   }
+
+  @media (min-width: $desktop-width) {
+    color: #fff;
+
+    &:hover {
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    &:active {
+      color: rgba(255, 255, 255, 0.3);
+    }
+  }
+}
+
+.site-list-option {
+  @media (min-width: $desktop-width) {
+    color: #000000;
+
+    &:hover {
+      opacity: 0.6;
+    }
+
+    &:active {
+      opacity: 0.3;
+    }
+  }
+}
+
+.site-list__option {
+
+  &--active {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height: 3px;
+      background: #68b738;
+    }
+  }
 }

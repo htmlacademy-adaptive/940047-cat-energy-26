@@ -24,7 +24,7 @@
       </a><a class="main-header__logo-text" href="index.html">
         <picture>
           <source media="(min-width: 1440px)" srcset="images/logo_text_desktop.svg">
-          <source media="(min-width: 768px)" srcset="images/logo_text.svg"><img src="/images/logo_text.svg" width="101"
+          <source media="(min-width: 768px)" srcset="images/logo_text.svg"><img src="./images/logo_text.svg" width="101"
             height="18" alt="Cat energy.">
         </picture>
       </a>
@@ -47,14 +47,31 @@
       <!--Промо блок-->
       <section class="promo">
         <div class="promo__wrapper">
-          <div class="promo__description">
-            <h1 class="promo__title">Функциональное<br>питание для котов</h1>
-            <p class="promo__subtitle">Занялся собой? Займись котом!</p>
+          <h1 class="promo__title">Функциональное<br>питание для котов</h1>
+          <p class="promo__subtitle">Занялся собой? Займись котом!</p>
+          <div class="promo__image">
+            <picture>
+
+              <source type="images/webp" media="(min-width: 1440px)"
+                srcset="images/photo/boxing_orange_chicken_desktop.webp 1x, images/photo/boxing_orange_chicken_desktop@2x.webp 2x">
+              <source type="images/webp" media="(min-width: 768px)"
+                srcset="images/photo/boxing_orange_chicken_tablet.webp 1x, images/photo/boxing_orange_chicken_tablet@2x.webp 2x">
+              <source type="images/webp"
+                srcset="images/photo/boxing_orange_chicken_mobile.webp 1x, images/photo/boxing_orange_chicken_mobile@2x.webp 2x">
+
+              <source media=" (min-width: 1440px)"
+                srcset="images/photo/boxing_orange_chicken_desktop.png 1x, images/photo/boxing_orange_chicken_tablet_desktop@2x.png 2x">
+              <source media="(min-width: 768px)"
+                srcset="images/photo/boxing_orange_chicken_tablet.png 1x, images/photo/boxing_orange_chicken_tablet_desktop@2x.png 2x">
+              <img class="promo__image-picture" src="images/photo/boxing_orange_chicken_mobile.png"
+                alt="Банка с кормом." srcset="images/photo/boxing_orange_chicken_mobile@2x.png 2x" width="280"
+                height="270">
+
+            </picture>
           </div>
-          <div class="promo__image"></div>
           <div class="promo__choose-program">
-            <form class="promo__form-main" method="get" action="form.html"><button class="promo__button-main"
-                type="submit">Подобрать программу</button></form>
+            <form class="promo__form-main" method="get" action="form.html"><button
+                class="promo__button-main promo__button-text" type="submit">Подобрать программу</button></form>
           </div>
         </div>
       </section>
@@ -65,7 +82,7 @@
             <h2 class="weight-loss__title">Похудение</h2>
             <p class="weight-loss__text">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям?
               Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p><img
-              class="weight-loss__decorative-line-main" src="/images/decorative-line-main.svg" width="240" height="1"
+              class="weight-loss__decorative-line-main" src="./images/decorative-line-main.svg" width="240" height="1"
               alt="Декоративная горизонтальная линия." role="img" aria-label="Декоративная горизонтальная линия.">
             <div class="weight-loss__catalog">
               <a class="weight-loss__link" href="catalog.html" style="text-decoration: none">
@@ -82,7 +99,7 @@
             <h2 class="weight-gaining__title">Набор массы</h2>
             <p class="weight-gaining__text">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro
               поможет вашему коту нарастить необходимые мышцы!</p><img class="weight-gaining__decorative-line-main"
-              src="/images/decorative-line-main.svg" width="240" height="1" alt="Декоративная горизонтальная линия."
+              src="./images/decorative-line-main.svg" width="240" height="1" alt="Декоративная горизонтальная линия."
               role="img" aria-label="Декоративная горизонтальная линия.">
             <div class="weight-gaining__catalog"><a class="weight-gaining__link" href="catalog.html"
                 style="text-decoration: none"><span class="weight-gaining__catalog-text">Каталог Pro</span> </a>
@@ -138,36 +155,38 @@
                   <p class="live-example__text-time">затрачено времени</p>
                 </div>
               </div>
-              <div class="live-example__total">
-                <p class="live-example__spent">Затраты на питание: 15 000 руб.</p>
-              </div>
+              <p class="live-example__spent">
+                <span>Затраты на питание:</span>
+                <span>15 000 руб.</span>
             </div>
           </div>
-          <div class="live-example__comparison">
-            <div class="live-example__photo-cat-before">
-              <picture>
-                <source media="(min-width: 1440px)"
-                  srcset="/images/photo/cat_fat_tablet_desktop.png, images/photo/cat_skinny_tablet_desktop@2x.png 2x">
-                <source media="(min-width: 768px)"
-                  srcset="/images/photo/cat_fat_tablet_desktop.png, images/photo/cat_skinny_tablet_desktop@2x.png 2x">
-                <img class="live-example__photo-cat-before-img" src="/images/photo/cat_fat_mobile.png" width="280"
-                  height="256" alt="Кот до." role="img" aria-label="Кот до.">
-              </picture>
-            </div>
-            <div class="live-example__photo-cat-after">
-              <picture>
-                <source media="(min-width: 1440px)"
-                  srcset="/images/photo/cat_skinny_tablet_desktop.png, images/photo/cat_skinny_tablet_desktop@2x.png 2x">
-                <source media="(min-width: 768px)"
-                  srcset="/images/photo/cat_skinny_tablet_desktop.png, images/photo/cat_skinny_tablet_desktop@2x.png 2x">
-                <img class="live-example__photo-cat-after-img" src="/images/photo/cat_skinny_mobile.png" width="280"
-                  height="256" alt="Кот после." role="img" aria-label="Кот после.">
-              </picture>
-            </div>
+
+          <div class="live-example__comparison content">
             <div class="live-example__slider">
-              <svg class="live-example__slider-cat" width="40" height="256" viewBox="0 0 40 256" fill="none"
+              <picture>
+                <!--<source media="(min-width: 1440px)"
+                  srcset="/images/photo/cat_fat_tablet_desktop.png, images/photo/cat_skinny_tablet_desktop@2x.png 2x">-->
+                <source media="(min-width: 768px)"
+                  srcset="images/photo/cat_fat_tablet_desktop.png 1x, images/photo/cat_fat_tablet_desktop@2x.png 2x">
+                <img class="live-example__photo-cat live-example__photo-cat--before"
+                  src="images/photo/cat_fat_mobile.png" alt="Кот до." role="img" aria-label="Кот до."
+                  srcset="images/photo/cat_fat_mobile@2x.png 2x" width="280" height="232">
+              </picture>
+
+              <picture>
+                <!--<source media="(min-width: 1440px)"
+                  srcset="./images/photo/cat_skinny_tablet_desktop.png, images/photo/cat_skinny_tablet_desktop@2x.png 2x">-->
+                <source media="(min-width: 768px)"
+                  srcset="images/photo/cat_skinny_tablet_desktop.png 1x, images/photo/cat_skinny_tablet_desktop@2x.png 2x">
+                <img class="live-example__photo-cat live-example__photo-cat--after"
+                  src="images/photo/cat_skinny_mobile.png" width="280" height="256" alt="Кот после." role="img"
+                  aria-label="Кот после." srcset="images/photo/cat_skinny_mobile@2x.png 2x">
+              </picture>
+            </div>
+
+            <div class="live-example__button">
+              <svg class="live-example__button-cat" width="40" height="256" viewBox="0 0 40 256" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
-                <rect x="18" width="4" height="256" rx="2" fill="#666" />
                 <rect x="1" y="109" width="38" height="38" rx="19" fill="#fff" />
                 <path d="m16 119-8 9 8 9v-18ZM32 128l-8-9v18l8-9Z" fill="#666" />
                 <rect x="1" y="109" width="38" height="38" rx="19" stroke="#666" stroke-width="2" />
@@ -185,10 +204,26 @@
           <div class="contacts__wrapper">
             <div class="contacts__address">
               <h4 class="contacts__title">Приглашаем<br>к сотрудничеству дилеров!</h4>
-              <p class="contacts__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+              <div class="contacts-general">
+                <p class="contacts__text">ул. Большая Конюшенная, д. 19/8</p>
+                <p class="contacts__text-spb">Санкт-Петербург</p>
+              </div>
             </div>
             <div class="contacts__map">
-              <div class="contacts_pin"></div>
+              <picture>
+                <source media="(min-width: 1440px)"
+                  srcset="images/photo/contacts__map_desktop.jpg 1x, images/contacts__map_desktop@2x.jpg 2x">
+                <source media="(min-width: 768px)"
+                  srcset="images/photo/contacts__map_tablet.jpg 1x, images/photo/contacts__map_tablet@2x.jpg 2x">
+                <img class="contacts__map-photo" src="images/photo/contacts__map_mobile.jpg"
+                  srcset="contacts__map_mobile@2x.jpg 2x" width="320" height="362"
+                  alt="Карта.">
+              </picture>
+              <iframe class="contacts__map-inframe" name="Карта местоположения офиса"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003035!2d30.320858716011124!3d59.93871916905429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1660319396633!5m2!1sru!2sru"
+                width="320" height="361" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>-
+              <div class="contacts-pin"></div>
             </div>
           </div>
         </section>
@@ -196,8 +231,8 @@
           <!--Текстовый логотип-->
           <section class="logo-footer">
             <div class="logo-footer__wrapper">
-              <div class="logo-footer__logo-text"><img class="logo-footer__text" src="/images/logo_text.svg" width="128"
-                  height="24" alt="Cat energy." role="img" aria-label="Cat energy."></div>
+              <div class="logo-footer__logo-text"><img class="logo-footer__text" src="./images/logo_text.svg"
+                  width="128" height="24" alt="Cat energy." role="img" aria-label="Cat energy."></div>
             </div>
           </section>
           <!--Соц сети-->
@@ -241,7 +276,7 @@
             <div class="copyright__wrapper">
               <div class="copyright__html-academy">
                 <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-                  <span class="copyright__html-academy">HTML Academy</span>
+                  <span class="copyright__html-academy-text">HTML Academy</span>
                   <svg class="copyright__logo-picture" width="27" height="34" viewBox="0 0 27 34" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path

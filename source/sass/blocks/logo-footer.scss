@@ -36,3 +36,9 @@
     opacity: 0.6;
   }
 }
+
+.logo-footer__logo-text {
+  @media (min-width: $tablet-width) {
+    width: 129px;
+  }
+}

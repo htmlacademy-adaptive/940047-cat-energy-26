@@ -17,14 +17,14 @@
     <!--Header (лого, навигация)-->
     <header class="main-header"><a class="main-header__logo" href="index.html">
         <picture>
-          <source media="(min-width: 1440px)" srcset="/images/logo_desktop.svg">
-          <source media="(min-width: 768px)" srcset="/images/logo_tablet.svg"><img src="images/logo_mobile.svg"
+          <source media="(min-width: 1440px)" srcset="./images/logo_desktop.svg">
+          <source media="(min-width: 768px)" srcset="./images/logo_tablet.svg"><img src="images/logo_mobile.svg"
             width="34" height="38" alt="Кэт энерджи.">
         </picture>
       </a><a class="main-header__logo-text" href="index.html">
         <picture>
-          <source media="(min-width: 1440px)" srcset="/images/logo_text_desktop.svg">
-          <source media="(min-width: 768px)" srcset="/images/logo_text.svg"><img src="/images/logo_text.svg" width="101"
+          <source media="(min-width: 1440px)" srcset="./images/logo_text_desktop.svg">
+          <source media="(min-width: 768px)" srcset="./images/logo_text.svg"><img src="./images/logo_text.svg" width="101"
             height="18" alt="Cat energy.">
         </picture>
       </a>
@@ -32,10 +32,10 @@
           type="button"><span class="visually-hidden">Открыть меню</span></button>
         <div class="main-navigation__wrapper">
           <ul class="main-navigation__list site-list reset-list">
-            <li class="site-list__item"><a class="site-list__link" href="index.html">Главная</a></li>
-            <li class="site-list__item site-list__item--active"><a class="site-list__link" href="catalog.html">Каталог
+            <li class="site-list__item"><a class="site-list__link site-list-option" href="index.html">Главная</a></li>
+            <li class="site-list__item site-list__option--active"><a class="site-list__link site-list-option" href="catalog.html">Каталог
                 продукции</a></li>
-            <li class="site-list__item"><a class="site-list__link" href="form.html">Подбор программы</a></li>
+            <li class="site-list__item"><a class="site-list__link site-list-option" href="form.html">Подбор программы</a></li>
           </ul>
         </div>
       </nav>
@@ -57,16 +57,18 @@
             <div class="product-card__specification-orange-pro-500g">
               <picture>
                 <source type="image/webp" media="(min-width: 1440px)"
-                  srcset="/images/product_card/webp/product_card_orange_pro_500g_desktop.webp, /images/product_card/webp/product_card_orange_pro_500g_desktop.webp 2x">
+                  srcset="images/webp/product_card_orange_pro_500g_desktop.webp 1x, images/webp/product_card_orange_pro_500g_tablet_desktop@2x.webp 2x">
                 <source type="image/webp" media="(min-width: 768px)"
-                  srcset="/images/product_card/webp/product_card_orange_pro_500g_tablet.webp, /images/product_card/webp/product_card_orange_pro_500g_tablet.webp 2x">
+                  srcset="images/webp/product_card_orange_pro_500g_tablet.webp 1x, images/webp/product_card_orange_pro_500g_tablet_desktop@2x.webp 2x">
                 <source type="image/webp"
-                  srcset="/images/product_card/webp/product_card_orange_pro_500g_mobile.webp, /images/product_card/webp/product_card_orange_pro_500g_mobile.webp 2x">
+                  srcset="images/webp/product_card_orange_pro_500g_mobile.webp 1x, images/webp/product_card_orange_pro_500g_mobile@2x.webp 2x">
+
                 <source media="(min-width: 1440px)"
-                  srcset="/images/product_card/product_card_orange_pro_500g_desktop.png, images/product_card/product_card_orange_pro_500g_desktop@2x.png 2x">
+                  srcset="images/product_card/product_card_orange_pro_500g_desktop.png 1x, images/product_card/product_card_orange_pro_500g_tablet_desktop@2x.png 2x">
                 <source media="(min-width: 768px)"
-                  srcset="/images/product_card/product_card_orange_pro_500g_tablet.png, images/product_card/product_card_orange_pro_500g_tablet@2x.png 2x">
-                <img class="product-card__photo-500g" src="/images/product_card/product_card_orange_pro_500g_mobile.png"
+                  srcset="images/product_card/product_card_orange_pro_500g_tablet.png 1x, images/product_card/product_card_orange_pro_500g_tablet_desktop@2x.png 2x">
+
+                <img class="product-card__photo-500g" src="images/product_card/product_card_orange_pro_500g_mobile.png"
                   srcset="images/product_card/product_card_orange_pro_500g_mobile@2x.png 2x" width="68" height="86"
                   alt="Cat energy pro 500 г.">
               </picture>
@@ -84,23 +86,25 @@
                   <td class="product-card__colum-1">Цена</td>
                   <td class="product-card__colum-2">700 Р.</td>
                 </tr>
-              </table><button class="product-card__button-card" type="button"><span>Заказать</span></button>
+              </table><button class="product-card__button-card button-text" type="button"><span>Заказать</span></button>
             </div>
           </div>
           <div class="product-card__information">
             <div class="product-card__specification-orange-pro-1000g">
               <picture>
                 <source type="image/webp" media="(min-width: 1440px)"
-                  srcset="/images/product_card/webp/product_card_orange_pro_1000g_desktop.webp, /images/product_card/webp/product_card_orange_pro_1000g_desktop.webp 2x">
+                  srcset="images/webp/product_card_orange_pro_1000g_desktop.webp 1x, images/webp/product_card_orange_pro_1000g_tablet_desktop@2x.webp 2x">
                 <source type="image/webp" media="(min-width: 768px)"
-                  srcset="/images/product_card/webp/product_card_orange_pro_1000g_tablet.webp, /images/product_card/webp/product_card_orange_pro_1000g_tablet.webp 2x">
-                <source type="image/webp" srcset="/images/product_card/webp/product_card_orange_pro_1000g.webp">
+                  srcset="images/webp/product_card_orange_pro_1000g_tablet.webp 1x, images/webp/product_card_orange_pro_1000g_tablet_desktop@2x.webp 2x">
+                <source type="image/webp" srcset="images/webp/product_card_orange_pro_1000g.webp 1x, images/webp/product_card_orange_pro_1000g@2x.webp 2x">
+
                 <source media="(min-width: 1440px)"
-                  srcset="/images/product_card/product_card_orange_pro_1000g_desktop.png, images/product_card/product_card_orange_pro_1000g_desktop@2x.png 2x">
+                  srcset="images/product_card/product_card_orange_pro_1000g_desktop.png 1x, images/product_card/product_card_orange_pro_1000g_tablet_desktop@2x.png 2x">
                 <source media="(min-width: 768px)"
-                  srcset="/images/product_card/product_card_orange_pro_1000g_tablet.png, images/product_card/product_card_orange_pro_1000g_tablet@2x.png 2x">
+                  srcset="images/product_card/product_card_orange_pro_1000g_tablet.png 1x, images/product_card/product_card_orange_pro_1000g_tablet_desktop@2x.png 2x">
+
                 <img class="product-card__photo-1000g"
-                  src="/images/product_card/product_card_orange_pro_1000g_mobile.png"
+                  src="images/product_card/product_card_orange_pro_1000g_mobile.png"
                   srcset="images/product_card/product_card_orange_pro_1000g_mobile@2x.png 2x" width="84" height="101"
                   alt="Cat energy pro 500 г.">
               </picture>
@@ -118,7 +122,7 @@
                   <td class="product-card__colum-1">Цена</td>
                   <td class="product-card__colum-2">1000 Р.</td>
                 </tr>
-              </table><button class="product-card__button-card" type="button"><span>Заказать</span></button>
+              </table><button class="product-card__button-card product-card_button-text" type="button"><span>Заказать</span></button>
             </div>
           </div>
           <!--Зеленые упаковки-->
@@ -126,15 +130,17 @@
             <div class="product-card__specification-green-pro-500g">
               <picture>
                 <source type="image/webp" media="(min-width: 1440px)"
-                  srcset="/images/product_card/webp/product_card_green_pro_500g_desktop.webp, /images/product_card/webp/product_card_green_pro_500g_desktop.webp 2x">
+                  srcset="images/webp/product_card_green_pro_500g_desktop.webp 1x, images/webp/product_card_green_pro_500g_tablet_desktop.webp 2x">
                 <source type="image/webp" media="(min-width: 768px)"
-                  srcset="/images/product_card/webp/product_card_green_pro_500g_tablet.webp, /images/product_card/webp/product_card_green_pro_500g_tablet.webp 2x">
-                <source type="image/webp" srcset="/images/product_card/webp/product_card_green_pro_500g_mobile.webp">
+                  srcset="images/webp/product_card_green_pro_500g_tablet.webp 1x, images/webp/product_card_green_pro_500g_tablet_desktop.webp 2x">
+                <source type="image/webp" srcset="images/webp/product_card_green_pro_500g_mobile.webp 1x, images/webp/product_card_green_pro_500g_mobile@2x.webp 2x">
+
                 <source media="(min-width: 1440px)"
-                  srcset="/images/product_card/product_card_green_pro_500g_desktop.png, images/product_card/product_card_green_pro_500g_desktop@2x.png 2x">
+                  srcset="images/product_card/product_card_green_pro_500g_desktop.png 1x, images/product_card/product_card_green_pro_500g_tablet_desktop@2x.png 2x">
                 <source media="(min-width: 768px)"
-                  srcset="/images/product_card/product_card_green_pro_500g_tablet.png, images/product_card/product_card_green_pro_500g_tablet@2x.png 2x">
-                <img class="product-card__photo-500g" src="/images/product_card/product_card_green_pro_500g_mobile.png"
+                  srcset="images/product_card/product_card_green_pro_500g_tablet.png 1x, images/product_card/product_card_green_pro_500g_tablet_desktop@2x.png 2x">
+
+                <img class="product-card__photo-500g" src="images/product_card/product_card_green_pro_500g_mobile.png"
                   srcset="images/product_card/product_card_green_pro_500g_mobile@2x.png 2x" width="68" height="78"
                   alt="Cat energy pro 500 г.">
               </picture>
@@ -152,18 +158,18 @@
                   <td class="product-card__colum-1">Цена</td>
                   <td class="product-card__colum-2">700 Р.</td>
                 </tr>
-              </table><button class="product-card__button-card" type="button"><span>Заказать</span></button>
+              </table><button class="product-card__button-card product-card_button-text" type="button"><span>Заказать</span></button>
             </div>
           </div>
           <div class="product-card__information">
             <div class="product-card__specification-green-pro-1000g">
               <picture>
                 <source media="(min-width: 1440px)"
-                  srcset="/images/product_card/product_card_green_pro_1000g_desktop.png, images/product_card/product_card_green_pro_1000g_desktop@2x.png 2x">
+                  srcset="./images/product_card/product_card_green_pro_1000g_desktop.png, images/product_card/product_card_green_pro_1000g_desktop@2x.png 2x">
                 <source media="(min-width: 768px)"
-                  srcset="/images/product_card/product_card_green_pro_1000g_tablet.png, images/product_card/product_card_green_pro_1000g_tablet@2x.png 2x">
+                  srcset="./images/product_card/product_card_green_pro_1000g_tablet.png, images/product_card/product_card_green_pro_1000g_tablet@2x.png 2x">
                 <img class="product-card__photo-1000g"
-                  src="/images/product_card/product_card_green_pro_1000g_mobile.png"
+                  src="./images/product_card/product_card_green_pro_1000g_mobile.png"
                   srcset="images/product_card/product_card_green_pro_1000g_mobile@2x.png 2x" width="84" height="101"
                   alt="Cat energy pro 500 г.">
               </picture>
@@ -181,7 +187,7 @@
                   <td class="product-card__colum-1">Цена</td>
                   <td class="product-card__colum-2">1000 Р.</td>
                 </tr>
-              </table><button class="product-card__button-card" type="button"><span>Заказать</span></button>
+              </table><button class="product-card__button-card product-card_button-text" type="button"><span>Заказать</span></button>
             </div>
           </div>
           <!--Синие упаковки-->
@@ -189,10 +195,10 @@
             <div class="product-card__specification-blue-slim-500g">
               <picture>
                 <source media="(min-width: 1440px)"
-                  srcset="/images/product_card/product_card_blue_slim_500g_desktop.png, images/product_card/product_card_blue_slim_500g_desktop@2x.png 2x">
+                  srcset="./images/product_card/product_card_blue_slim_500g_desktop.png, images/product_card/product_card_blue_slim_500g_desktop@2x.png 2x">
                 <source media="(min-width: 768px)"
-                  srcset="/images/product_card/product_card_blue_slim_500g_tablet.png, images/product_card/product_card_blue_slim_500g_tablet@2x.png 2x">
-                <img class="product-card__photo-500g" src="/images/product_card/product_card_blue_slim_500g_mobile.png"
+                  srcset="./images/product_card/product_card_blue_slim_500g_tablet.png, images/product_card/product_card_blue_slim_500g_tablet@2x.png 2x">
+                <img class="product-card__photo-500g" src="./images/product_card/product_card_blue_slim_500g_mobile.png"
                   srcset="images/product_card/product_card_blue_slim_500g_mobile@2x.png 2x" width="84" height="101"
                   alt="Cat energy pro 500 г.">
               </picture>
@@ -210,18 +216,18 @@
                   <td class="product-card__colum-1">Цена</td>
                   <td class="product-card__colum-2">400 Р.</td>
                 </tr>
-              </table><button class="product-card__button-card" type="button"><span>Заказать</span></button>
+              </table><button class="product-card__button-card product-card_button-text" type="button"><span>Заказать</span></button>
             </div>
           </div>
           <div class="product-card__information">
             <div class="product-card__specification-blue-slim-1000g">
               <picture>
                 <source media="(min-width: 1440px)"
-                  srcset="/images/product_card/product_card_blue_slim_1000g_desktop.png, images/product_card/product_card_blue_slim_1000g_desktop@2x.png 2x">
+                  srcset="./images/product_card/product_card_blue_slim_1000g_desktop.png, images/product_card/product_card_blue_slim_1000g_desktop@2x.png 2x">
                 <source media="(min-width: 768px)"
-                  srcset="/images/product_card/product_card_blue_slim_1000g_tablet.png, images/product_card/product_card_blue_slim_1000g_tablet@2x.png 2x">
+                  srcset="./images/product_card/product_card_blue_slim_1000g_tablet.png, images/product_card/product_card_blue_slim_1000g_tablet@2x.png 2x">
                 <img class="product-card__photo-1000g"
-                  src="/images/product_card/product_card_blue_slim_1000g_mobile.png"
+                  src="./images/product_card/product_card_blue_slim_1000g_mobile.png"
                   srcset="images/product_card/product_card_blue_slim_1000g_mobile@2x.png 2x" width="84" height="101"
                   alt="Cat energy pro 500 г.">
               </picture>
@@ -239,7 +245,7 @@
                   <td class="product-card__colum-1">Цена</td>
                   <td class="product-card__colum-2">700 Р.</td>
                 </tr>
-              </table><button class="product-card__button-card" type="button"><span>Заказать</span></button>
+              </table><button class="product-card__button-card product-card_button-text" type="button"><span>Заказать</span></button>
             </div>
           </div>
           <!--Фиолетовые упаковки-->
@@ -247,11 +253,11 @@
             <div class="product-card__specification-violet-slim-500g">
               <picture>
                 <source media="(min-width: 1440px)"
-                  srcset="/images/product_card/product_card_violet_slim_500g_desktop.png, images/product_card/product_card_violet_slim_500g_desktop@2x.png 2x">
+                  srcset="./images/product_card/product_card_violet_slim_500g_desktop.png, images/product_card/product_card_violet_slim_500g_desktop@2x.png 2x">
                 <source media="(min-width: 768px)"
-                  srcset="/images/product_card/product_card_violet_slim_500g_tablet.png, images/product_card/product_card_violet_slim_500g_tablet@2x.png 2x">
+                  srcset="./images/product_card/product_card_violet_slim_500g_tablet.png, images/product_card/product_card_violet_slim_500g_tablet@2x.png 2x">
                 <img class="product-card__photo-500g"
-                  src="/images/product_card/product_card_violet_slim_500g_mobile.png"
+                  src="./images/product_card/product_card_violet_slim_500g_mobile.png"
                   srcset="images/product_card/product_card_violet_slim_500g_mobile@2x.png 2x" width="84" height="101"
                   alt="Cat energy pro 500 г.">
               </picture>
@@ -269,7 +275,7 @@
                   <td class="product-card__colum-1">Цена</td>
                   <td class="product-card__colum-2">500 Р.</td>
                 </tr>
-              </table><button class="product-card__button-card" type="button"><span>Заказать</span></button>
+              </table><button class="product-card__button-card product-card_button-text" type="button"><span>Заказать</span></button>
             </div>
           </div>
           <!--Показать еще 100500 товаров-->
@@ -293,7 +299,7 @@
                   <td class="additional-items__colum-1">1 упаковка (100 г)</td>
                   <td class="additional-items__colum-2">200 Р.</td>
                 </tr>
-              </table><button class="additional-items__button-card" type="button"><span>Заказать</span></button>
+              </table><button class="additional-items__button-card additional-items__button-text" type="button"><span>Заказать</span></button>
             </div>
             <div class="additional-items__goods">
               <h3 class="additional-items__title-list">Питьевая вода</h3>
@@ -302,7 +308,7 @@
                   <td class="additional-items__colum-1">5 литров</td>
                   <td class="additional-items__colum-2">50 Р.</td>
                 </tr>
-              </table><button class="additional-items__button-card" type="button"><span>Заказать</span></button>
+              </table><button class="additional-items__button-card additional-items__button-text" type="button"><span>Заказать</span></button>
             </div>
             <div class="additional-items__goods">
               <h3 class="additional-items__title-list">Молоко</h3>
@@ -311,7 +317,7 @@
                   <td class="additional-items__colum-1">1 литр</td>
                   <td class="additional-items__colum-2">100 Р.</td>
                 </tr>
-              </table><button class="additional-items__button-card" type="button"><span>Заказать</span></button>
+              </table><button class="additional-items__button-card additional-items__button-text" type="button"><span>Заказать</span></button>
             </div>
             <div class="additional-items__goods">
               <h3 class="additional-items__title-list">Витамины</h3>
@@ -320,13 +326,13 @@
                   <td class="additional-items__colum-1">1 упаковка (30 г)</td>
                   <td class="additional-items__colum-2">300 Р.</td>
                 </tr>
-              </table><button class="additional-items__button-card" type="button"><span>Заказать</span></button>
+              </table><button class="additional-items__button-card additional-items__button-text" type="button"><span>Заказать</span></button>
             </div>
           </div>
         </div>
       </section>
       <!--Подарок-->
-      <section class="get-gift"><img class="get-gift__icon" src="/images/icon/icon_gift_mobile.svg" alt="Подарок."
+      <section class="get-gift"><img class="get-gift__icon" src="./images/icon/icon_gift_mobile.svg" alt="Подарок."
           role="img" aria-label="Подарок.">
         <p class="get-gift__text">Закажите все и получите чехол для кота в подарок!</p>
       </section>
@@ -342,7 +348,11 @@
               <p class="contacts__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
             </div>
             <div class="contacts__map">
-              <div class="contacts_pin"></div>
+              <iframe class="contacts__map-inframe" name="Карта местоположения офиса"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003035!2d30.320858716011124!3d59.93871916905429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1660319396633!5m2!1sru!2sru"
+        width="320" height="361" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <div class="contacts-pin"></div>
             </div>
           </div>
         </section>
@@ -350,7 +360,7 @@
           <!--Текстовый логотип-->
           <section class="logo-footer">
             <div class="logo-footer__wrapper">
-              <div class="logo-footer__logo-text"><img class="logo-footer__text" src="/images/logo_text.svg" width="128"
+              <div class="logo-footer__logo-text"><img class="logo-footer__text" src="./images/logo_text.svg" width="128"
                   height="24" alt="Cat energy." role="img" aria-label="Cat energy."></div>
             </div>
           </section>
@@ -395,7 +405,7 @@
             <div class="copyright__wrapper">
               <div class="copyright__html-academy">
                 <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-                  <span class="copyright__html-academy">HTML Academy</span>
+                  <span class="copyright__html-academy-text">HTML Academy</span>
                   <svg class="copyright__logo-picture" width="27" height="34" viewBox="0 0 27 34" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path

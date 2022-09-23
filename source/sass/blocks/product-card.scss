@@ -499,3 +499,9 @@
     border-bottom: #cdcdcd;
   }
 }
+
+.product-card_button-text {
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}

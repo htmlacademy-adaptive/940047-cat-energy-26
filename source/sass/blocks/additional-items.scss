@@ -245,3 +245,9 @@
     background: #5eaa2f;
   }
 }
+
+.additional-items__button-text {
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
