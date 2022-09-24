@@ -4,26 +4,43 @@
 .cat-contacts {
   display: flex;
   margin: 26px 20px 15px 20px;
+  width: 300px;
 
   @media (min-width: $tablet-width) {
-    margin: 0 187px 50px 67px;
-    float: left;
+    margin: 0 187px 71px 0;
+    display: block;
+    width: 767px;
   }
 
   @media (min-width: $desktop-width) {
     display: block;
     margin-top: 0;
     margin-right: 818px;
-    margin-bottom: 40px;
-    margin-left: -180px;
+    margin-bottom: 52px;
+    margin-left: -109px;
     flex-direction: row;
-    min-width: 1220px;
+    width: 1512px;
   }
 }
 
 .cat-contacts__wrapper {
+  background-image: url("../images/decoration/decorative-line_long.svg");
+  background-repeat: no-repeat;
+  background-position: 200px 15px;
+  background-size: 99px 2px;
+  width: 300px;
+
+  @media (min-width: $tablet-width) {
+    width: 769px;
+    background-position: -5px 24px;
+    background-size: 1143px 2px;
+    background-image: url("../images/decoration/decorative-line_long.svg");
+  }
+
   @media (min-width: $desktop-width) {
-    min-width: 1220px;
+    width: 1441px;
+    background-position: -5px 24px;
+    background-size: 1444px 3px;
   }
 }
 
@@ -40,24 +57,26 @@
   color: $form-subitle-color;
   padding: 0;
   margin-bottom: 35px;
-  width: 187px;
+  width: 200px;
   margin-top: 0;
 
   @media (min-width: $tablet-width) {
     font-size: $form-subtitle-font-size-tablet-desktop;
     line-height: $form-subtitle-line-height-tablet-desktop;
-    margin-bottom: 71px;
-    width: 512px;
+    margin-bottom: 76px;
+    width: 554px;
     margin-top: 0;
-    margin-left: 0;
+    margin-left: 38px;
+    background-color: #ffffff;
+    padding-left: 33px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: $form-subtitle-font-size-tablet-desktop;
     line-height: $form-subtitle-line-height-tablet-desktop;
-    margin-bottom: 80px;
-    margin-left: 177px;
-    margin-top: 0;
+    margin-bottom: 70px;
+    margin-left: 79px;
+    margin-top: 54px;
   }
 }
 
@@ -65,13 +84,14 @@
   @media (min-width: $tablet-width) {
     display: block;
     flex-direction: row;
-    margin-left: 0;
+    margin-left: 67px;
+    width: 655px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: row;
-    margin-left: 180px;
+    margin-left: 111px;
   }
 }
 
@@ -80,11 +100,13 @@
   display: flex;
   margin-top: 10px;
   margin-bottom: 5px;
+  position: relative;
 
   @media (min-width: $tablet-width) {
     display: flex;
     height: 52px;
     margin-bottom: 20px;
+    margin-left: 5px;
   }
 
   @media (min-width: $desktop-width) {
@@ -115,13 +137,13 @@
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
     margin-bottom: 42px;
+    margin-right: 18px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
     margin-bottom: 42px;
-    margin-top: -10px;
     margin-right: 22px;
     width: 64px;
   }
@@ -139,28 +161,34 @@
   text-transform: uppercase;
   color: $text-color;
   padding-left: 15px;
-  background-image: url("../images/icon/icon_email.svg");
-  background-repeat: no-repeat;
-  background-position: 182px 17px;
   border: 1px solid $border-color-main;
-  float: right;
+  cursor: pointer;
 
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
-    width: 551px;
-    background-position: 522px 17px;
+    width: 534px;
+    background-position: 512px 18px;
+    padding-left: 18px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
-    width: 486px;
-    margin-top: -10px;
+    width: 460px;
     background-position: 446px 17px;
+    margin-left: 0;
+    margin-right: 70px;
+  }
+
+  &:hover {
+    border-color: #cdcdcd;
+  }
+
+  &:active {
+    border-color: #444444;
   }
 }
-
 
 /*Телефон*/
 .cat-contacts__phone {
@@ -203,16 +231,16 @@
   text-transform: uppercase;
   color: $text-color;
   padding-left: 15px;
-  background-image: url("../images/icon/icon_phone.svg");
-  background-repeat: no-repeat;
-  background-position: 167px 11px;
   border: 1px solid $border-color-main;
+  cursor: pointer;
 
   @media (min-width: $tablet-width) {
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
-    width: 530px;
+    width: 517px;
     background-position: 500px 20px;
+    padding-left: 19px;
+    padding-top: 4px;
   }
 
   @media (min-width: $desktop-width) {
@@ -221,4 +249,29 @@
     width: 460px;
     background-position: 442px 20px;
   }
+
+  &:hover {
+    border-color: #cdcdcd;
+  }
+
+  &:active {
+    border-color: #444444;
+  }
+}
+
+/*Состояние при ошибке*/
+.cat-contacts__field-error {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $form-text-font-size;
+  line-height: $form-text-line-height;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 15px;
+  height: 43px;
+  width: 204px;
+  margin-bottom: 13px;
+  cursor: pointer;
+  border-color: #ff8282;
 }

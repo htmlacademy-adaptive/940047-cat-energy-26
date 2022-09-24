@@ -10,7 +10,11 @@
   z-index: 1;
   margin-left: 20px;
   margin-top: 45px;
-  margin-bottom: 35px;
+  margin-bottom: 43px;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../images/photo/cat_case2x.jpg");
+  }
 
   @media (min-width: $tablet-width) {
     position: relative;
@@ -20,8 +24,12 @@
     width: 707px;
     z-index: 1;
     margin-left: 30px;
-    margin-top: 73px;
-    margin-bottom: 28px;
+    margin-top: 81px;
+    margin-bottom: 47px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../images/photo/cat_case_tablet2x.jpg");
+    }
   }
 
   @media (min-width: $desktop-width) {
@@ -69,14 +77,12 @@
 
   @media (min-width: $tablet-width) {
     margin-top: 57px;
-    float: left;
-    margin-left: 77px;
+    margin-left: -479px;
   }
 
   @media (min-width: $desktop-width) {
     margin-top: 55px;
-    float: left;
-    margin-left: 83px;
+    margin-left: 0;
   }
 }
 
@@ -100,8 +106,9 @@
     width: 161px;
     height: 60px;
     text-align: left;
-    padding-top: 71px;
+    padding-top: 0;
     padding-left: 300px;
+    margin-top: -120px;
   }
 
   @media (min-width: $desktop-width) {

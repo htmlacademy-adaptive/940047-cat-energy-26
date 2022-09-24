@@ -1,7 +1,7 @@
 /*Footer*/
 
 .copyright {
-  display: flex;
+  display: inline;
   margin-left: 19px;
   margin-top: 22px;
   padding: 0;
@@ -13,76 +13,56 @@
   line-height: 18px;
 
   @media (min-width: $tablet-width) {
-    margin-left: 42px;
+    margin-left: 24px;
+    margin-top: 50px;
+    width: 199px;
+    padding-top: 3px;
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 122px;
-    margin-top: 26px;
+    margin-left: 99px;
+    margin-top: 29px;
   }
 }
 
 .copyright__html-academy {
-  display: flex;
-  justify-content: space-between;
-  width: 281px;
-  height: 34px;
-  margin: 0;
-  padding: 0;
-
-  @media (min-width: $tablet-width) {
-    margin-left: 0 auto;
-    margin-top: 41px;
-    width: 163px;
-  }
-
-  @media (min-width: $desktop-width) {
-    margin-left: 0 auto;
-    margin-top: 38px;
-    width: 163px;
-  }
-}
-
-.copyright__text {
+  display: block;
   font-family: "Arial", sans-serif;
-  text-decoration: none;
-  color: $text-color;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #444444;
+  width: 283px;
+  text-align: left;
+  margin-left: 19px;
+  margin-top: 0;
+  padding-top: 9px;
 
-  @media (min-width: $tablet-width) {
-    margin-right: 22px;
-  }
+  .copyright__link {
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
 
-  @media (min-width: $desktop-width) {
-    margin-right: 22px;
-  }
+    &:hover .copyright__logo-picture path {
+      fill: #68b738;
+    }
 
-  &:active {
-    opacity: 0.3;
-  }
-}
+    &:active {
+      opacity: 0.3;
+    }
 
-.copyright__logo {
-  margin-bottom: 1px;
-  cursor: pointer;
+    &:active .copyright__logo-picture path {
+      fill: #68b738;
+    }
 
-  @media (min-width: $tablet-width) {
-    margin: 0 auto;
-  }
-
-  @media (min-width: $desktop-width) {
-    margin: 0 auto;
+    @media (min-width: $tablet-width) {
+      width: 164px;
+    }
   }
 }
 
 .copyright__logo-picture {
   fill: #666666;
-
-  &:hover {
-    fill: #68b738;
-  }
-
-  &:active {
-    fill: #68b738;
-    opacity: 0.3;
-  }
+  margin-top: -5px;
 }

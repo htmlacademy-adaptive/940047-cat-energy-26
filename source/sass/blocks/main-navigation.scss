@@ -23,7 +23,7 @@
   min-width: 320px;
   text-decoration: none;
   margin: 0 auto;
-  margin-top: 56px;
+  margin-top: 54px;
   margin-left: -288px;
   z-index: 2;
   text-transform: uppercase;
@@ -37,10 +37,10 @@
   @media (min-width: $tablet-width) {
     display: flex;
     flex-direction: row;
-    min-width: 440px;
+    width: 469px;
     height: 36px;
     margin: 0 auto;
-    margin-top: 18px;
+    margin-top: 14px;
     margin-left: 0;
     text-transform: uppercase;
     font-family: "Oswald", sans-serif;

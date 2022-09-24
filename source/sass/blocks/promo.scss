@@ -1,122 +1,140 @@
 /*Главная*/
 .promo {
-  margin: 0 auto;
-  padding: 0;
-  height: 480px;
-
-  @media (min-width: $tablet-width) {
-    height: 810px;
-  }
-
-  @media (min-width: $desktop-width) {
-    height: 499px;
-    margin-top: 20px;
-  }
-}
-
-/*Фото с котом*/
-.promo__description {
   position: relative;
-  background-image: url("../images/photo/promo-background-cat.jpg");
-  background-repeat: no-repeat;
-  background-color: inherit;
-  height: 302px;
-  width: 320px;
   z-index: 1;
 
   @media (min-width: $tablet-width) {
-    background-image: none;
-    height: 181px;
+    padding-bottom: 505px;
   }
 
   @media (min-width: $desktop-width) {
-    background-image: none;
-    height: 181px;
+    margin-top: -184px;
+    padding-top: 187px;
+    padding-bottom: 267px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("../images/photo/promo-background-cat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20px 0;
+    height: 302px;
+    width: 337px;
+    z-index: -3;
+    top: 0;
+    right: 2px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../images/photo/promo-background-cat2x.jpg");
+    }
+
+    @media (min-width: $tablet-width) {
+      display: none;
+    }
+
+    @media (min-width: $desktop-width) {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50%;
+      min-height: 694px;
+      background-image: url("../images/photo/promo-background-cat_desktop.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 0 0;
+      z-index: -3;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("../images/photo/promo-background-cat2x.jpg");
+      }
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 302px;
+    background-color: rgba(104, 183, 56, 0.85);
+    z-index: -1;
+
+    @media (min-width: $tablet-width) {
+      display: none;
+    }
+
+    @media (min-width: $desktop-width) {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 720px;
+      min-height: 694px;
+      background-color: rgba(104, 183, 56, 0.85);
+      z-index: -3;
+    }
   }
 }
 
-/*Зеленый фон*/
-.promo__description::after {
-  position: absolute;
-  content: "";
-  background-color: $main-background-color;
-  height: 302px;
-  width: 320px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-
-  @media (min-width: $tablet-width) {
-    background-color: $main-promo-description-tablet-desktop;
-    height: 181px;
-  }
-
+.promo__start {
   @media (min-width: $desktop-width) {
-    background-color: $main-promo-description-tablet-desktop;
-    height: 181px;
+    margin-left: -730px;
+    margin-top: 20px;
   }
 }
 
 /*Заголовок*/
 .promo__title {
-  font-family: "Oswald", sans-serif;
+  margin: 0;
+  padding: 27px 0 25px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
   font-size: 36px;
+  line-height: 1;
   font-weight: 400;
-  line-height: 36px;
-  text-transform: none;
   color: $main-promo-title-subtitle-color;
-  margin-left: 36px;
-  margin-top: 0;
-  margin-right: 36px;
-  margin-bottom: 25px;
-  padding-top: 27px;
-  width: 250px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin-left: -17px;
 
   @media (min-width: $tablet-width) {
     color: $main-promo-title-subtitle-color-tablet-desktop;
-    font-family: "Oswald", sans-serif;
+    width: 450px;
+    padding: 0 196px 41px 136px;
     font-size: 60px;
-    font-weight: 400;
     line-height: 60px;
-    text-decoration: none;
-    width: 416px;
-    text-align: left;
-    margin: 0 auto;
-    margin-left: 117px;
-    margin-bottom: 41px;
-    padding: 0;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    text-align: start;
   }
 
   @media (min-width: $desktop-width) {
     color: $main-promo-title-subtitle-color-tablet-desktop;
-    font-family: "Oswald", sans-serif;
-    font-size: 60px;
-    font-weight: 400;
-    line-height: 60px;
-    text-decoration: none;
-    width: 416px;
-    text-align: left;
-    margin: 0 auto;
-    margin-left: 190px;
-    margin-bottom: 40px;
-    margin-top: 10px;
-    padding: 0;
+    padding-top: 36px;
+    padding-left: 192px;
+    margin-left: 0;
   }
 }
 
 /*Подзаголовок*/
 .promo__subtitle {
+  width: 198px;
   font-family: "Oswald", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
   text-transform: uppercase;
   color: $main-promo-title-subtitle-color;
-  margin-left: 61px;
+  margin-left: 41px;
   margin-top: 0;
   margin-right: 61px;
-  margin-bottom: 164px;
+  margin-bottom: 28px;
 
   @media (min-width: $tablet-width) {
     color: $main-promo-title-subtitle-color-tablet-desktop;
@@ -129,7 +147,7 @@
     width: 283px;
     text-align: left;
     margin: 0 auto;
-    margin-left: 119px;
+    margin-left: 115px;
     margin-bottom: 20px;
     padding: 0;
   }
@@ -145,42 +163,36 @@
     width: 283px;
     text-align: left;
     margin: 0 auto;
-    margin-left: 190px;
+    margin-left: 192px;
     margin-bottom: 52px;
+    margin-top: -6px;
     padding: 0;
   }
 }
 
 /*Оранжевый корм*/
-.promo__image {
-  position: absolute;
-  height: 270px;
-  width: 280px;
-  right: 320;
-  left: 320;
-  margin-top: -142px;
-  margin-left: 22px;
-  z-index: 1;
-  background-image: url("../images/photo/boxing_orange_chicken_mobile.png");
+.promo__image-picture {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 3px;
+  text-align: center;
+  display: block;
 
   @media (min-width: $tablet-width) {
     position: absolute;
-    z-index: 1;
-    background-image: url("../images/photo/boxing_orange_chicken_tablet.png");
     width: 709px;
     height: 609px;
-    margin-top: 22px;
-    margin-left: 28px;
+    margin-top: 0;
+    margin-left: 48px;
   }
 
   @media (min-width: $desktop-width) {
     position: absolute;
     z-index: 1;
     margin-left: 558px;
-    background-image: url("../images/photo/boxing_orange_chicken_desktop.png");
     width: 552px;
     height: 499px;
-    margin-top: -265px;
+    margin-top: -310px;
   }
 }
 
@@ -195,14 +207,13 @@
   text-decoration: none;
   text-transform: uppercase;
   padding: 7px 44px 7px 44px;
-  margin-top: 136px;
   margin-bottom: 0;
-  margin-left: 20px;
-  margin-right: 20px;
   width: 280px;
   height: 40px;
   border: none;
   cursor: pointer;
+  margin-left: 2px;
+  margin-top: 1px;
 
   @media (min-width: $tablet-width) {
     position: relative;
@@ -214,13 +225,12 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 20px;
-    float: left;
-    margin-left: 122px;
-    margin-top: 49px;
+    margin-left: 119px;
+    margin-top: 30px;
   }
 
   @media (min-width: $desktop-width) {
-    position: relative;
+    position: absolute;
     z-index: 2;
     width: 244px;
     height: 54px;
@@ -229,9 +239,8 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 20px;
-    float: left;
-    margin-left: 190px;
-    margin-top: 50px;
+    margin-left: 52px;
+    margin-top: 0;
   }
 
   &:hover {
@@ -244,6 +253,9 @@
 }
 
 .promo__wrapper {
+  width: 280px;
+  margin: 0 auto;
+
   @media (min-width: $tablet-width) {
     padding: 0;
     margin: 0;
@@ -251,10 +263,8 @@
   }
 }
 
-.promo::before {
-  @media (min-width: $desktop-width) {
-    background-image: url("../images/photo/promo-background-cat.jpg");
-    background-size: cover;
-    z-index: 1;
+.promo__button-text {
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
   }
 }

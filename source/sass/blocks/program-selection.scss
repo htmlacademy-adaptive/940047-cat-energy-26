@@ -20,13 +20,13 @@
   @media (min-width: $tablet-width) {
     margin-left: 70px;
     margin-right: 65px;
+    width: 640px;
   }
 
   @media (min-width: $desktop-width) {
     margin-left: 3px;
     margin-top: 0;
     margin-bottom: 57px;
-    float: left;
     height: 438px;
     width: 407;
   }
@@ -44,7 +44,7 @@
   text-transform: none;
   color: $form-title-color;
   margin-bottom: 37px;
-  margin-top: 45px;
+  margin-top: 32px;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
@@ -74,7 +74,7 @@
   color: $form-subitle-color;
   min-width: 226px;
   margin-top: 0;
-  margin-bottom: 33px;
+  margin-bottom: 35px;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;

@@ -1,7 +1,7 @@
 /*Footer*/
 .contacts {
   @media (min-width: $tablet-width) {
-    margin-top: 76px;
+    margin-top: 0;
     width: 768px;
     background-color: #f2f2f2;
   }
@@ -18,10 +18,12 @@
   padding-top: 2px;
 
   @media (min-width: $tablet-width) {
-    width: 628px;
+    width: 768px;
+    height: 197px;
     justify-content: space-between;
-    margin-bottom: 56px;
-    margin-left: 72px;
+    margin-bottom: 0;
+    margin-left: 0;
+    background-color: #f2f2f2;
   }
 
   @media (min-width: $desktop-width) {
@@ -49,20 +51,34 @@
   width: 139px;
   text-align: left;
   margin-left: 19px;
-  margin-top: 26px;
+  margin-top: 20px;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 26px;
     margin: 0;
     width: 157px;
-    margin-top: 60px;
+    margin-top: 86px;
+    margin-left: 69px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: 20px;
     line-height: 26px;
-    margin: 62px 87px 56px 80px;
+    margin: 54px 87px 56px 80px;
+  }
+}
+
+.contacts-general {
+  display: block;
+  margin-left: 2px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 28px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 0;
   }
 }
 
@@ -77,9 +93,11 @@
   text-transform: none;
   color: $text-color;
   width: 139px;
+  height: 38px;
   text-align: left;
   margin-left: 1px;
-  margin-top: 27px;
+  margin-top: 19px;
+  margin-bottom: 0;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
@@ -87,8 +105,9 @@
     margin: 0;
     width: 160px;
     text-align: right;
-    margin-left: 296px;
+    margin-left: 0;
     margin-top: 57px;
+    margin-right: 73px;
   }
 
   @media (min-width: $desktop-width) {
@@ -96,37 +115,55 @@
     line-height: 20px;
     width: 160px;
     text-align: left;
-    margin: 56px 75px 63px 0;
+    margin: 27px 75px 21px -2px;
   }
 }
 
-/*Карта*/
+.contacts__text-spb {
+  text-align: left;
+  font-family: "Arial", "Oswald", sans-serif;
+  margin-top: 5px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 21px;
+    margin-left: 36px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 0;
+  }
+}
+
 .contacts__map {
   width: 320px;
-  height: 362px;
   background-image: url("../images/photo/contacts__map_mobile.jpg");
-  background-repeat: no-repeat;
-  display: block;
-  border: 0;
-  margin-top: 5px;
+  background-position: 1px 1px, 20px 20px;
 
   @media (min-width: $tablet-width) {
     width: 768px;
     height: 400px;
     background-image: url("../images/photo/contacts__map_tablet.jpg");
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    margin-left: 0;
-    margin-right: 0;
+    margin-top: 29px;
+    margin-bottom: 12px;
   }
 
   @media (min-width: $desktop-width) {
     width: 1440px;
-    height: 400px;
+    height: auto;
     background-image: url("../images/photo/contacts__map_desktop.jpg");
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    margin-left: 0;
     margin-top: 186px;
+  }
+}
+
+.contacts__map-inframe {
+  width: 320px;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    height: 418px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1440px;
   }
 }

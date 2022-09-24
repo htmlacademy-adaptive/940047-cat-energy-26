@@ -12,45 +12,49 @@
   text-transform: uppercase;
   color: $form-goal-color;
   padding: 0;
-  margin-left: 22px;
-  margin-bottom: 42px;
-  margin-top: 52px;
-  height: 116px;
+  margin-left: 32px;
+  margin-bottom: 27px;
+  margin-top: 0;
+  height: 158px;
+  border-top: 1px solid $border-color-second;
+  border-bottom: 1px solid $border-color-second;
 
   @media (min-width: $tablet-width) {
-    margin-top: 43px;
-    margin-bottom: 68px;
+    margin-top: 65px;
+    margin-bottom: 74px;
     min-width: 628px;
     margin-left: 71px;
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
     width: 628px;
-    height: 200px;
+    height: 194px;
     border: 2px solid $border-color-third;
-    float: left;
-    padding-top: 14px;
+    padding-top: 0;
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 45px;
+    display: block;
+    margin-left: 667px;
     margin-top: -265px;
     height: 200px;
     font-size: $form-text-font-size-tablet-desktop;
     line-height: $form-text-line-height-tablet-desktop;
     width: 568px;
-    float: right;
   }
 }
 
 /*Список общий ul */
 .cat-goal__list {
+  margin-top: 32px;
+
   @media (min-width: $tablet-width) {
-    padding-top: 27px;
-    padding-left: 30px;
+    padding-top: 0;
+    padding-left: 41px;
+    margin-top: 32px;
   }
 
   @media (min-width: $desktop-width) {
-    padding-top: 27px;
+    padding-top: 3px;
     padding-left: 30px;
     width: 568px;
   }
@@ -62,7 +66,6 @@
   height: 31px;
   position: relative;
   display: block;
-
 
   @media (min-width: $tablet-width) {
     margin-bottom: 23px;
@@ -87,6 +90,8 @@
   height: 25px;
   border: 1px solid $border-color-main;
   background-color: $form-background-color;
+  margin-top: -6px;
+  margin-left: -13px;
 
   @media (min-width: $tablet-width) {
     width: 30px;
