@@ -61,7 +61,7 @@
     width: 375px;
     margin: 0 363px 75px 74px;
     background-image: none;
-    background-color: #fff;
+    background-color: #ffffff;
     margin-left: 18px;
   }
 
@@ -75,8 +75,7 @@
     margin-bottom: 73px;
     margin-top: 0;
     padding: 0;
-    padding-left: 68px;
-    background-color: #fff;
+    background-color: #ffffff;
     padding-left: 36px;
   }
 }
@@ -154,6 +153,7 @@
     line-height: $catalog-goods-line-height-tablet-desktop;
     margin-right: 0;
     width: 161px;
+    margin-top: 20px;
   }
 }
 
@@ -194,6 +194,7 @@
     width: 132px;
     padding-left: 0;
     padding-right: 2px;
+    text-align: left;
   }
 }
 

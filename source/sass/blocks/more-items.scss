@@ -62,6 +62,7 @@
     background-image: url("../images/decoration/more-items.svg");
     background-repeat: no-repeat;
     background-position: 90px 58px;
+    padding-top: 160px;
   }
 }
 
@@ -132,7 +133,7 @@
   }
 
   &:active {
-    color: rgba(	68,	68,	68, 0.3);
+    color: rgba(68, 68, 68, 0.3);
     background-color: #ebebeb;
   }
 }

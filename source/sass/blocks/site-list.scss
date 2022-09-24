@@ -23,7 +23,7 @@
 
   @media (min-width: $tablet-width) {
     margin-bottom: 0;
-    margin-right: 12px;
+    margin-right: 30px;
     margin-left: 0;
     border: none;
     display: flex;
@@ -74,7 +74,7 @@
         bottom: 0;
         left: 0;
         height: 3px;
-        background: #fff;
+        background: #ffffff;
       }
     }
   }
@@ -92,7 +92,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    color: #fff;
+    color: #ffffff;
 
     &:hover {
       color: rgba(255, 255, 255, 0.6);
@@ -109,28 +109,27 @@
     color: #000000;
 
     &:hover {
+      color: #000000;
       opacity: 0.6;
     }
 
     &:active {
+      color: #000000;
       opacity: 0.3;
     }
-  }
-}
 
-.site-list__option {
+    &--active {
+      position: relative;
 
-  &--active {
-    position: relative;
-
-    &::after {
-      content: "";
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      height: 3px;
-      background: #68b738;
+      &::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 5px;
+        background: #68b738;
+      }
     }
   }
 }

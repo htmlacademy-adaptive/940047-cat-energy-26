@@ -24,7 +24,6 @@
     margin-bottom: 0;
     margin-left: 0;
     background-color: #f2f2f2;
-
   }
 
   @media (min-width: $desktop-width) {
@@ -52,14 +51,14 @@
   width: 139px;
   text-align: left;
   margin-left: 19px;
-  margin-top: 26px;
+  margin-top: 20px;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 26px;
     margin: 0;
     width: 157px;
-    margin-top: 89px;
+    margin-top: 86px;
     margin-left: 69px;
   }
 
@@ -97,7 +96,7 @@
   height: 38px;
   text-align: left;
   margin-left: 1px;
-  margin-top: 27px;
+  margin-top: 19px;
   margin-bottom: 0;
 
   @media (min-width: $tablet-width) {
@@ -123,6 +122,7 @@
 .contacts__text-spb {
   text-align: left;
   font-family: "Arial", "Oswald", sans-serif;
+  margin-top: 5px;
 
   @media (min-width: $tablet-width) {
     margin-top: 21px;
@@ -134,84 +134,36 @@
   }
 }
 
-/*Карта*/
 .contacts__map {
   width: 320px;
-  height: 362px;
-  display: block;
-  border: 0;
-  margin-top: 2px;
+  background-image: url("../images/photo/contacts__map_mobile.jpg");
+  background-position: 1px 1px, 20px 20px;
 
   @media (min-width: $tablet-width) {
     width: 768px;
     height: 400px;
-    margin: 0 auto;
-    margin-left: 0;
-    margin-right: 0;
+    background-image: url("../images/photo/contacts__map_tablet.jpg");
     margin-top: 29px;
+    margin-bottom: 12px;
   }
 
   @media (min-width: $desktop-width) {
     width: 1440px;
-    height: 400px;
-    margin: 0 auto;
-    margin-left: 0;
-    margin-top: 183px;
+    height: auto;
+    background-image: url("../images/photo/contacts__map_desktop.jpg");
+    margin-top: 186px;
   }
 }
 
-.contacts-pin {
-  background-image: url("../images/photo/map_pin_mobile.png");
-  width: 56px;
-  height: 52px;
-  background-repeat: no-repeat;
-  margin-left: 135px;
-  margin-top: -220px;
-  position: absolute;
-
-  @media (min-width: $tablet-width) {
-    background-image: url("../images/photo/map_pin_tablet_desktop.png");
-    width: 113px;
-    height: 106px;
-    margin-left: 332px;
-    margin-top: -253px;
-  }
-
-  @media (min-width: $desktop-width) {
-    background-image: url("../images/photo/map_pin_tablet_desktop.png");
-    width: 113px;
-    height: 106px;
-    margin-left: 906px;
-    margin-top: -263px;
-  }
-}
-
-.contacts__map-photo {
+.contacts__map-inframe {
   width: 320px;
-  height: auto;
 
   @media (min-width: $tablet-width) {
     width: 768px;
+    height: 418px;
   }
 
   @media (min-width: $desktop-width) {
     width: 1440px;
-  }
-
-  .contacts__map-inframe {
-    position: absolute;
-    display: block;
-    width: 320px;
-    margin-left: -320px;
-
-    @media (min-width: $tablet-width) {
-      position: absolute;
-      width: 768px;
-      margin-left: -768px;
-    }
-
-    @media (min-width: $desktop-width) {
-      width: 1440px;
-    }
   }
 }

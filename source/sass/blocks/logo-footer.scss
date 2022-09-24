@@ -3,7 +3,7 @@
 /*Лого*/
 .logo-footer {
   padding-top: 39px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   border-bottom: 1px solid $border-color-fourth;
   height: 56px;
   width: 320px;
@@ -12,7 +12,7 @@
   @media (min-width: $tablet-width) {
     margin-left: 30px;
     margin-bottom: 55px;
-    margin-top: 63px;
+    margin-top: 62px;
     margin-right: 52px;
     padding: 0;
     border-bottom: none;
@@ -22,7 +22,7 @@
   @media (min-width: $desktop-width) {
     margin-left: 110px;
     margin-bottom: 58px;
-    margin-top: 63px;
+    margin-top: 42px;
     margin-right: 309px;
     padding: 0;
     text-align: left;

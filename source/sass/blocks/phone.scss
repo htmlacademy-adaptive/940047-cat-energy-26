@@ -1,0 +1,25 @@
+.phone {
+  position: absolute;
+  width: 22px;
+  height: 17px;
+  margin-left: 244px;
+  margin-top: 18px;
+
+  &:active {
+    fill: #68b738;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 24px;
+    height: 20px;
+    margin-left: 594px;
+    margin-top: 14px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 24px;
+    height: 20px;
+    margin-left: 545px;
+    margin-top: 18px;
+  }
+}

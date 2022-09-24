@@ -33,8 +33,10 @@
         <div class="main-navigation__wrapper">
           <ul class="main-navigation__list site-list reset-list">
             <li class="site-list__item"><a class="site-list__link site-list-option" href="index.html">Главная</a></li>
-            <li class="site-list__item"><a class="site-list__link site-list-option" href="catalog.html">Каталог продукции</a></li>
-            <li class="site-list__item site-list__option--active"><a class="site-list__link site-list-option" href="form.html">Подбор
+            <li class="site-list__item"><a class="site-list__link site-list-option" href="catalog.html">Каталог
+                продукции</a></li>
+            <li class="site-list__item site-list__item--active"><a class="site-list__link site-list-option site-list-option--active"
+                href="form.html">Подбор
                 программы</a></li>
           </ul>
         </div>
@@ -88,12 +90,26 @@
             <div class="cat-contacts__wrapper">
               <h3 class="cat-contacts__title">Контактные данные (владельца кота)</h3>
               <div class="cat-contacts__main">
-                <p class="cat-contacts__form"><label class="cat-contacts__email" for="email">E-mail:*</label> <input
+                <p class="cat-contacts__form">
+                  <label class="cat-contacts__email" for="email">E-mail:*
+                  </label>
+                  <!--Состояние при ошибке cat-contacts__field-error -->
+                  <input
                     class="cat-contacts__field-email" required type="text" id="email" name="email"
-                    placeholder="kuklachev@gmail.com"></p>
-                <p class="cat-contacts__form"><label class="cat-contacts__phone" for="phone">Телефон*:</label> <input
+                    placeholder="kuklachev@gmail.com">
+                    <svg class="email" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path d="m10 14-9-7v-2.5h18v2.5zm8-8.5h-16v1l8 6.2 8-6.2zm-17 4v8h18v-8h-1v7h-16v-7z"/>
+                      </svg>
+                  </p>
+                <p class="cat-contacts__form">
+                  <label class="cat-contacts__phone" for="phone">Телефон*:
+                  </label>
+                  <input
                     class="cat-contacts__field-phone" required type="text" id="phone" name="phone"
-                    placeholder="8 (960) 900-60-90"></p>
+                    placeholder="8 (960) 900-60-90">
+                    <svg class="phone" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M17.9 9.4H9.4v1.2h8.5l-2.1 2.1.9.9 3.1-3.1a.75.75 0 0 0 0-.9l-3.1-3.1-.9.9 2.1 2ZM8.1 19.4v-6.2a.65.65 0 0 0-.6-.6H3.1a1.22 1.22 0 0 0 1.2 1.2h2.5v5H3.1a1.79 1.79 0 0 1-1.9-1.7v-14a1.77 1.77 0 0 1 1.7-1.8h3.9v5H4.4a1.22 1.22 0 0 0-1.2 1.2h4.4a.65.65 0 0 0 .6-.6V.6a.86.86 0 0 0-.7-.6H3.1A3 3 0 0 0 0 2.9v13.9a2.89 2.89 0 0 0 2.9 3.1h4.6a.5.5 0 0 0 .6-.5Z" /></svg>
+                  </p>
               </div>
             </div>
           </div>
@@ -139,8 +155,8 @@
                   </label>
                 </li>
               </ul>
-              <div class="cat-additionally_button">
-                <button class="send-form" type="submit">
+              <div class="wrapper-button">
+                <button class="send-form button-text" type="submit">
                   <span>Отправить заявку</span>
                 </button>
                 <p class="required-fields">* — Обязательные поля</p>
@@ -160,14 +176,16 @@
           <div class="contacts__wrapper">
             <div class="contacts__address">
               <h4 class="contacts__title">Приглашаем<br>к сотрудничеству дилеров!</h4>
-              <p class="contacts__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+              <div class="contacts-general">
+                <p class="contacts__text">ул. Большая Конюшенная, д. 19/8</p>
+                <p class="contacts__text-spb">Санкт-Петербург</p>
+              </div>
             </div>
             <div class="contacts__map">
               <iframe class="contacts__map-inframe" name="Карта местоположения офиса"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003035!2d30.320858716011124!3d59.93871916905429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1660319396633!5m2!1sru!2sru"
-        width="320" height="361" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-              <div class="contacts-pin"></div>
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003035!2d30.320858716011124!3d59.93871916905429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1660319396633!5m2!1sru!2sru"
+                width="320" height="361" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </section>
@@ -175,8 +193,8 @@
           <!--Текстовый логотип-->
           <section class="logo-footer">
             <div class="logo-footer__wrapper">
-              <div class="logo-footer__logo-text"><img class="logo-footer__text" src="./images/logo_text.svg" width="128"
-                  height="24" alt="Cat energy." role="img" aria-label="Cat energy."></div>
+              <div class="logo-footer__logo-text"><img class="logo-footer__text" src="./images/logo_text.svg"
+                  width="128" height="24" alt="Cat energy." role="img" aria-label="Cat energy."></div>
             </div>
           </section>
           <!--Соц сети-->
